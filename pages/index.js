@@ -27,48 +27,52 @@ export default function Home() {
       <Header />
 
       <main>
-        <Container fluid className="px-0 v-100 align-items-center d-flex">
-        <Row className="px-md-5">
+        <Container fluid className="px-md-0 v-full align-items-center d-flex">
+        <Row className="px-md-5 justify-content-center align-items-center d-flex pt-lg-2 mt-lg-2 pt-xl-0 mt-xl-0">
           <Col md={12}>
-          <h6 className="text-grey">THINKING BIG</h6>
-            <Row className="">
-              <Col md={6}>
-                <h1>
+          <h6 className="text-grey" >THINKING BIG</h6>
+            <Row className="align-items-topd-flex">
+              <Col xl={6}>
+                <h1 className="mb-lg-4 mb-xl-5">
                 World-class software + consulting solutions
                 </h1>
               </Col>
-              <Col md={6}>
-              <hr className="mt-2 mb-4"/>
-                <Row>
-                  <Col md={4}>
+              <Col xl={6} className="pt-xl-0 px-3">
+              <hr className="mb-4 mt-lg-0 mt-xl-3"/>
+                <Row className="px-0">
+                  <Col md={3} lg={2} xl={4} className="mb-2">
                     <Link href="/">
-                    <a className="text-dark"><h4 className="d-arrow">Services</h4></a>
+                    <a className="text-dark h5 d-arrow">Services</a>
                     </Link>
                   </Col>
-                  <Col md={8}>
-                    <p className="text-grey mb-2">
+                  <Col md={9} lg={9} xl={8}>
+                    <p className="text-grey mb-xl-3">
                     For 20 years, Thinking Big's interconnected services—software, web development and consulting—have helped clients of all sizes tackle their industry's toughest challenges. 
                     </p>
                   </Col>
                 </Row>
               <hr className="mb-4" />
                 <Row>
-                  <Col md={4}>
-                  <a className="text-dark"><h4 className="d-arrow">Technology</h4></a>
+                  <Col md={3} lg={2} xl={4} className="mb-2">
+                    <Link href="/">
+                    <a className="text-dark h5 d-arrow">Technology</a>
+                    </Link>
                   </Col>
-                  <Col md={8}>
-                    <p className="text-grey mb-2">
+                  <Col md={9} lg={9} xl={8}>
+                    <p className="text-grey mb-xl-3">
                     Technology only works when it's the right choice for the right reasons. We're committed to innovation, matching the technology to the problem, and ultimately creating solutions that last.
                     </p>
                   </Col>
                 </Row>
               <hr className="mb-4" />
                 <Row>
-                  <Col md={4}>
-                  <a className="text-dark"><h4 className="d-arrow">People</h4></a>
+                <Col md={3} lg={2} xl={4} className="mb-2">
+                  <Link href="/">
+                    <a className="text-dark h5 d-arrow">People</a>
+                    </Link>
                   </Col>
-                  <Col md={8}>
-                    <p className="text-grey mb-3">
+                  <Col md={9} lg={9} xl={8}>
+                    <p className="text-grey mb-xl-3">
                     Our world-class group of developers, business consultants, designers and privacy specialists are ready to help you to transform your business.
                     </p>
                   </Col>
@@ -79,6 +83,18 @@ export default function Home() {
           </Col>
         </Row>
         </Container>
+
+        <Container fluid className="px-md-3 align-items-center d-flex">
+        <Row>
+          <Col md={12} >
+            <video className='w-full pull-up' autoPlay loop muted>
+              <source src="./placeholdervideo.mp4" type='video/mp4' />
+            </video>
+          </Col>
+        </Row>
+        </Container>
+
+
       </main>
 
       <Footer />

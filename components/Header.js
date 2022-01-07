@@ -27,39 +27,39 @@ export default function Header() {
 
       <Offcanvas show={showOffCanvas} onHide={handleCloseOffCanvas} placement='end'>
         <Offcanvas.Header closeButton>
-          <Offcanvas.Title className="mt-3" >
-          <p className="h6 text-dark-blue">GET STARTED - CONTACT US</p>
+          <Offcanvas.Title className="mt-2" >
+          <p className="small mono text-dark bold">GET STARTED - CONTACT US</p>
           </Offcanvas.Title>
         </Offcanvas.Header>
-        <Offcanvas.Body className="d-flex flex-column mb-3">
-        <h3 className=" mb-auto">
+        <Offcanvas.Body className="">
+        <h3 className="mb-5">
         Interested in solving your problem with Thinking Big?
           </h3>
           
           <Form className="">
-          <Form.Group className="mb-3" controlId="firstLastName">
-            <Form.Label className="p small text-grey">FIRST AND LAST NAME</Form.Label>
-            <Form.Control type="email" placeholder="" />
+          <Form.Group className="mb-4" controlId="firstLastName">
+            <Form.Label className="mb-0"><p className="small mb-0 mono text-grey bold">FIRST AND LAST NAME</p></Form.Label>
+            <Form.Control type="email" placeholder="" className="hard-edge"/>
           </Form.Group>
 
-          <Form.Group className="mb-3" controlId="orgName">
-            <Form.Label className="p small text-grey">ORGANIZATION NAME</Form.Label>
-            <Form.Control type="email" placeholder="" />
+          <Form.Group className="mb-4" controlId="orgName">
+          <Form.Label className="mb-0"><p className="small mb-0 mono text-grey bold">ORGANIZATION NAME</p></Form.Label>
+            <Form.Control type="email" placeholder="" className="hard-edge"/>
           </Form.Group>
 
-          <Form.Group className="mb-3" controlId="email">
-            <Form.Label className="p small text-grey">EMAIL ADDRESS</Form.Label>
-            <Form.Control type="email" placeholder="" />
+          <Form.Group className="mb-4" controlId="email">
+          <Form.Label className="mb-0"><p className="small mb-0 mono text-grey bold">EMAIL ADDRESS</p></Form.Label>
+            <Form.Control type="email" placeholder="" className="hard-edge"/>
           </Form.Group>
 
-          <Form.Group className="mb-3" controlId="lodaction">
-            <Form.Label className="p small text-grey">LOCATION</Form.Label>
-            <Form.Control type="email" placeholder="" />
+          <Form.Group className="mb-4" controlId="location">
+          <Form.Label className="mb-0"><p className="small mb-0 mono text-grey bold">PHONE NUMBER</p></Form.Label>
+            <Form.Control type="email" placeholder="" className="hard-edge"/>
           </Form.Group>
 
           <Form.Group className="mb-4" controlId="formGridState">
-            <Form.Label className="p small text-grey">EXPECTED NUMBER OF PLAYERS</Form.Label>
-            <Form.Select defaultValue="Please select...">
+          <Form.Label className="mb-0"><p className="small mb-0 mono text-grey bold">HOW DID YOU HEAR ABOUT US?</p></Form.Label>
+            <Form.Select defaultValue="Please select..." className="hard-edge">
               <option>Please select...</option>
               <option>Less than 1000</option>
               <option>1000-5000</option>
@@ -68,7 +68,14 @@ export default function Header() {
               <option>20,000 +</option>
             </Form.Select>
           </Form.Group>
-          <Button className="btn btn-primary w-full" type="submit">
+
+          <Form.Group className="mb-2" controlId="location">
+          <Form.Label className="mb-0"><p className="small mb-0 mono text-grey bold">PLEASE GIVE US A BRIEF OF THE PROBLEM YOU'D LIKE US TO SOLVE. CONTEXT WILL ALLOW US TO CONNNECT YOU TO THE RIGHT TEAM RIGHT AWAY.</p></Form.Label>
+            <Form.Control type="email" placeholder="" as="textarea" rows={4} className="hard-edge"/>
+          </Form.Group>
+
+          <p className="small mb-4">Please see our <a href="/" className="text-dark">Privacy Policy</a> regarding what we do with this information.</p>
+          <Button className="btn btn-dark w-full" type="submit">
             SUBMIT
           </Button>
           </Form>
@@ -76,9 +83,9 @@ export default function Header() {
         </Offcanvas.Body>
       </Offcanvas>
     
-      <Navbar className="px-md-5 px-1" fixed="top">
+      <Navbar className="px-md-5 px-2" fixed="top">
       <Navbar.Brand href="#home">
-        <img src="/TBlogo.svg" alt="Thinking Big Logo"/>
+        <img src="/TBlogo.svg" className="logo ps-1 ps-sm-0" alt="Thinking Big Logo"/>
       </Navbar.Brand>
       <Nav className="ms-auto">
         <Nav.Link href="#home">
@@ -86,7 +93,7 @@ export default function Header() {
             GET STARTED
           </Button>
         </Nav.Link>
-        <Nav.Link className="pe-0" href="#home">
+        <Nav.Link className="pe-lg-3 pe-xl-1" href="#home">
           <Button className="btn btn-primary menu">
             
           </Button>

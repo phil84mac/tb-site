@@ -4,7 +4,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif, 'IBM Plex Mono', monospace!important;
 }
 
 * {
@@ -12,29 +12,51 @@ body {
 }
 
 main {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  position: relative;
+  z-index:0;
 }
 
 hr, .hr {
-  border-bottom: 1px solid #000!important;
+  border-bottom: 1px solid #212529!important;
 }
 
 .w-full {
   width: 100%;
 }
 
+.hard-edge {
+  border: 1px solid #c4c4c4!important;
+  border-radius: 0!important;
+}
+
+.logo {
+  opacity: .5;
+  color: #212529!important;
+}
+
+.pull-up {
+  margin-top: -80px;
+}
+
 /* Typography */
 
 p {
-  font-size: 16px!important;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 15px!important;
   letter-spacing: .01rem;
-  font-weight: 300;
+  font-weight: 300!important;
   line-height: 21px!important;
   margin-bottom: 10px!important;
+}
+
+p.small {
+  font-size: 13px!important;
+  line-height: 16px!important;
+  font-weight: 400!important;
+}
+
+.mono {
+  font-family: 'IBM Plex Mono', monospace!important;
 }
 
 h1, .h1 {
@@ -55,9 +77,9 @@ h2, .h2 {
 
 h3, .h3{
   font-family: 'IBM Plex Sans', sans-serif;
-  font-weight: 700!important;
+  font-weight: 600!important;
   font-size: calc(1rem + 1.5vw)!important;
-  line-height: calc(1rem + 1.5vw)!important;
+  line-height: calc(1.25rem + 1.5vw)!important;
   letter-spacing: -0.02em!important;
 }
 
@@ -66,6 +88,13 @@ h4, .h4 {
   font-weight: 500!important;
   font-size: calc(.5rem + 1.5vw)!important;
   line-height: calc(.75rem + 1.5vw)!important;
+  letter-spacing: -0.02em!important;
+}
+
+h5, .h5 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 500!important;
+  font-size: 20px!important;
   letter-spacing: -0.02em!important;
 }
 
@@ -89,18 +118,15 @@ h6, .h6 {
 
 /* Containers */
 
+.v-full {
+  min-height: 100vh;
+}
+
 .v-100 {
   height: 100vh;
 }
 
 /* Buttons */
-
-.btn-primary {
-  color: #212529!important;
-  background-color: #fff!important;
-  border: 1px solid #c4c4c4!important;
-  border-radius: 0px!important;
-}
 
 .btn {
   font-family: 'IBM Plex Mono', monospace;
@@ -130,6 +156,20 @@ h6, .h6 {
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
 }
 
+.btn-primary {
+  color: #212529!important;
+  background-color: #fff!important;
+  border: 1px solid #c4c4c4!important;
+  border-radius: 0px!important;
+}
+
+.btn-dark {
+  background-color: #212529!important;
+  color: #fff!important;
+  border: none!important;
+  border-radius: 0px!important;
+}
+
 .arrow:after {
   content: url("/r-arrow.svg");
   margin-left: 10px;
@@ -139,7 +179,7 @@ h6, .h6 {
 
 .d-arrow:after {
   content: url("/r-arrow.svg");
-  margin-left: 10px;
+  margin-left: 6px;
   display: inline-block;
   color: #212529;
   transform: rotate(90deg);
@@ -150,3 +190,77 @@ h6, .h6 {
   display: inline-block;
   color: #212529;
 }
+
+.offcanvas-header .btn-close {
+  padding: 0.5rem 0.5rem;
+  margin-top: -0.5rem;
+  margin-right: 0rem!important;
+  margin-bottom: -0.5rem;
+}
+
+.btn-close {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 1em;
+  height: 1em;
+  padding: 0.25em 0.25em;
+  color: #000!important;
+  border: 1px solid #c4c4c4!important;
+  border-radius: 0px!important;
+  opacity: 1!important;
+}
+
+/* laptop */
+
+@media screen and (max-width: 1024px){
+
+  h1, .h1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700!important;
+    font-size: calc(4rem + 1.5vw)!important;
+    line-height: calc(4rem + 1.5vw)!important;
+    letter-spacing: -0.045em!important;
+  }
+
+  .v-full {
+    min-height: 105vh!important;
+  }
+
+} 
+
+/* tablet */
+
+@media screen and (max-width: 768px){
+
+  h1, .h1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700!important;
+    font-size: calc(3.5rem + 1.5vw)!important;
+    line-height: calc(3.5rem + 1.5vw)!important;
+    letter-spacing: -0.045em!important;
+  }
+
+  .v-full {
+    min-height: 110vh!important;
+  }
+
+} 
+
+/* mobile */
+
+@media screen and (max-width: 576px){
+
+  h1, .h1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700!important;
+    font-size: calc(4rem + 1.5vw)!important;
+    line-height: calc(4rem + 1.5vw)!important;
+    letter-spacing: -0.045em!important;
+  }
+
+  .v-full {
+    min-height: 150vh!important;
+  }
+
+} 
