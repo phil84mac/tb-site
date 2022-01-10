@@ -20,6 +20,14 @@ hr, .hr {
   border-bottom: 1px solid #212529!important;
 }
 
+hr.white, .hr.white {
+  border-bottom: 1px solid #c4c4c4!important;
+}
+
+.brdr-rght {
+  border-right: 1px solid #383838!important;
+}
+
 
 /* Typography */
 
@@ -99,10 +107,27 @@ h6, .h6 {
   color: #212529!important;
 }
 
+.text-white {
+  color: #fff!important;
+}
+
+.bg-menu {
+  color: #c4c4c4!important;
+  background-color: #0D1115!important;
+}
+
 /* Containers */
 
 .v-full {
   min-height: 100vh;
+}
+
+.h-full {
+  height: 100%!important;
+}
+
+.w-full {
+  width: 100%!important;
 }
 
 .v-100 {
@@ -189,16 +214,13 @@ h6, .h6 {
   height: 1em;
   padding: 0.25em 0.25em;
   color: #212529!important;
+  background-color: #fff!important;
   border: 1px solid #c4c4c4!important;
   border-radius: 0px!important;
   opacity: 1!important;
 }
 
 /* Details */
-
-.w-full {
-  width: 100%;
-}
 
 .hard-edge {
   border: 1px solid #c4c4c4!important;
@@ -208,6 +230,10 @@ h6, .h6 {
 .logo {
   opacity: .5;
   color: #212529!important;
+}
+
+.logo-alt {
+  opacity: .6!important;
 }
 
 .pull-up {

@@ -30,7 +30,7 @@ export default function Home() {
         <Container className="px-xl-0 px-lg-3 px-md-1 v-full align-items-center d-flex">
         <Row className="justify-content-center align-items-center d-flex pt-lg-2 mt-lg-2 pt-xl-0 mt-xl-0">
           <Col md={12} className="ps-xl-0">
-          <h6 className="text-grey" >THINKING BIG</h6>
+          <p className="h6 text-grey">THINKING BIG</p>
             <Row className="align-items-top d-flex">
               <Col xl={6} >
                 <h1 className="mb-lg-4 mb-xl-5">

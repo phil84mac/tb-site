@@ -18,14 +18,18 @@ import Offcanvas from 'react-bootstrap/Offcanvas'
 
 export default function Header() {
 
-  const [showOffCanvas, setShowOffCanvas] = useState(false);
-  const handleCloseOffCanvas = () => setShowOffCanvas(false);
-  const handleShowOffCanvas = () => setShowOffCanvas(true);
+  const [showOffContact, setShowOffContact] = useState(false);
+  const handleCloseOffContact = () => setShowOffContact(false);
+  const handleShowOffContact = () => setShowOffContact(true);
+
+  const [showMenu, setShowMenu] = useState(false);
+  const handleCloseMenu = () => setShowMenu(false);
+  const handleShowMenu = () => setShowMenu(true);
 
   return (
     <>
 
-      <Offcanvas show={showOffCanvas} onHide={handleCloseOffCanvas} placement='end'>
+      <Offcanvas show={showOffContact} onHide={handleCloseOffContact} placement='end'>
         <Offcanvas.Header closeButton>
           <Offcanvas.Title className="mt-2" >
           <p className="small mono text-dark bold">GET STARTED - CONTACT US</p>
@@ -82,20 +86,59 @@ export default function Header() {
         
         </Offcanvas.Body>
       </Offcanvas>
-    
+
+      <Offcanvas show={showMenu} onHide={handleCloseMenu} placement='top' className="w-full h-full bg-menu">
+        <Offcanvas.Header className="px-3 px-md-4 px-lg-5 pt-3 pb-5 d-flex" closeButton>
+          <img src="/TBlogo-white.svg" className="logo-alt" alt="Thinking Big Logo White" onClick={handleCloseMenu}/>  
+          <Button className="btn btn-primary py-1 arrow ms-auto me-3" onClick={handleShowOffContact}>
+            GET STARTED
+          </Button>      
+        </Offcanvas.Header>
+        <Offcanvas.Body className="px-3 px-md-4 px-lg-5">
+          <Row className="">
+            <Col md={12}>
+            <p className="h6 ">THINKING BIG &gt; MENU</p>
+            <hr className="white"/>
+            <Row>
+              <Col md={3} className="brdr-rght">
+              <p className="small mono">LIST 1</p>
+                <ul className="mb-4">
+                  <li className="mb-2"><a href="#" className="text-white">Option 1</a></li>
+                  <li className="mb-2"><a href="#" className="text-white">Option 2</a></li>
+                  <li className="mb-2"><a href="#" className="text-white">Option 3</a></li>
+                  <li className="mb-2"><a href="#" className="text-white">Option 4</a></li>
+                  <li className="mb-2"><a href="#" className="text-white">Option 5</a></li>
+                </ul>
+                <p className="small mono">LIST 2</p>
+                <ul className="">
+                  <li className="mb-2"><a href="#" className="text-white">Option 1</a></li>
+                  <li className="mb-2"><a href="#" className="text-white">Option 2</a></li>
+                  <li className="mb-2"><a href="#" className="text-white">Option 3</a></li>
+                  <li className="mb-2"><a href="#" className="text-white">Option 4</a></li>
+                  <li className="mb-2"><a href="#" className="text-white">Option 5</a></li>
+                </ul>
+              </Col>
+              <Col md={9} className="justify-content-center align-items-center d-flex">
+                <h6>JOBS/ARTICLES CARDS</h6>
+              </Col>
+            </Row>
+            </Col>
+          </Row>
+        </Offcanvas.Body>
+      </Offcanvas>
     
       <Navbar className="px-2 px-md-4 px-lg-5" fixed="top">
       <Navbar.Brand href="#home">
         <img src="/TBlogo.svg" className="logo ps-1 ps-sm-0" alt="Thinking Big Logo"/>
       </Navbar.Brand>
       <Nav className="ms-auto">
-        <Nav.Link href="#home">
-          <Button className="btn btn-primary arrow" onClick={handleShowOffCanvas}>
+        <Nav.Link>
+          <Button className="btn btn-primary arrow" onClick={handleShowOffContact}>
             GET STARTED
           </Button>
         </Nav.Link>
-        <Nav.Link className="pe-1 pe-xl-0" href="#home">
-          <Button className="btn btn-primary menu">       
+        <Nav.Link className="pe-1 pe-xl-0">
+          <Button className="btn btn-primary menu" onClick={handleShowMenu}>       
           </Button>
         </Nav.Link>
        </Nav>
