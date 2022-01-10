@@ -26,18 +26,18 @@ export default function Home() {
       </Head>
       <Header />
 
-      <main>
-        <Container fluid className="px-md-0 v-full align-items-center d-flex">
-        <Row className="px-md-5 justify-content-center align-items-center d-flex pt-lg-2 mt-lg-2 pt-xl-0 mt-xl-0">
-          <Col md={12}>
+      <main className="">
+        <Container className="px-xl-0 px-lg-3 px-md-1 v-full align-items-center d-flex">
+        <Row className="justify-content-center align-items-center d-flex pt-lg-2 mt-lg-2 pt-xl-0 mt-xl-0">
+          <Col md={12} className="ps-xl-0">
           <h6 className="text-grey" >THINKING BIG</h6>
-            <Row className="align-items-topd-flex">
-              <Col xl={6}>
+            <Row className="align-items-top d-flex">
+              <Col xl={6} >
                 <h1 className="mb-lg-4 mb-xl-5">
                 World-class software + consulting solutions
                 </h1>
               </Col>
-              <Col xl={6} className="pt-xl-0 px-3">
+              <Col xl={6} className="pt-xl-0 px-lg-3 px-xl-0">
               <hr className="mb-4 mt-lg-0 mt-xl-3"/>
                 <Row className="px-0">
                   <Col md={3} lg={2} xl={4} className="mb-2">
@@ -84,11 +84,11 @@ export default function Home() {
         </Row>
         </Container>
 
-        <Container fluid className="px-md-3 align-items-center d-flex">
+        <Container fluid className="px-md-3 justify-content-center align-items-center d-flex">
         <Row>
           <Col md={12} >
             <video className='w-full pull-up' autoPlay loop muted>
-              <source src="./placeholdervideo.mp4" type='video/mp4' />
+              <source src="./aurora.mp4" type='video/mp4' />
             </video>
           </Col>
         </Row>

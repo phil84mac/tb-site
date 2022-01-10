@@ -83,7 +83,8 @@ export default function Header() {
         </Offcanvas.Body>
       </Offcanvas>
     
-      <Navbar className="px-md-5 px-2" fixed="top">
+    
+      <Navbar className="px-2 px-md-4 px-lg-5" fixed="top">
       <Navbar.Brand href="#home">
         <img src="/TBlogo.svg" className="logo ps-1 ps-sm-0" alt="Thinking Big Logo"/>
       </Navbar.Brand>
@@ -93,9 +94,8 @@ export default function Header() {
             GET STARTED
           </Button>
         </Nav.Link>
-        <Nav.Link className="pe-lg-3 pe-xl-1" href="#home">
-          <Button className="btn btn-primary menu">
-            
+        <Nav.Link className="pe-1 pe-xl-0" href="#home">
+          <Button className="btn btn-primary menu">       
           </Button>
         </Nav.Link>
        </Nav>

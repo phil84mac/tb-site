@@ -12,7 +12,7 @@ body {
 }
 
 main {
-  position: relative;
+  position: relative!important;
   z-index:0;
 }
 
@@ -20,23 +20,6 @@ hr, .hr {
   border-bottom: 1px solid #212529!important;
 }
 
-.w-full {
-  width: 100%;
-}
-
-.hard-edge {
-  border: 1px solid #c4c4c4!important;
-  border-radius: 0!important;
-}
-
-.logo {
-  opacity: .5;
-  color: #212529!important;
-}
-
-.pull-up {
-  margin-top: -80px;
-}
 
 /* Typography */
 
@@ -94,7 +77,7 @@ h4, .h4 {
 h5, .h5 {
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 500!important;
-  font-size: 20px!important;
+  font-size: 21px!important;
   letter-spacing: -0.02em!important;
 }
 
@@ -205,11 +188,32 @@ h6, .h6 {
   width: 1em;
   height: 1em;
   padding: 0.25em 0.25em;
-  color: #000!important;
+  color: #212529!important;
   border: 1px solid #c4c4c4!important;
   border-radius: 0px!important;
   opacity: 1!important;
 }
+
+/* Details */
+
+.w-full {
+  width: 100%;
+}
+
+.hard-edge {
+  border: 1px solid #c4c4c4!important;
+  border-radius: 0!important;
+}
+
+.logo {
+  opacity: .5;
+  color: #212529!important;
+}
+
+.pull-up {
+  margin-top: -80px;
+}
+
 
 /* laptop */
 
@@ -254,8 +258,8 @@ h6, .h6 {
   h1, .h1 {
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 700!important;
-    font-size: calc(4rem + 1.5vw)!important;
-    line-height: calc(4rem + 1.5vw)!important;
+    font-size: calc(3.5rem + 1.5vw)!important;
+    line-height: calc(3.5rem + 1.5vw)!important;
     letter-spacing: -0.045em!important;
   }
 
