@@ -37,8 +37,8 @@ export default function Home() {
                 World-class software + consulting solutions
                 </h1>
               </Col>
-              <Col xl={6} className="pt-xl-0 px-lg-3 px-xl-0">
-              <hr className="mb-4 mt-lg-0 mt-xl-3"/>
+              <Col xl={6} className="pt-xl-2 px-lg-3 px-xl-0">
+              <hr className="mb-4 mt-lg-0 mt-xl-4"/>
                 <Row className="px-0">
                   <Col md={3} lg={2} xl={4} className="mb-2">
                     <Link href="/">
