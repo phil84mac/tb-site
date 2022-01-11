@@ -121,9 +121,9 @@ export default function Home() {
         </Container>
 
         {/*services*/}
-        <Container id="services" className="px-xl-0 px-lg-3 px-md-1 v-services align-items-center d-flex">
-        <Row className="justify-content-center align-items-center d-flex mt-4 mt-xl-5">
-          <Col md={12} className="ps-xl-0">
+        <Container id="services" className="px-xl-0 px-lg-3 px-md-1 v-services d-flex">
+        <Row className="mt-4">
+          <Col md={12} className="ps-xl-0 mt-5 pt-5">
             <p className="h6 text-grey">THINKING BIG &gt; SERVICES</p>
             <Row className="pb-3 mb-3 pb-lg-5 mb-lg-5">
               <Col lg={11} xl={8}>
