@@ -28,6 +28,13 @@ hr.white, .hr.white {
   border-right: 1px solid #383838!important;
 }
 
+.no-brdr {
+  border: none!important;
+}
+
+.bg-trans {
+  background-color: rgba(0, 0, 0, 0)!important;
+}
 
 /* Typography */
 
@@ -191,6 +198,14 @@ h6, .h6 {
   display: inline-block;
   color: #212529;
   transform: rotate(90deg);
+}
+
+.angle-arrow:after {
+  content: url("/r-arrow.svg");
+  margin-left: 6px;
+  display: inline-block;
+  color: #212529;
+  transform: rotate(-45deg);
 }
 
 .menu:after {

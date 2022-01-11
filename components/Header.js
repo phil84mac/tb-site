@@ -10,10 +10,11 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Form from 'react-bootstrap/Form';
+import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import FormControl from 'react-bootstrap/FormControl';
 import Link from 'next/link';
-import Offcanvas from 'react-bootstrap/Offcanvas'
+import Offcanvas from 'react-bootstrap/Offcanvas';
 
 
 export default function Header() {
@@ -29,6 +30,8 @@ export default function Header() {
   return (
     <>
 
+    {/* Get started form */}
+
       <Offcanvas show={showOffContact} onHide={handleCloseOffContact} placement='end'>
         <Offcanvas.Header closeButton>
           <Offcanvas.Title className="mt-2" >
@@ -38,29 +41,24 @@ export default function Header() {
         <Offcanvas.Body className="">
         <h3 className="mb-5">
         Interested in solving your problem with Thinking Big?
-          </h3>
-          
+          </h3>  
           <Form className="">
           <Form.Group className="mb-4" controlId="firstLastName">
             <Form.Label className="mb-0"><p className="small mb-0 mono text-grey bold">FIRST AND LAST NAME</p></Form.Label>
             <Form.Control type="email" placeholder="" className="hard-edge"/>
           </Form.Group>
-
           <Form.Group className="mb-4" controlId="orgName">
           <Form.Label className="mb-0"><p className="small mb-0 mono text-grey bold">ORGANIZATION NAME</p></Form.Label>
             <Form.Control type="email" placeholder="" className="hard-edge"/>
           </Form.Group>
-
           <Form.Group className="mb-4" controlId="email">
           <Form.Label className="mb-0"><p className="small mb-0 mono text-grey bold">EMAIL ADDRESS</p></Form.Label>
             <Form.Control type="email" placeholder="" className="hard-edge"/>
           </Form.Group>
-
           <Form.Group className="mb-4" controlId="location">
           <Form.Label className="mb-0"><p className="small mb-0 mono text-grey bold">PHONE NUMBER</p></Form.Label>
             <Form.Control type="email" placeholder="" className="hard-edge"/>
           </Form.Group>
-
           <Form.Group className="mb-4" controlId="formGridState">
           <Form.Label className="mb-0"><p className="small mb-0 mono text-grey bold">HOW DID YOU HEAR ABOUT US?</p></Form.Label>
             <Form.Select defaultValue="Please select..." className="hard-edge">
@@ -72,32 +70,31 @@ export default function Header() {
               <option>20,000 +</option>
             </Form.Select>
           </Form.Group>
-
           <Form.Group className="mb-2" controlId="location">
           <Form.Label className="mb-0"><p className="small mb-0 mono text-grey bold">PLEASE GIVE US A BRIEF OF THE PROBLEM YOU'D LIKE US TO SOLVE. CONTEXT WILL ALLOW US TO CONNNECT YOU TO THE RIGHT TEAM RIGHT AWAY.</p></Form.Label>
             <Form.Control type="email" placeholder="" as="textarea" rows={4} className="hard-edge"/>
           </Form.Group>
-
           <p className="small mb-4">Please see our <a href="/" className="text-dark">Privacy Policy</a> regarding what we do with this information.</p>
           <Button className="btn btn-dark w-full" type="submit">
             SUBMIT
           </Button>
           </Form>
-        
         </Offcanvas.Body>
       </Offcanvas>
 
+    {/* Menu */}
+
       <Offcanvas show={showMenu} onHide={handleCloseMenu} placement='top' className="w-full h-full bg-menu">
-        <Offcanvas.Header className="px-3 px-md-4 px-lg-5 pt-3 pb-5 d-flex" closeButton>
+        <Offcanvas.Header className="px-3 px-md-4 px-lg-5 pt-3 d-flex" closeButton>
           <img src="/TBlogo-white.svg" className="logo-alt" alt="Thinking Big Logo White" onClick={handleCloseMenu}/>  
           <Button className="btn btn-primary py-1 arrow ms-auto me-3" onClick={handleShowOffContact}>
             GET STARTED
           </Button>      
         </Offcanvas.Header>
-        <Offcanvas.Body className="px-3 px-md-4 px-lg-5">
+        <Offcanvas.Body className="px-3 px-md-4 px-lg-5 mt-4 pb-5">
           <Row className="">
             <Col md={12}>
-            <p className="h6 ">THINKING BIG &gt; MENU</p>
+            <p className="h6">THINKING BIG &gt; MENU</p>
             <hr className="white"/>
             <Row>
               <Col md={3} className="brdr-rght">
@@ -118,14 +115,102 @@ export default function Header() {
                   <li className="mb-2"><a href="#" className="text-white">Option 5</a></li>
                 </ul>
               </Col>
-              <Col md={9} className="justify-content-center align-items-center d-flex">
-                <h6>JOBS/ARTICLES CARDS</h6>
+              <Col md={9} className="ps-md-4">
+              <div className="d-flex mb-2">
+                  <h4 className="mb-2">Latest articles</h4>
+                  <a className="text-white ms-auto mt-2">View all articles on Medium</a>
+                </div>
+                  <Row className="mb-4 pb-2">
+                    <Col>
+                      <Card className="hard-edge">
+                        <Card.Img variant="top" src="./placeholder.svg" className="hard-edge no-brdr"/>
+                        <Card.Body>
+                          <Card.Title className="text-dark">Article Title</Card.Title>
+                          <Card.Text className="text-grey">
+                            Some quick example text to build on the card title and make up the bulk of
+                            the card's content.
+                          </Card.Text>
+                          <Button variant="secondary">Read article</Button>
+                        </Card.Body>
+                      </Card>
+                    </Col>
+                    <Col>
+                      <Card className="hard-edge">
+                        <Card.Img variant="top" src="./placeholder.svg" className="hard-edge no-brdr"/>
+                        <Card.Body>
+                          <Card.Title className="text-dark">Article Title</Card.Title>
+                          <Card.Text className="text-grey">
+                            Some quick example text to build on the card title and make up the bulk of
+                            the card's content.
+                          </Card.Text>
+                          <Button variant="secondary">Read article</Button>
+                        </Card.Body>
+                      </Card>
+                    </Col>
+                    <Col>
+                      <Card className="hard-edge">
+                        <Card.Img variant="top" src="./placeholder.svg" className="hard-edge no-brdr"/>
+                        <Card.Body>
+                          <Card.Title className="text-dark">Article Title</Card.Title>
+                          <Card.Text className="text-grey">
+                            Some quick example text to build on the card title and make up the bulk of
+                            the card's content.
+                          </Card.Text>
+                          <Button variant="secondary">Read article</Button>
+                        </Card.Body>
+                      </Card>
+                    </Col>
+                  </Row>
+                <div className="d-flex mb-2">
+                  <h4 className="mb-2">Latest career opportunities</h4>
+                  <a className="text-white ms-auto mt-2">View all careers on LinkedIn</a>
+                </div>
+                <Row>
+                  <Col>
+                  <Card className="hard-edge">
+                    <Card.Body>
+                      <Card.Title className="text-dark">Career Title</Card.Title>
+                      <Card.Text className="text-grey">
+                        Some quick example text to build on the card title and make up the bulk of
+                        the card's content.
+                      </Card.Text>
+                      <Button variant="secondary">Apply for this</Button>
+                    </Card.Body>
+                  </Card>
+                  </Col>
+                  <Col>
+                  <Card className="hard-edge">
+                    <Card.Body>
+                      <Card.Title className="text-dark">Career Title</Card.Title>
+                      <Card.Text className="text-grey">
+                        Some quick example text to build on the card title and make up the bulk of
+                        the card's content.
+                      </Card.Text>
+                      <Button variant="secondary">Apply for this</Button>
+                    </Card.Body>
+                  </Card>
+                  </Col>
+                  <Col>
+                  <Card className="hard-edge">
+                    <Card.Body>
+                      <Card.Title className="text-dark">Career Title</Card.Title>
+                      <Card.Text className="text-grey">
+                        Some quick example text to build on the card title and make up the bulk of
+                        the card's content.
+                      </Card.Text>
+                      <Button variant="secondary">Apply for this</Button>
+                    </Card.Body>
+                  </Card>
+                  </Col>
+                </Row>
               </Col>
             </Row>
             </Col>
           </Row>
         </Offcanvas.Body>
       </Offcanvas>
+
+    {/* NavBar */}
     
       <Navbar className="px-2 px-md-4 px-lg-5" fixed="top">
       <Navbar.Brand href="#home">
