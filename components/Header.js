@@ -61,7 +61,7 @@ export default function Header() {
           </Form.Group>
           <Form.Group className="mb-4" controlId="formGridState">
           <Form.Label className="mb-0"><p className="small mb-0 mono text-grey bold">HOW DID YOU HEAR ABOUT US?</p></Form.Label>
-            <Form.Select defaultValue="Please select..." className="hard-edge">
+            <Form.Select defaultValue="Please select..." className="hard-edge mb-3 mb-md-0">
               <option>Please select...</option>
               <option>Less than 1000</option>
               <option>1000-5000</option>
@@ -97,32 +97,39 @@ export default function Header() {
             <p className="h6">THINKING BIG &gt; MENU</p>
             <hr className="white"/>
             <Row>
-              <Col md={2} className="brdr-rght">
-              <p className="small mono">OUR SITE</p>
-                <ul className="mb-4">
-                  <li className="mb-2"><a href="#" className="text-white">Option 1</a></li>
-                  <li className="mb-2"><a href="#" className="text-white">Option 2</a></li>
-                  <li className="mb-2"><a href="#" className="text-white">Option 3</a></li>
-                  <li className="mb-2"><a href="#" className="text-white">Option 4</a></li>
-                  <li className="mb-2"><a href="#" className="text-white">Option 5</a></li>
-                </ul>
-                <p className="small mono">SOCIAL MEDIA</p>
-                <ul className="">
-                  <li className="mb-2"><a href="#" className="text-white">Option 1</a></li>
-                  <li className="mb-2"><a href="#" className="text-white">Option 2</a></li>
-                  <li className="mb-2"><a href="#" className="text-white">Option 3</a></li>
-                  <li className="mb-2"><a href="#" className="text-white">Option 4</a></li>
-                  <li className="mb-2"><a href="#" className="text-white">Option 5</a></li>
-                </ul>
+              <Col md={3} xl={2} className="brdr-rght pb-md-3">
+                <Row>
+                  <Col xs={6} sm={6} md={12}>
+                  <p className="small mono">OUR SITE</p>
+                    <ul className="mb-4 ps-4">
+                      <li className="mb-2"><a href="#" className="text-white">Option 1</a></li>
+                      <li className="mb-2"><a href="#" className="text-white">Option 2</a></li>
+                      <li className="mb-2"><a href="#" className="text-white">Option 3</a></li>
+                      <li className="mb-2"><a href="#" className="text-white">Option 4</a></li>
+                      <li className="mb-2"><a href="#" className="text-white">Option 5</a></li>
+                    </ul>
+                  </Col>
+                  <Col xs={6} sm={6} md={12}>
+                  <p className="small mono">SOCIAL MEDIA</p>
+                    <ul className="ps-4">
+                      <li className="mb-2"><a href="#" className="text-white">Option 1</a></li>
+                      <li className="mb-2"><a href="#" className="text-white">Option 2</a></li>
+                      <li className="mb-2"><a href="#" className="text-white">Option 3</a></li>
+                      <li className="mb-2"><a href="#" className="text-white">Option 4</a></li>
+                      <li className="mb-2"><a href="#" className="text-white">Option 5</a></li>
+                    </ul>
+                  </Col>
+                </Row>
+                <hr className="white d-md-none"/>
               </Col>
-              <Col md={10} className="ps-md-4">
+              <Col md={9} xl={10} className="ps-md-4">
               <div className="d-flex mb-2">
                   <h4 className="mb-2">Latest Articles</h4>
-                  <a className="text-white ms-auto mt-2">View all articles on Medium</a>
+                  <a className="text-white ms-auto mt-xl-2 text-end d-none d-md-block">View all articles on Medium</a>
                 </div>
                   <Row className="mb-4 pb-2">
-                    <Col>
-                      <Card className="hard-edge">
+                    <Col xs={12} sm={12} md={4}>
+                      <Card className="hard-edge mb-3 mb-md-0">
                         <Card.Img variant="top" src="./placeholder.svg" className="hard-edge no-brdr"/>
                         <Card.Body>
                           <Card.Title className="text-dark">Article Title</Card.Title>
@@ -134,8 +141,8 @@ export default function Header() {
                         </Card.Body>
                       </Card>
                     </Col>
-                    <Col>
-                      <Card className="hard-edge">
+                    <Col xs={12} sm={12} md={4}>
+                      <Card className="hard-edge mb-3 mb-md-0">
                         <Card.Img variant="top" src="./placeholder.svg" className="hard-edge no-brdr"/>
                         <Card.Body>
                           <Card.Title className="text-dark">Article Title</Card.Title>
@@ -147,8 +154,8 @@ export default function Header() {
                         </Card.Body>
                       </Card>
                     </Col>
-                    <Col>
-                      <Card className="hard-edge">
+                    <Col xs={12} sm={12} md={4}>
+                      <Card className="hard-edge mb-3 mb-md-0">
                         <Card.Img variant="top" src="./placeholder.svg" className="hard-edge no-brdr"/>
                         <Card.Body>
                           <Card.Title className="text-dark">Article Title</Card.Title>
@@ -159,15 +166,17 @@ export default function Header() {
                           <Button variant="secondary">Read article</Button>
                         </Card.Body>
                       </Card>
+                      <a className="text-white ms-auto mt-xl-2 text-end d-md-none">View all articles on Medium</a>
                     </Col>
                   </Row>
+                  <hr className="white d-md-none"/>
                 <div className="d-flex mb-2">
                   <h4 className="mb-2">Latest Career Opportunities</h4>
-                  <a className="text-white ms-auto mt-2">View all careers on LinkedIn</a>
+                  <a className="text-white text-right ms-auto mt-xl-2 text-end d-none d-md-block">View all careers on LinkedIn</a>
                 </div>
                 <Row>
-                  <Col>
-                  <Card className="hard-edge">
+                <Col xs={12} sm={12} md={4}>
+                  <Card className="hard-edge mb-3 mb-md-0">
                     <Card.Body>
                       <Card.Title className="text-dark">Career Title</Card.Title>
                       <Card.Text className="text-grey">
@@ -178,8 +187,8 @@ export default function Header() {
                     </Card.Body>
                   </Card>
                   </Col>
-                  <Col>
-                  <Card className="hard-edge">
+                  <Col xs={12} sm={12} md={4}>
+                  <Card className="hard-edge mb-3 mb-md-0">
                     <Card.Body>
                       <Card.Title className="text-dark">Career Title</Card.Title>
                       <Card.Text className="text-grey">
@@ -190,8 +199,8 @@ export default function Header() {
                     </Card.Body>
                   </Card>
                   </Col>
-                  <Col>
-                  <Card className="hard-edge">
+                  <Col xs={12} sm={12} md={4}>
+                  <Card className="hard-edge mb-3 mb-md-0">
                     <Card.Body>
                       <Card.Title className="text-dark">Career Title</Card.Title>
                       <Card.Text className="text-grey">
@@ -201,6 +210,7 @@ export default function Header() {
                       <Button variant="secondary">Apply for this</Button>
                     </Card.Body>
                   </Card>
+                  <a className="text-white text-right ms-auto mt-xl-2 text-end d-md-none">View all careers on LinkedIn</a>
                   </Col>
                 </Row>
               </Col>

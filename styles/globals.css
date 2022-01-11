@@ -304,6 +304,14 @@ h6, .h6 {
     letter-spacing: -0.045em!important;
   }
 
+  h4, .h4 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500!important;
+    font-size: calc(1rem + 1.5vw)!important;
+    line-height: calc(1rem + 1.5vw)!important;
+    letter-spacing: -0.02em!important;
+  }
+
   .v-full {
     min-height: 150vh!important;
   }
