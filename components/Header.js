@@ -19,9 +19,9 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 
 export default function Header() {
 
-  const [showOffContact, setShowOffContact] = useState(false);
-  const handleCloseOffContact = () => setShowOffContact(false);
-  const handleShowOffContact = () => setShowOffContact(true);
+  const [showContact, setShowContact] = useState(false);
+  const handleCloseContact = () => setShowContact(false);
+  const handleShowContact = () => setShowContact(true);
 
   const [showMenu, setShowMenu] = useState(false);
   const handleCloseMenu = () => setShowMenu(false);
@@ -30,9 +30,26 @@ export default function Header() {
   return (
     <>
 
-    {/* Get started form */}
+    {/* NavBar */}  
+    <Navbar className="px-2 px-md-4 px-lg-5" fixed="top">
+      <Navbar.Brand href="#home">
+        <img src="/TBlogo.svg" className="logo ps-1 ps-sm-0" alt="Thinking Big Logo"/>
+      </Navbar.Brand>
+      <Nav className="ms-auto">
+        <Nav.Link>
+          <Button className="btn btn-primary arrow" onClick={handleShowContact}>
+            GET STARTED
+          </Button>
+        </Nav.Link>
+        <Nav.Link className="pe-1 pe-xl-0">
+          <Button className="btn btn-primary menu" onClick={handleShowMenu}>       
+          </Button>
+        </Nav.Link>
+       </Nav>
+      </Navbar>
 
-      <Offcanvas show={showOffContact} onHide={handleCloseOffContact} placement='end'>
+    {/* Get started - contact form */}
+      <Offcanvas show={showContact} onHide={handleCloseContact} placement='end'>
         <Offcanvas.Header closeButton>
           <Offcanvas.Title className="mt-2" >
           <p className="small mono text-dark bold">GET STARTED - CONTACT US</p>
@@ -83,11 +100,10 @@ export default function Header() {
       </Offcanvas>
 
     {/* Menu */}
-
       <Offcanvas show={showMenu} onHide={handleCloseMenu} placement='top' className="w-full h-full bg-menu">
         <Offcanvas.Header className="px-3 px-md-4 px-lg-5 pt-3 d-flex" closeButton>
           <img src="/TBlogo-white.svg" className="logo-alt" alt="Thinking Big Logo White" onClick={handleCloseMenu}/>  
-          <Button className="btn btn-primary py-1 arrow ms-auto me-3" onClick={handleShowOffContact}>
+          <Button className="btn btn-primary py-1 arrow ms-auto me-3" onClick={handleShowContact}>
             GET STARTED
           </Button>      
         </Offcanvas.Header>
@@ -219,25 +235,6 @@ export default function Header() {
           </Row>
         </Offcanvas.Body>
       </Offcanvas>
-
-    {/* NavBar */}
-    
-      <Navbar className="px-2 px-md-4 px-lg-5" fixed="top">
-      <Navbar.Brand href="#home">
-        <img src="/TBlogo.svg" className="logo ps-1 ps-sm-0" alt="Thinking Big Logo"/>
-      </Navbar.Brand>
-      <Nav className="ms-auto">
-        <Nav.Link>
-          <Button className="btn btn-primary arrow" onClick={handleShowOffContact}>
-            GET STARTED
-          </Button>
-        </Nav.Link>
-        <Nav.Link className="pe-1 pe-xl-0">
-          <Button className="btn btn-primary menu" onClick={handleShowMenu}>       
-          </Button>
-        </Nav.Link>
-       </Nav>
-      </Navbar>
     
 </>
   )

@@ -53,6 +53,14 @@ p.small {
   font-weight: 400!important;
 }
 
+.bold {
+  font-weight: 600!important;
+}
+
+.heavy {
+  font-weight: 700!important;
+}
+
 .mono {
   font-family: 'IBM Plex Mono', monospace!important;
 }
@@ -68,17 +76,17 @@ h1, .h1 {
 h2, .h2 {
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 700!important;
-  font-size: calc(2.5rem + 1.5vw)!important;
-  line-height: calc(2.5rem + 1.5vw)!important;
-  letter-spacing: -0.02em!important;
+  font-size: calc(2.3rem + 1.5vw)!important;
+  line-height: calc(2.3rem + 1.5vw)!important;
+  letter-spacing: -0.045em!important;
 }
 
 h3, .h3{
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 600!important;
-  font-size: calc(1rem + 1.5vw)!important;
-  line-height: calc(1.25rem + 1.5vw)!important;
-  letter-spacing: -0.02em!important;
+  font-size: calc(1.2rem + 1.5vw)!important;
+  line-height: calc(1.4rem + 1.5vw)!important;
+  letter-spacing: -0.04em!important;
 }
 
 h4, .h4 {
@@ -86,14 +94,14 @@ h4, .h4 {
   font-weight: 500!important;
   font-size: calc(.6rem + 1.5vw)!important;
   line-height: calc(.75rem + 1.5vw)!important;
-  letter-spacing: -0.02em!important;
+  letter-spacing: -0.035em!important;
 }
 
 h5, .h5 {
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 500!important;
   font-size: 21px!important;
-  letter-spacing: -0.02em!important;
+  letter-spacing: -0.045em!important;
 }
 
 h6, .h6 {
@@ -127,6 +135,10 @@ h6, .h6 {
 
 .v-full {
   min-height: 100vh;
+}
+
+.v-services {
+  min-height: 110vh;
 }
 
 .h-full {
@@ -200,6 +212,12 @@ h6, .h6 {
   transform: rotate(90deg);
 }
 
+.elbow-arrow:before {
+  content: url("/down-over-arrow.svg");
+  margin-right: 6px;
+  display: inline-block;
+}
+
 .angle-arrow:after {
   content: url("/r-arrow.svg");
   margin-left: 6px;
@@ -237,8 +255,11 @@ h6, .h6 {
 
 /* Details */
 
+.modal-body {
+  border-radius: 0px!important;
+}
+
 .hard-edge {
-  border: 1px solid #c4c4c4!important;
   border-radius: 0!important;
 }
 
@@ -307,13 +328,17 @@ h6, .h6 {
   h4, .h4 {
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 500!important;
-    font-size: calc(1rem + 1.5vw)!important;
-    line-height: calc(1rem + 1.5vw)!important;
+    font-size: calc(1.1rem + 1.5vw)!important;
+    line-height: calc(1.2rem + 1.5vw)!important;
     letter-spacing: -0.02em!important;
   }
 
   .v-full {
     min-height: 150vh!important;
+  }
+
+  .v-services {
+    min-height: 205vh;
   }
 
 } 
