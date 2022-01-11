@@ -97,8 +97,8 @@ export default function Header() {
             <p className="h6">THINKING BIG &gt; MENU</p>
             <hr className="white"/>
             <Row>
-              <Col md={3} className="brdr-rght">
-              <p className="small mono">LIST 1</p>
+              <Col md={2} className="brdr-rght">
+              <p className="small mono">OUR SITE</p>
                 <ul className="mb-4">
                   <li className="mb-2"><a href="#" className="text-white">Option 1</a></li>
                   <li className="mb-2"><a href="#" className="text-white">Option 2</a></li>
@@ -106,7 +106,7 @@ export default function Header() {
                   <li className="mb-2"><a href="#" className="text-white">Option 4</a></li>
                   <li className="mb-2"><a href="#" className="text-white">Option 5</a></li>
                 </ul>
-                <p className="small mono">LIST 2</p>
+                <p className="small mono">SOCIAL MEDIA</p>
                 <ul className="">
                   <li className="mb-2"><a href="#" className="text-white">Option 1</a></li>
                   <li className="mb-2"><a href="#" className="text-white">Option 2</a></li>
@@ -115,9 +115,9 @@ export default function Header() {
                   <li className="mb-2"><a href="#" className="text-white">Option 5</a></li>
                 </ul>
               </Col>
-              <Col md={9} className="ps-md-4">
+              <Col md={10} className="ps-md-4">
               <div className="d-flex mb-2">
-                  <h4 className="mb-2">Latest articles</h4>
+                  <h4 className="mb-2">Latest Articles</h4>
                   <a className="text-white ms-auto mt-2">View all articles on Medium</a>
                 </div>
                   <Row className="mb-4 pb-2">
@@ -162,7 +162,7 @@ export default function Header() {
                     </Col>
                   </Row>
                 <div className="d-flex mb-2">
-                  <h4 className="mb-2">Latest career opportunities</h4>
+                  <h4 className="mb-2">Latest Career Opportunities</h4>
                   <a className="text-white ms-auto mt-2">View all careers on LinkedIn</a>
                 </div>
                 <Row>
