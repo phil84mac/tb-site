@@ -290,13 +290,6 @@ h6, .h6 {
   opacity: .6!important;
 }
 
-.pull-up {
-  margin-top: -11%!important;
-}
-
-.pull-up-2{
-  margin-top: -5%!important;
-}
 
 /* laptop */
 
@@ -314,10 +307,6 @@ h6, .h6 {
     min-height: 105vh!important;
   }
 
-  .pull-up {
-    margin-top: -13%!important;
-  }
-  
 
 } 
 
@@ -335,14 +324,6 @@ h6, .h6 {
 
   .v-full {
     min-height: 110vh!important;
-  }
-
-  .pull-up {
-    margin-top: -20%!important;
-  }
-  
-  .pull-up-2{
-    margin-top: -12%!important;
   }
 
 } 
@@ -373,14 +354,6 @@ h6, .h6 {
 
   .v-services {
     min-height: 195vh;
-  }
-
-  .pull-up {
-    margin-top: -26%!important;
-  }
-
-  .pull-up-2 {
-    margin-top: -12%!important;
   }
 
 } 

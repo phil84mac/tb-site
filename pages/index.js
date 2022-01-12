@@ -46,7 +46,7 @@ export default function Home() {
 
       <main>
         {/*hero area*/}
-        <Container fluid className="px-2 px-md-4 px-lg-5 pe-0 v-full">
+        <Container fluid className="px-2 px-md-4 px-lg-5 pe-0 mb-xl-5">
         <Row className="mt-5 px-xl-2 ps-1 ps-sm-0">
           <Col md={12} className="mt-4 pt-5 px-xl-1">
           <p className="h6 text-grey mt-2">THINKING BIG</p>
@@ -107,7 +107,7 @@ export default function Home() {
         <Container fluid className="px-0 px-sm-3">
         <Row className="mb-0">
           <Col xs={12} className="px-0 px-md-2 px-lg-3">
-            <video className='w-full pull-up' autoPlay loop muted>
+            <video className='w-full' autoPlay loop muted>
               <source src="./aurora.mp4" type='video/mp4' />
             </video>
           </Col>
@@ -115,7 +115,7 @@ export default function Home() {
         </Container>
 
         {/*services*/}
-        <Container id="services" fluid className="px-2 px-md-4 px-lg-5 pe-0 v-services">
+        <Container id="services" fluid className="px-2 px-md-4 px-lg-5 pe-0 mb-3 mb-xl-5">
         <Row className="ps-1 ps-sm-0">
           <Col md={12} className="mt-5 pt-5">
             <p className="h6 mt-4 text-grey">THINKING BIG &gt; SERVICES</p>
@@ -202,7 +202,7 @@ export default function Home() {
         <Container fluid className="px-0 px-sm-3" >
         <Row>
           <Col md={12} className="px-0 px-md-2 px-lg-3">
-            <video className='w-full pull-up-2' autoPlay loop muted>
+            <video className='w-full' autoPlay loop muted>
               <source src="./overpass.mp4" type='video/mp4' />
             </video>
           </Col>
