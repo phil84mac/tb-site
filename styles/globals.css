@@ -253,11 +253,29 @@ h6, .h6 {
   opacity: 1!important;
 }
 
-/* Details */
+/* Modals */
 
 .modal-body {
   border-radius: 0px!important;
 }
+
+.modal-content {
+  position: relative;
+  display: -moz-box;
+  display: flex;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: none!important;
+  border-radius: 0!important;
+  outline: 0;
+}
+
+/* Details */
 
 .hard-edge {
   border-radius: 0!important;
@@ -273,9 +291,12 @@ h6, .h6 {
 }
 
 .pull-up {
-  margin-top: -90px;
+  margin-top: -10%!important;
 }
 
+.pull-up-2{
+  margin-top: -5%!important;
+}
 
 /* laptop */
 
@@ -338,7 +359,15 @@ h6, .h6 {
   }
 
   .v-services {
-    min-height: 205vh;
+    min-height: 195vh;
+  }
+
+  .pull-up {
+    margin-top: -20%!important;
+  }
+
+  .pull-up-2 {
+    margin-top: -20%!important;
   }
 
 } 

@@ -31,9 +31,10 @@ export default function Header() {
     <>
 
     {/* NavBar */}  
+    <Container fluid>
     <Navbar className="px-2 px-md-4 px-lg-5" fixed="top">
       <Navbar.Brand href="#home">
-        <img src="/TBlogo.svg" className="logo ps-1 ps-sm-0 ps-md-1 ps-lg-0" alt="Thinking Big Logo"/>
+        <img src="/TBlogo.svg" className="logo " alt="Thinking Big Logo"/>
       </Navbar.Brand>
       <Nav className="ms-auto">
         <Nav.Link>
@@ -41,12 +42,13 @@ export default function Header() {
             GET STARTED
           </Button>
         </Nav.Link>
-        <Nav.Link className="pe-1 pe-xl-0">
+        <Nav.Link className="pe-1 pe-md-0">
           <Button className="btn btn-primary menu" onClick={handleShowMenu}>       
           </Button>
         </Nav.Link>
        </Nav>
       </Navbar>
+      </Container>
 
     {/* Get started - contact form */}
       <Offcanvas show={showContact} onHide={handleCloseContact} placement='end'>
