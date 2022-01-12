@@ -218,6 +218,12 @@ h6, .h6 {
   display: inline-block;
 }
 
+.modal-icon:after {
+  content: url("/modal-icon.svg");
+  margin-left: 6px;
+  display: inline-block;
+}
+
 .angle-arrow:after {
   content: url("/r-arrow.svg");
   margin-left: 6px;
@@ -346,14 +352,6 @@ h6, .h6 {
     font-size: calc(1.1rem + 1.5vw)!important;
     line-height: calc(1.2rem + 1.5vw)!important;
     letter-spacing: -0.02em!important;
-  }
-
-  .v-full {
-    min-height: 150vh!important;
-  }
-
-  .v-services {
-    min-height: 195vh;
   }
 
 } 
