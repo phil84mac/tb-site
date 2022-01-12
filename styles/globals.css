@@ -314,6 +314,11 @@ h6, .h6 {
     min-height: 105vh!important;
   }
 
+  .pull-up {
+    margin-top: -13%!important;
+  }
+  
+
 } 
 
 /* tablet */
@@ -333,7 +338,7 @@ h6, .h6 {
   }
 
   .pull-up {
-    margin-top: -15%!important;
+    margin-top: -20%!important;
   }
   
   .pull-up-2{
@@ -371,7 +376,7 @@ h6, .h6 {
   }
 
   .pull-up {
-    margin-top: -20%!important;
+    margin-top: -26%!important;
   }
 
   .pull-up-2 {
