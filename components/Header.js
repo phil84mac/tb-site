@@ -103,14 +103,19 @@ export default function Header() {
 
     {/* Menu */}
       <Offcanvas show={showMenu} onHide={handleCloseMenu} placement='top' className="w-full h-full bg-menu">
-        <Offcanvas.Header className="pt-3 d-flex ms-2 ps-1" closeButton>
-          <img src="/TBlogo-white.svg" className="logo-alt" alt="Thinking Big Logo White" onClick={handleCloseMenu}/>  
-          <Button className="btn btn-primary py-1 arrow ms-auto me-3" onClick={handleShowContact}>
-            GET STARTED
-          </Button>      
+        <Offcanvas.Header className="pt-3 px-xl-5 px-lg-4 px-md-3 me-sm-3" closeButton>
+          <div className="ms-sm-2 ps-sm-1  d-flex">
+            <img src="/TBlogo-white.svg" className="logo-alt" alt="Thinking Big Logo White" onClick={handleCloseMenu}/>  
+             
+          </div>  
+          <div className=" ms-auto">
+          <Button className="btn btn-primary py-1 arrow me-3" onClick={handleShowContact}>
+              GET STARTED
+            </Button>  
+          </div> 
         </Offcanvas.Header>
-        <Offcanvas.Body className="mt-4 pb-5 mx-2 px-1">
-          <Row className="">
+        <Offcanvas.Body className="mt-4 pb-5">
+          <Row className="px-xl-5 px-lg-4 px-md-3">
             <Col md={12}>
             <p className="h6">THINKING BIG &gt; MENU</p>
             <hr className="white"/>
