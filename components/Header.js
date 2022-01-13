@@ -31,26 +31,26 @@ export default function Header() {
     <>
 
     {/* NavBar */}  
-    <Container fluid>
-    <Navbar className="px-2 px-md-4 px-lg-5" fixed="top">
-      <Navbar.Brand href="#home">
-        <img src="/TBlogo.svg" className="logo ps-1 ps-sm-0" alt="Thinking Big Logo"/>
+
+    <Navbar className="px-xl-5 px-lg-4 px-md-3" fixed="top">
+      <Navbar.Brand href="#home" className="ps-1 ms-2">
+        <img src="/TBlogo.svg" className="logo" alt="Thinking Big Logo"/>
       </Navbar.Brand>
-      <Nav className="ms-auto">
-        <Nav.Link>
+      <Nav className="ms-auto pe-1 me-2">
+        <Nav.Link className="me-0 pe-1">
           <Button className="btn btn-primary arrow" onClick={handleShowContact}>
             GET STARTED
           </Button>
         </Nav.Link>
-        <Nav.Link className="pe-1 pe-md-0">
+        <Nav.Link className="pe-0">
           <Button className="btn btn-primary menu" onClick={handleShowMenu}>       
           </Button>
         </Nav.Link>
        </Nav>
-      </Navbar>
-      </Container>
+    </Navbar>
 
     {/* Get started - Contact */}
+    
       <Offcanvas show={showContact} onHide={handleCloseContact} placement='end'>
         <Offcanvas.Header closeButton>
           <Offcanvas.Title className="mt-2" >
@@ -103,13 +103,13 @@ export default function Header() {
 
     {/* Menu */}
       <Offcanvas show={showMenu} onHide={handleCloseMenu} placement='top' className="w-full h-full bg-menu">
-        <Offcanvas.Header className="px-3 px-md-4 px-lg-5 pt-3 d-flex" closeButton>
+        <Offcanvas.Header className="pt-3 d-flex ms-2 ps-1" closeButton>
           <img src="/TBlogo-white.svg" className="logo-alt" alt="Thinking Big Logo White" onClick={handleCloseMenu}/>  
           <Button className="btn btn-primary py-1 arrow ms-auto me-3" onClick={handleShowContact}>
             GET STARTED
           </Button>      
         </Offcanvas.Header>
-        <Offcanvas.Body className="px-3 px-md-4 px-lg-5 mt-4 pb-5">
+        <Offcanvas.Body className="mt-4 pb-5 mx-2 px-1">
           <Row className="">
             <Col md={12}>
             <p className="h6">THINKING BIG &gt; MENU</p>

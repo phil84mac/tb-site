@@ -46,11 +46,11 @@ export default function Home() {
 
       <main>
         {/*hero area*/}
-        <Container fluid className="px-2 px-md-4 px-lg-5 pe-0 mb-4 mb-xl-5 pb-xl-4">
-        <Row className="mt-5 px-xl-2 ps-1 ps-sm-0">
-          <Col md={12} className="mt-4 pt-5 px-xl-1">
+        <Container fluid className="mb-4 mb-xl-5 pb-xl-4">
+        <Row className="mt-5 px-xl-5 px-lg-4 px-md-3">
+          <Col md={12} className="mt-4 pt-5">
           <p className="h6 text-grey mt-2">THINKING BIG</p>
-            <Row className="align-items-top d-flex">
+            <Row className="align-items-center d-flex">
               <Col xl={6}>
                 <h1 className="text-dark">
                 World-class software + consulting solutions
@@ -104,9 +104,9 @@ export default function Home() {
         </Container>
 
         {/*video loop 1*/}
-        <Container fluid className="px-0 px-sm-3">
-        <Row className="justify-content-center">
-          <Col xs={12} className="px-0 px-md-2 px-lg-3">
+        <Container fluid>
+        <Row>
+          <Col xs={12} className="px-0 px-md-3 px-lg-4">
             <video className='w-full' autoPlay loop muted>
               <source src="./aurora.mp4" type='video/mp4' />
             </video>
@@ -115,8 +115,8 @@ export default function Home() {
         </Container>
 
         {/*services*/}
-        <Container id="services" fluid className="px-2 px-md-4 px-lg-5 pe-0 mb-2 mb-md-4 mb-xl-5">
-        <Row className="ps-1 ps-sm-0">
+        <Container id="services" fluid className="mb-2 mb-md-4 mb-xl-5">
+        <Row className="px-xl-5 px-lg-4 px-md-3">
           <Col md={12} className="mt-5 pt-5">
             <p className="h6 mt-4 text-grey">THINKING BIG &gt; SERVICES</p>
             <Row className="pb-3 mb-3 pb-lg-5 mb-lg-5">
@@ -199,9 +199,9 @@ export default function Home() {
         </Container>
 
         {/*video loop 2*/}
-        <Container fluid className="px-0 px-sm-3" >
-        <Row className="justify-content-center">
-          <Col md={12} className="px-0 px-md-2 px-lg-3">
+        <Container fluid>
+        <Row>
+          <Col xs={12} className="px-0 px-md-3 px-lg-4">
             <video className='w-full' autoPlay loop muted>
               <source src="./overpass.mp4" type='video/mp4' />
             </video>
