@@ -50,7 +50,7 @@ export default function Header() {
       </Navbar>
       </Container>
 
-    {/* Get started - contact form */}
+    {/* Get started - Contact */}
       <Offcanvas show={showContact} onHide={handleCloseContact} placement='end'>
         <Offcanvas.Header closeButton>
           <Offcanvas.Title className="mt-2" >
@@ -90,7 +90,7 @@ export default function Header() {
             </Form.Select>
           </Form.Group>
           <Form.Group className="mb-2" controlId="location">
-          <Form.Label className="mb-0"><p className="small mb-0 mono text-grey bold">PLEASE GIVE US A BRIEF OF THE PROBLEM YOU'D LIKE US TO SOLVE. CONTEXT WILL ALLOW US TO CONNNECT YOU TO THE RIGHT TEAM RIGHT AWAY.</p></Form.Label>
+          <Form.Label className="mb-0"><p className="small mb-0 mono text-grey bold">PLEASE GIVE US A BRIEF OF THE PROBLEM YOU'D LIKE US TO SOLVE. CONTEXT WILL ALLOW US TO CONNECT YOU TO THE RIGHT TEAM RIGHT AWAY.</p></Form.Label>
             <Form.Control type="email" placeholder="" as="textarea" rows={4} className="hard-edge"/>
           </Form.Group>
           <p className="small mb-4">Please see our <a href="/" className="text-dark">Privacy Policy</a> regarding what we do with this information.</p>
@@ -147,7 +147,7 @@ export default function Header() {
                 </div>
                   <Row className="mb-4 pb-2">
                     <Col xs={12} sm={12} md={4}>
-                      <Card className="hard-edge mb-3 mb-md-0">
+                      <Card className="hard-edge no-brdr mb-3 mb-md-0">
                         <Card.Img variant="top" src="./placeholder.svg" className="hard-edge no-brdr"/>
                         <Card.Body>
                           <Card.Title className="text-dark">Article Title</Card.Title>
@@ -160,7 +160,7 @@ export default function Header() {
                       </Card>
                     </Col>
                     <Col xs={12} sm={12} md={4}>
-                      <Card className="hard-edge mb-3 mb-md-0">
+                      <Card className="hard-edge no-brdr mb-3 mb-md-0">
                         <Card.Img variant="top" src="./placeholder.svg" className="hard-edge no-brdr"/>
                         <Card.Body>
                           <Card.Title className="text-dark">Article Title</Card.Title>
@@ -173,7 +173,7 @@ export default function Header() {
                       </Card>
                     </Col>
                     <Col xs={12} sm={12} md={4}>
-                      <Card className="hard-edge mb-3 mb-md-0">
+                      <Card className="hard-edge no-brdr mb-3 mb-md-0">
                         <Card.Img variant="top" src="./placeholder.svg" className="hard-edge no-brdr"/>
                         <Card.Body>
                           <Card.Title className="text-dark">Article Title</Card.Title>
@@ -194,7 +194,7 @@ export default function Header() {
                 </div>
                 <Row>
                 <Col xs={12} sm={12} md={4}>
-                  <Card className="hard-edge mb-3 mb-md-0">
+                  <Card className="hard-edge no-brdr mb-3 mb-md-0">
                     <Card.Body>
                       <Card.Title className="text-dark">Career Title</Card.Title>
                       <Card.Text className="text-grey">
@@ -206,7 +206,7 @@ export default function Header() {
                   </Card>
                   </Col>
                   <Col xs={12} sm={12} md={4}>
-                  <Card className="hard-edge mb-3 mb-md-0">
+                  <Card className="hard-edge no-brdr mb-3 mb-md-0">
                     <Card.Body>
                       <Card.Title className="text-dark">Career Title</Card.Title>
                       <Card.Text className="text-grey">
@@ -218,7 +218,7 @@ export default function Header() {
                   </Card>
                   </Col>
                   <Col xs={12} sm={12} md={4}>
-                  <Card className="hard-edge mb-3 mb-md-0">
+                  <Card className="hard-edge no-brdr mb-3 mb-md-0">
                     <Card.Body>
                       <Card.Title className="text-dark">Career Title</Card.Title>
                       <Card.Text className="text-grey">

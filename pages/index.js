@@ -105,7 +105,7 @@ export default function Home() {
 
         {/*video loop 1*/}
         <Container fluid className="px-0 px-sm-3">
-        <Row className="mb-0">
+        <Row className="justify-content-center">
           <Col xs={12} className="px-0 px-md-2 px-lg-3">
             <video className='w-full' autoPlay loop muted>
               <source src="./aurora.mp4" type='video/mp4' />
@@ -198,9 +198,9 @@ export default function Home() {
         </Row>
         </Container>
 
-        {/*video loop 1*/}
+        {/*video loop 2*/}
         <Container fluid className="px-0 px-sm-3" >
-        <Row>
+        <Row className="justify-content-center">
           <Col md={12} className="px-0 px-md-2 px-lg-3">
             <video className='w-full' autoPlay loop muted>
               <source src="./overpass.mp4" type='video/mp4' />
@@ -225,26 +225,31 @@ export default function Home() {
         <Row>
           <Col md={6} className="mb-3">
             <p className="text-grey mono mb-1">A.1</p>
-            <hr className="mt-0 mb-2"/>
+            <hr className="mt-0 mb-2 d-none d-md-block"/>
             <h5 className="text-dark">
             Concept Development
             </h5>
             <p className="text-grey mt-2">
             We work with you to look at your organization from a digital perspective within the scope of technology, trends, and process. Then, we help you integrate all these components to form your digital strategy
             </p>
+            <hr className="d-md-none"/>
           </Col>
           <Col md={6} className="mb-3">
           <p className="text-grey mono mb-1">A.2</p>
-          <hr className="mt-0 mb-2"/>
+          <hr className="mt-0 mb-2 d-none d-md-block"/>
             <h5 className="text-dark">
             Prototyping
             </h5>
             <p className="text-grey mt-2">
             Ready to take the next step? Thinking Big will help you take your digital concept to the prototype stage and develop the KPI's to measure it's success. We will also help you establish governance to maintain momentum and remain flexible to change.
             </p>
+            <hr className="d-md-none"/>
           </Col>
         </Row>
       </Modal.Body>
+      <Modal.Footer className="d-md-none no-brdr pt-0">
+        <Button onClick={handleCloseModal1}>Close</Button>
+      </Modal.Footer>
     </Modal>
     
     {/*business services modal*/}
@@ -252,50 +257,57 @@ export default function Home() {
       <Modal.Header closeButton className="p-md-4 bg-dark text-white p mono hard-edge">
         THINKING BIG &gt; BUSINESS SERVICES
       </Modal.Header>
-      <Modal.Body className="hard-edge p-4">
+      <Modal.Body className="hard-edge p-3 p-md-4">
         <Row>
           <Col md={6} className="mb-3">
             <p className="text-grey mono mb-1">B.1</p>
-            <hr className="mt-0 mb-2"/>
+            <hr className="mt-0 mb-2 d-none d-md-block"/>
             <h5 className="text-dark">
             User Experience (UX) Design
             </h5>
             <p className="text-grey mt-2">
             This is ultimately what it is all about. If your users do not have a positive experience on your site, they go elsewhere. Our user-centric design model puts the user at the heart of everything we do. Who are they? Are they young or old? Are they affluent or starving students? Are you speaking the right language to them? These are questions that we consider when approaching your solution. We help you find those answers and leverage that knowledge to provide a better user experience.
             </p>
+            <hr className="d-md-none"/>
           </Col>
           <Col md={6} className="mb-3">
           <p className="text-grey mono mb-1">B.2</p>
-          <hr className="mt-0 mb-2"/>
+          <hr className="mt-0 mb-2 d-none d-md-block"/>
             <h5 className="text-dark">
             Automation of Services
             </h5>
             <p className="text-grey mt-2">
             Self-service is a given for any organization with a digital presence. Automating services allows you to set a standard of service that will enhance both quality and experience for your users, while increasing employee productivity and decreasing costs for your organization. Our experience with analyzing and automating services using the latest technology ensures your users will benefit from exceptional service.
             </p>
+            <hr className="d-md-none"/>
           </Col>
           <Col md={6} className="mb-3">
           <p className="text-grey mono mb-1">B.3</p>
-          <hr className="mt-0 mb-2"/>
+          <hr className="mt-0 mb-2 d-none d-md-block"/>
             <h5 className="text-dark">
             Asset Management
             </h5>
             <p className="text-grey mt-2">
             The ability to organize, track and reuse digital assets allows you to maximize the use of the assets you've spent time on perfecting. This is a typical step in our renewal and reorganization model to enhance the architecture and get the most out of your creativity.
             </p>
+            <hr className="d-md-none"/>
           </Col>
           <Col md={6} className="mb-3">
           <p className="text-grey mono mb-1">B.4</p>
-          <hr className="mt-0 mb-2"/>
+          <hr className="mt-0 mb-2 d-none d-md-block"/>
             <h5 className="text-dark">
             Analytics &amp; Optimization
             </h5>
             <p className="text-grey mt-2">
             The ability to collect and analyze data on current activity or decisions enables you to take your vision to the next level. We know how to take this data and optimize your ability to better achieve better online results. Our experience with web analytics will improve your decision making and provide quick analysis on results.
             </p>
+            <hr className="d-md-none"/>
           </Col>
         </Row>
       </Modal.Body>
+      <Modal.Footer className="d-md-none no-brdr pt-0">
+        <Button onClick={handleCloseModal2}>Close</Button>
+      </Modal.Footer>
     </Modal>
 
     {/*project management modal*/}
@@ -303,50 +315,57 @@ export default function Home() {
       <Modal.Header closeButton className="p-md-4 bg-dark text-white p mono hard-edge">
         THINKING BIG &gt; PROJECT MANAGEMENT
       </Modal.Header>
-      <Modal.Body className="hard-edge p-4">
+      <Modal.Body className="hard-edge p-3 p-md-4">
         <Row>
           <Col md={6} className="mb-3">
             <p className="text-grey mono mb-1">C.1</p>
-            <hr className="mt-0 mb-2"/>
+            <hr className="mt-0 mb-2 d-none d-md-block"/>
             <h5 className="text-dark">
             Business Process Re-engineering (BPR)
             </h5>
             <p className="text-grey mt-2">
             Deciding to change from the “way it's always been done” can be both intimidating and exhilarating. Our BPR team can help you thoroughly review and/or restructure your processes to effect change in your organization.
             </p>
+            <hr className="d-md-none"/>
           </Col>
           <Col md={6} className="mb-3">
           <p className="text-grey mono mb-1">C.2</p>
-          <hr className="mt-0 mb-2"/>
+          <hr className="mt-0 mb-2 d-none d-md-block"/>
             <h5 className="text-dark">
             Customer Relationship Management (CRM)
             </h5>
             <p className="text-grey mt-2">
             There may be no better way to know and serve your clients and contacts than through a CRM methodology. Exceptional customer service is achieved by having a 360-degree view of a client's needs by providing interaction through both traditional and social channels to keep them coming back. Our certified Microsoft Dynamics consultants will match your strategy to the technology and provide a solution that will improve customer experience, communication, automation, and provide the analytics to make the right decisions.
             </p>
+            <hr className="d-md-none"/>
           </Col>
           <Col md={6} className="mb-3">
           <p className="text-grey mono mb-1">C.3</p>
-          <hr className="mt-0 mb-2"/>
+          <hr className="mt-0 mb-2 d-none d-md-block"/>
             <h5 className="text-dark">
             Enterprise Resource Planning (ERP)
             </h5>
             <p className="text-grey mt-2">
             ERP systems are often the main line of business and financial operations. As ERP's have become more scalable, companies of all sizes are taking advantage of their capabilities. The move towards cloud computing supports the scalability with cost benefits. TB has built our own ERP product called Awesomeware, so we understand your process flows and have a support model in place to support day-to-day ERP needs.
             </p>
+            <hr className="d-md-none"/>
           </Col>
           <Col md={6} className="mb-3">
           <p className="text-grey mono mb-1">C.4</p>
-          <hr className="mt-0 mb-2"/>
+          <hr className="mt-0 mb-2 d-none d-md-block"/>
             <h5 className="text-dark">
             Analytics &amp; Optimization
             </h5>
             <p className="text-grey mt-2">
             The ability to collect and analyze data on current activity or decisions enables you to take your vision to the next level. We know how to take this data and optimize your ability to better achieve better online results. Our experience with web analytics will improve your decision making and provide quick analysis on results.
             </p>
+            <hr className="d-md-none"/>
           </Col>
         </Row>
       </Modal.Body>
+      <Modal.Footer className="d-md-none no-brdr pt-0">
+        <Button onClick={handleCloseModal3}>Close</Button>
+      </Modal.Footer>
     </Modal>
 
     {/*cyber protection modal*/}
@@ -354,60 +373,68 @@ export default function Home() {
       <Modal.Header closeButton className="p-md-4 bg-dark text-white p mono hard-edge">
         THINKING BIG &gt; CYBER PROTECTION
       </Modal.Header>
-      <Modal.Body className="hard-edge p-4">
+      <Modal.Body className="hard-edge p-3 p-md-4">
         <Row>
           <Col md={6} className="mb-3">
             <p className="text-grey mono mb-1">D.1</p>
-            <hr className="mt-0 mb-2"/>
+            <hr className="mt-0 mb-2 d-none d-md-block"/>
             <h5 className="text-dark">
             Technology Enhanced Legal Services
             </h5>
             <p className="text-grey mt-2">
             Thinking Big Legal is working with US law firms to help develop technology platforms for the delivery of legal services. As firms reduce operating expenses, staff are having to do more and more with fewer resources. We create tools that firms can offer their clients to automate the elements of legal services that are redundant, and to enable the lawyer to offer the higher value advice and services that are made more efficient with these tools.
             </p>
+            <hr className="d-md-none"/>
           </Col>
           <Col md={6} className="mb-3">
           <p className="text-grey mono mb-1">D.2</p>
-          <hr className="mt-0 mb-2"/>
+          <hr className="mt-0 mb-2 d-none d-md-block"/>
             <h5 className="text-dark">
             Artificial Intelligence and Predictive Analysis
             </h5>
             <p className="text-grey mt-2">
             Thinking Big Legal can work with your firm to identify tasks, systems, and processes that can be enhanced and drastically more efficient with the help of AI and Predictive Analytics. We will work closely with you to identify the business requirements to develop custom solutions that can revolutionize the way you offer legal services to clients, freeing up time for associates to do higher value work.
             </p>
+            <hr className="d-md-none"/>
           </Col>
           <Col md={6} className="mb-3">
           <p className="text-grey mono mb-1">D.3</p>
-          <hr className="mt-0 mb-2"/>
+          <hr className="mt-0 mb-2 d-none d-md-block"/>
             <h5 className="text-dark">
             Market Mapping and Data Visualization
             </h5>
             <p className="text-grey mt-2">
             Law firms rely on data: for business development; for market research, for business intelligence, for thought leadership, and for the legal services they provide to their clients. The data is usually harnessed in large data bases, or, if someone has done a lot of work, in large research reports. Digesting the information is difficult. Thinking Big Legal can help you with platforms that present the information through market mapping and data visualization, making the information easier to access, digest, evaluate and use.
             </p>
+            <hr className="d-md-none"/>
           </Col>
           <Col md={6} className="mb-3 ">
           <p className="text-grey mono mb-1">D.4</p>
-          <hr className="mt-0 mb-2"/>
+          <hr className="mt-0 mb-2 d-none d-md-block"/>
             <h5 className="text-dark">
             Gamification
             </h5>
             <p className="text-grey mt-2">
             Thinking Big can work with your firm to identify processes and tools the firm uses internally that can be better utilized, contain better content and data, and be more relevant with the use of gamification elements. Having trouble capturing information for your CRM? Lawyers finding it cumbersome to document experience for valuable listings? Tough getting up-to-date bios? Need to enable behaviour change to get accurate time keeping? Struggling for fresh thought leadership content? Thinking Big Legal can help.
             </p>
+            <hr className="d-md-none"/>
           </Col>
           <Col md={6} className="mb-3">
           <p className="text-grey mono mb-1">D.5</p>
-          <hr className="mt-0 mb-2"/>
+          <hr className="mt-0 mb-2 d-none d-md-block"/>
             <h5 className="text-dark">
             Knowledge Management
             </h5>
             <p className="text-grey mt-2">
             Thinking Big Legal is working with US law firms to help develop technology platforms for the delivery of legal services. As firms reduce operating expenses, staff are having to do more and more with fewer resources. We create tools that firms can offer their clients to automate the elements of legal services that are redundant, and to enable the lawyer to offer the higher value advice and services that are made more efficient with these tools.
             </p>
+            <hr className="d-md-none"/>
           </Col>
         </Row>
       </Modal.Body>
+      <Modal.Footer className="d-md-none no-brdr pt-0">
+        <Button onClick={handleCloseModal4}>Close</Button>
+      </Modal.Footer>
     </Modal>
     </>
   )

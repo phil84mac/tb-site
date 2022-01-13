@@ -341,9 +341,17 @@ h6, .h6 {
   h1, .h1 {
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 700!important;
-    font-size: calc(3.5rem + 1.5vw)!important;
-    line-height: calc(3.5rem + 1.5vw)!important;
+    font-size: calc(3.7rem + 1.5vw)!important;
+    line-height: calc(3.7rem + 1.5vw)!important;
     letter-spacing: -0.045em!important;
+  }
+
+  h3, .h3{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600!important;
+    font-size: calc(1.8rem + 1.5vw)!important;
+    line-height: calc(2.2rem + 1.5vw)!important;
+    letter-spacing: -0.035em!important;
   }
 
   h4, .h4 {
