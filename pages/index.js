@@ -47,7 +47,7 @@ export default function Home() {
       <main>
         {/*hero area*/}
         <Container fluid className="mb-4 mb-xl-5 pb-xl-4">
-        <Row className="mt-5 px-xl-5 px-lg-4 px-md-3">
+        <Row className="mt-5 px-xl-5 px-lg-4 px-md-3 mb-xl-5">
           <Col md={12} className="mt-4 pt-5">
           <p className="h6 text-grey mt-2">THINKING BIG</p>
             <Row className="align-items-center d-flex">
@@ -56,7 +56,7 @@ export default function Home() {
                 World-class software + consulting solutions
                 </h1>
               </Col>
-              <Col xl={6}>
+              <Col xl={6} className="mt-xl-3">
               <hr className="mb-4"/>
                 <Row>
                   <Col md={3} lg={2} xl={4} className="mb-3">
@@ -73,7 +73,7 @@ export default function Home() {
               <hr className="mb-4" />
                 <Row>
                   <Col md={3} lg={2} xl={4} className="mb-3">
-                    <Link href="/">
+                    <Link href="/#technology">
                     <a className="text-dark h5 d-arrow">Technology</a>
                     </Link>
                   </Col>
@@ -121,12 +121,12 @@ export default function Home() {
             <p className="h6 mt-4 text-grey">THINKING BIG &gt; SERVICES</p>
             <Row className="pb-3 mb-3 pb-lg-5 mb-lg-5">
               <Col lg={11} xl={8}>
-                <h2 className="text-dark mb-md-3 mb-xl-4">
+                <h2 className="text-dark mb-md-4 mb-xl-5">
                   Our refined processes are the solution to your software problems
                 </h2>
               </Col>
             </Row>
-            <Row>       
+            <Row className="mb-xl-4">       
               <Col xl={10} >
                 <Row>
                   <Col md={3} className="mb-4 mb-0">
@@ -204,6 +204,95 @@ export default function Home() {
           <Col xs={12} className="px-0 px-md-3 px-lg-4">
             <video className='w-full' autoPlay loop muted>
               <source src="./overpass.mp4" type='video/mp4' />
+            </video>
+          </Col>
+        </Row>
+        </Container>
+
+        {/*technology*/}
+        <Container id="technology" fluid className="mb-2 mb-md-4 mb-xl-5">
+        <Row className="px-xl-5 px-lg-4 px-md-3">
+          <Col md={12} className="mt-5 pt-5">
+            <p className="h6 mt-4 text-grey">THINKING BIG &gt; TECHNOLOGY</p>
+            <Row className="pb-3 mb-3 pb-lg-5 mb-lg-5">
+              <Col lg={11} xl={8}>
+                <h2 className="text-dark mb-md-4 mb-xl-5">
+                  We work with cutting edge tools to make sustainable technology
+                </h2>
+              </Col>
+            </Row>
+            <Row className="mb-xl-4">      
+              <Col xl={10} >
+                <Row>
+                  <Col md={3} className="mb-4 mb-0">
+                    <p className="text-grey mono">A.</p>
+                    <hr className="d-none d-md-block"/>
+                    <h4 className="text-dark">
+                    Tools 
+                    </h4>
+                    <p className="text-grey mt-3">
+                    Whether the solution calls for software, web development, a mobile application or AI automation, our teams have the expertise to tackle your toughest challenges.
+                    </p>
+                    <Button onClick={handleShowModal1} variant="link" className="text-dark bold mono modal-icon p-0" >
+                      LEARN MORE
+                    </Button>
+                    <hr className="d-md-none"/>
+                  </Col>
+                  <Col md={3} className="mb-4 mb-0">
+                    <p className="text-grey mono">B.</p>
+                    <hr className="d-none d-md-block"/>
+                    <h4 className="text-dark d-none d-md-block">
+                    Case Study 1
+                    </h4>
+                    <p className="text-grey mt-3">
+                    The business consultants at Thinking Big work with organizations to identify organizational objectives, transform their operations and achieve lasting change.
+                    </p>
+                    <Button onClick={handleShowModal2} variant="link" className="text-dark bold mono modal-icon p-0">
+                      LEARN MORE
+                    </Button>
+                    <hr className="d-md-none"/>
+                  </Col>
+                  <Col md={3} className="mb-4 mb-0">
+                    <p className="text-grey mono">C.</p>
+                    <hr className="d-none d-md-block"/>
+                    <h4 className="text-dark">
+                    Case Study 2
+                    </h4>
+                    <p className="text-grey mt-3">
+                    Effective Project Management is vital for an organization's success. Trust our people to efficiently guide projects and coach your team with methods tailored to your needs.
+                    </p>
+                    <Button onClick={handleShowModal3} variant="link" className="text-dark bold mono modal-icon p-0">
+                      LEARN MORE
+                    </Button>
+                    <hr className="d-md-none"/>
+                  </Col>
+                  <Col md={3} className="mb-4 mb-0">
+                    <p className="text-grey mono">D.</p>
+                    <hr className="d-none d-md-block"/>
+                    <h4 className="text-dark">
+                    Case Study 3
+                    </h4>
+                    <p className="text-grey mt-3">
+                    With a thorough knowledge of regulations, policies and IT security practices, our privacy specialists generate and implement risk mitigation strategies to ensure your customers remain protected.
+                    </p>
+                    <Button onClick={handleShowModal4} variant="link" className="text-dark bold mono modal-icon p-0">
+                        LEARN MORE
+                    </Button>
+                    <hr className="d-md-none"/>
+                  </Col>
+                </Row> 
+              </Col>
+            </Row>
+          </Col>
+        </Row>
+        </Container>
+
+        {/*video loop 3*/}
+        <Container fluid>
+        <Row>
+          <Col xs={12} className="px-0 px-md-3 px-lg-4">
+            <video className='w-full' autoPlay loop muted>
+              <source src="./turbines.mp4" type='video/mp4' />
             </video>
           </Col>
         </Row>
