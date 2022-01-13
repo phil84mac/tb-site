@@ -241,7 +241,7 @@ export default function Home() {
                   <Col md={3} className="mb-4 mb-0">
                     <p className="text-grey mono">B.</p>
                     <hr className="d-none d-md-block"/>
-                    <h4 className="text-dark d-none d-md-block">
+                    <h4 className="text-dark">
                     Case Study 1
                     </h4>
                     <p className="text-grey mt-3">
