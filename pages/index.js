@@ -49,7 +49,7 @@ export default function Home() {
         <Container fluid className="mb-4 mb-xl-5 py-xl-3 pb-xl-5">
         <Row className="mt-5 px-xl-5 px-lg-4 px-md-3 mb-xl-4">
           <Col md={12} className="mt-4 pt-5">
-          <p className="h6 text-grey mt-2">THINKING BIG</p>
+          <p className="h6 text-grey mt-2 mb-xl-0">THINKING BIG</p>
             <Row className="align-items-center d-flex">
               <Col xl={6}>
                 <h1 className="text-dark">
@@ -86,7 +86,7 @@ export default function Home() {
               <hr className="mb-4" />
                 <Row>
                 <Col md={3} lg={2} xl={4} className="mb-3">
-                  <Link href="/">
+                  <Link href="/#people">
                     <a className="text-dark h5 d-arrow">People</a>
                     </Link>
                   </Col>
@@ -216,7 +216,7 @@ export default function Home() {
             <p className="h6 mt-4 text-grey">THINKING BIG &gt; TECHNOLOGY</p>
             <Row className="pb-3 mb-3 pb-lg-5 mb-lg-5">
               <Col lg={11} xl={8}>
-                <h2 className="text-dark mb-md-4 mb-xl-5">
+                <h2 className="text-dark mb-md-4 mb-xl-5 ">
                   We work with cutting edge tools to make sustainable technology
                 </h2>
               </Col>
@@ -242,7 +242,7 @@ export default function Home() {
                     <p className="text-grey mono">B.</p>
                     <hr className="d-none d-md-block"/>
                     <h4 className="text-dark">
-                    Case Study 1
+                    Process
                     </h4>
                     <p className="text-grey mt-3">
                     The business consultants at Thinking Big work with organizations to identify organizational objectives, transform their operations and achieve lasting change.
@@ -256,7 +256,7 @@ export default function Home() {
                     <p className="text-grey mono">C.</p>
                     <hr className="d-none d-md-block"/>
                     <h4 className="text-dark">
-                    Case Study 2
+                    Case Study 1
                     </h4>
                     <p className="text-grey mt-3">
                     Effective Project Management is vital for an organization's success. Trust our people to efficiently guide projects and coach your team with methods tailored to your needs.
@@ -266,11 +266,11 @@ export default function Home() {
                     </Button>
                     <hr className="d-md-none"/>
                   </Col>
-                  <Col md={3} className="mb-4 mb-0 d-none">
+                  <Col md={3} className="mb-4 mb-0">
                     <p className="text-grey mono">D.</p>
                     <hr className="d-none d-md-block"/>
                     <h4 className="text-dark">
-                    Case Study 3
+                    Case Study 2
                     </h4>
                     <p className="text-grey mt-3">
                     With a thorough knowledge of regulations, policies and IT security practices, our privacy specialists generate and implement risk mitigation strategies to ensure your customers remain protected.
@@ -294,6 +294,84 @@ export default function Home() {
             <video className='w-full' autoPlay loop muted>
               <source src="./turbines.mp4" type='video/mp4' />
             </video>
+          </Col>
+        </Row>
+        </Container>
+
+        {/*people*/}
+        <Container id="people" fluid className="mb-2 mb-md-4 mb-xl-5 py-xl-3">
+        <Row className="px-xl-5 px-lg-4 px-md-3">
+          <Col md={12} className="mt-5 pt-5">
+            <p className="h6 mt-4 text-grey">THINKING BIG &gt; PEOPLE</p>
+            <Row className="pb-3 mb-3 pb-lg-5 mb-lg-5">
+              <Col lg={11} xl={8}>
+                <h2 className="text-dark mb-md-4 mb-xl-5 ">
+                  World-class 
+                </h2>
+              </Col>
+            </Row>
+            <Row className="mb-xl-4">      
+              <Col xl={10} >
+                <Row>
+                  <Col md={3} className="mb-4 mb-0">
+                    <p className="text-grey mono">A.</p>
+                    <hr className="d-none d-md-block"/>
+                    <h4 className="text-dark">
+                    Leadership 
+                    </h4>
+                    <p className="text-grey mt-3">
+                    Whether the solution calls for software, web development, a mobile application or AI automation, our teams have the expertise to tackle your toughest challenges.
+                    </p>
+                    <Button onClick={handleShowModal1} variant="link" className="text-dark bold mono modal-icon p-0" >
+                      LEARN MORE
+                    </Button>
+                    <hr className="d-md-none"/>
+                  </Col>
+                  <Col md={3} className="mb-4 mb-0">
+                    <p className="text-grey mono">B.</p>
+                    <hr className="d-none d-md-block"/>
+                    <h4 className="text-dark">
+                    Careers
+                    </h4>
+                    <p className="text-grey mt-3">
+                    The business consultants at Thinking Big work with organizations to identify organizational objectives, transform their operations and achieve lasting change.
+                    </p>
+                    <Button onClick={handleShowModal2} variant="link" className="text-dark bold mono modal-icon p-0">
+                      LEARN MORE
+                    </Button>
+                    <hr className="d-md-none"/>
+                  </Col>
+                  <Col md={3} className="mb-4 mb-0 ">
+                    <p className="text-grey mono">C.</p>
+                    <hr className="d-none d-md-block"/>
+                    <h4 className="text-dark">
+                    Benefits
+                    </h4>
+                    <p className="text-grey mt-3">
+                    Effective Project Management is vital for an organization's success. Trust our people to efficiently guide projects and coach your team with methods tailored to your needs.
+                    </p>
+                    <Button onClick={handleShowModal3} variant="link" className="text-dark bold mono modal-icon p-0">
+                      LEARN MORE
+                    </Button>
+                    <hr className="d-md-none"/>
+                  </Col>
+                  <Col md={3} className="mb-4 mb-0 d-none">
+                    <p className="text-grey mono">D.</p>
+                    <hr className="d-none d-md-block"/>
+                    <h4 className="text-dark">
+                    Case Study 2
+                    </h4>
+                    <p className="text-grey mt-3">
+                    With a thorough knowledge of regulations, policies and IT security practices, our privacy specialists generate and implement risk mitigation strategies to ensure your customers remain protected.
+                    </p>
+                    <Button onClick={handleShowModal4} variant="link" className="text-dark bold mono modal-icon p-0">
+                        LEARN MORE
+                    </Button>
+                    <hr className="d-md-none"/>
+                  </Col>
+                </Row> 
+              </Col>
+            </Row>
           </Col>
         </Row>
         </Container>

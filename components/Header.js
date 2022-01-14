@@ -114,9 +114,9 @@ export default function Header() {
             </Button>  
           </div> 
         </Offcanvas.Header>
-        <Offcanvas.Body className="mt-4 pb-5">
-          <Row className="px-xl-5 px-lg-4 px-md-3">
-            <Col md={12}>
+        <Offcanvas.Body className="pb-5">
+          <Row className="px-xl-5 px-lg-4 px-md-3 mt-4 pt-xl-3">
+            <Col md={12} className="ps-md-2">
             <p className="h6">THINKING BIG &gt; MENU</p>
             <hr className="white"/>
             <Row>
