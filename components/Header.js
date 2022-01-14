@@ -87,7 +87,7 @@ export default function Header() {
               <option>5000-10,000</option>
               <option>10,000-20,000</option>
               <option>20,000 +</option>
-            </Form.Select>
+            </Form.Select> 
           </Form.Group>
           <Form.Group className="mb-2" controlId="location">
           <Form.Label className="mb-0"><p className="small mb-0 mono text-grey bold">PLEASE GIVE US A BRIEF OF THE PROBLEM YOU'D LIKE US TO SOLVE. CONTEXT WILL ALLOW US TO CONNECT YOU TO THE RIGHT TEAM RIGHT AWAY.</p></Form.Label>

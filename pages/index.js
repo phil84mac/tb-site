@@ -304,7 +304,7 @@ export default function Home() {
           <Col md={12} className="mt-5 pt-5">
             <p className="h6 mt-4 text-grey">THINKING BIG &gt; PEOPLE</p>
             <Row className="pb-3 mb-3 pb-lg-5 mb-lg-5">
-              <Col lg={11} xl={8}>
+              <Col md={10} xl={8}>
                 <h2 className="text-dark mb-md-4 mb-xl-5 ">
                   We are in a constant state of growth and evolution
                 </h2>
@@ -378,22 +378,24 @@ export default function Home() {
 
         {/*by the numbers*/}
         <Container fluid>
-        <Row className=" px-0 px-lg-4 px-md-3">
-          <Col xs={12} className="bg-dark p-3 p-lg-5">
-            <Row className="p-3 p-lg-4">
-              <Col lg={4} className="text-center">
+        <Row className="px-2 px-lg-4 px-md-3">
+          <Col xs={12} className="bg-dark p-3 p-xl-5">
+            <Row className="p-3 py-lg-4 py-xl-5">
+              <Col md={4} className="text-center">
                 <h2 className="numbers mono text-white heavy">
                 &gt;150
                 </h2>
-                <p className="text-white">This many things delivered</p>
+                <p className="text-white mb-4 mb-md-0">This many things delivered</p>
+                <hr className="white d-md-none"/>
               </Col>
-              <Col lg={4} className="text-center">
+              <Col md={4} className="text-center">
                 <h2 className="numbers mono text-white heavy">
                 200%
                 </h2>
-                <p className="text-white">Something about growth</p>
+                <p className="text-white mb-4 mb-md-0">Something about growth</p>
+                <hr className="white d-md-none"/>
               </Col>
-              <Col lg={4} className="text-center">
+              <Col md={4} className="text-center">
                 <h2 className="numbers mono text-white heavy">
                 150+
                 </h2>

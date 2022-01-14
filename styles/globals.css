@@ -65,20 +65,19 @@ p.small {
   font-family: 'IBM Plex Mono', monospace!important;
 }
 
+.numbers {
+  font-weight: 700!important;
+  font-size: calc(6.5rem + 1.5vw)!important;
+  line-height: calc(6.5rem + 1.5vw)!important;
+  letter-spacing: -0.015em!important;
+}
+
 h1, .h1 {
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 700!important;
   font-size: calc(5.5rem + 1.5vw)!important;
   line-height: calc(5rem + 1.5vw)!important;
   letter-spacing: -0.045em!important;
-}
-
-.numbers {
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-weight: 700!important;
-  font-size: calc(6rem + 1.5vw)!important;
-  line-height: calc(6rem + 1.5vw)!important;
-  letter-spacing: -0.015em!important;
 }
 
 h2, .h2 {
@@ -336,6 +335,14 @@ h6, .h6 {
     min-height: 105vh!important;
   }
 
+  .numbers {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700!important;
+    font-size: calc(5rem + 1.5vw)!important;
+    line-height: calc(5rem + 1.5vw)!important;
+    letter-spacing: -0.015em!important;
+  }
+
 
 } 
 
@@ -353,6 +360,14 @@ h6, .h6 {
 
   .v-full {
     min-height: 110vh!important;
+  }
+
+  .numbers {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700!important;
+    font-size: calc(4rem + 1.5vw)!important;
+    line-height: calc(4rem + 1.5vw)!important;
+    letter-spacing: -0.015em!important;
   }
 
 } 
@@ -383,6 +398,13 @@ h6, .h6 {
     font-size: calc(1.1rem + 1.5vw)!important;
     line-height: calc(1.2rem + 1.5vw)!important;
     letter-spacing: -0.02em!important;
+  }
+
+  .numbers {
+    font-weight: 700!important;
+    font-size: calc(6.5rem + 1.5vw)!important;
+    line-height: calc(6.5rem + 1.5vw)!important;
+    letter-spacing: -0.015em!important;
   }
 
 } 
