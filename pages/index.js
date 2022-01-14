@@ -46,8 +46,8 @@ export default function Home() {
 
       <main>
         {/*hero area*/}
-        <Container fluid className="mb-4 mb-xl-5 pb-xl-4">
-        <Row className="mt-5 px-xl-5 px-lg-4 px-md-3 mb-xl-5">
+        <Container fluid className="mb-4 mb-xl-5 py-xl-3 pb-xl-5">
+        <Row className="mt-5 px-xl-5 px-lg-4 px-md-3 mb-xl-4">
           <Col md={12} className="mt-4 pt-5">
           <p className="h6 text-grey mt-2">THINKING BIG</p>
             <Row className="align-items-center d-flex">
@@ -115,7 +115,7 @@ export default function Home() {
         </Container>
 
         {/*services*/}
-        <Container id="services" fluid className="mb-2 mb-md-4 mb-xl-5">
+        <Container id="services" fluid className="mb-2 mb-md-4 mb-xl-5 py-xl-3">
         <Row className="px-xl-5 px-lg-4 px-md-3">
           <Col md={12} className="mt-5 pt-5">
             <p className="h6 mt-4 text-grey">THINKING BIG &gt; SERVICES</p>
@@ -210,7 +210,7 @@ export default function Home() {
         </Container>
 
         {/*technology*/}
-        <Container id="technology" fluid className="mb-2 mb-md-4 mb-xl-5">
+        <Container id="technology" fluid className="mb-2 mb-md-4 mb-xl-5 py-xl-3">
         <Row className="px-xl-5 px-lg-4 px-md-3">
           <Col md={12} className="mt-5 pt-5">
             <p className="h6 mt-4 text-grey">THINKING BIG &gt; TECHNOLOGY</p>
@@ -266,7 +266,7 @@ export default function Home() {
                     </Button>
                     <hr className="d-md-none"/>
                   </Col>
-                  <Col md={3} className="mb-4 mb-0">
+                  <Col md={3} className="mb-4 mb-0 d-none">
                     <p className="text-grey mono">D.</p>
                     <hr className="d-none d-md-block"/>
                     <h4 className="text-dark">
