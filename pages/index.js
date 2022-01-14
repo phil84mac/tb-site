@@ -56,7 +56,7 @@ export default function Home() {
                 World-class software + consulting solutions
                 </h1>
               </Col>
-              <Col xl={6} className="mt-xl-3">
+              <Col xl={6} className="mrt-xl-3">
               <hr className="mb-4"/>
                 <Row>
                   <Col md={3} lg={2} xl={4} className="mb-3">
@@ -306,7 +306,7 @@ export default function Home() {
             <Row className="pb-3 mb-3 pb-lg-5 mb-lg-5">
               <Col lg={11} xl={8}>
                 <h2 className="text-dark mb-md-4 mb-xl-5 ">
-                  World-class 
+                  We are in a constant state of growth and evolution
                 </h2>
               </Col>
             </Row>
@@ -372,6 +372,34 @@ export default function Home() {
                 </Row> 
               </Col>
             </Row>
+          </Col>
+        </Row>
+        </Container>
+
+        {/*by the numbers*/}
+        <Container fluid>
+        <Row className=" px-0 px-lg-4 px-md-3">
+          <Col xs={12} className="bg-dark p-3 p-lg-5">
+            <Row className="p-3 p-lg-4">
+              <Col lg={4} className="text-center">
+                <h2 className="numbers mono text-white heavy">
+                &gt;150
+                </h2>
+                <p className="text-white">This many things delivered</p>
+              </Col>
+              <Col lg={4} className="text-center">
+                <h2 className="numbers mono text-white heavy">
+                200%
+                </h2>
+                <p className="text-white">Something about growth</p>
+              </Col>
+              <Col lg={4} className="text-center">
+                <h2 className="numbers mono text-white heavy">
+                150+
+                </h2>
+                <p className="text-white">Developers, Designers, Analysts, etc</p>
+              </Col>
+            </Row> 
           </Col>
         </Row>
         </Container>
