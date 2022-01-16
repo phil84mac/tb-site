@@ -37,7 +37,7 @@ export default function Footer() {
                  </Button>
                </Col>
             </Row>
-            <hr className="mb-5 mb-xl-4"/>
+            <hr className="mb-5"/>
             <Row className="">
               <Col xs={12} md={3}>
                 <p className="mono text-dark mb-4">&#169; THINKING BIG 2022</p>
