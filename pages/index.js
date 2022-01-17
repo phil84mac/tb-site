@@ -381,7 +381,7 @@ export default function Home() {
 
         {/*by the numbers*/}
         <Container fluid>
-        <Row className="px-xl-5 px-lg-4 px-md-3">
+        <Row className="px-2 px-md-2 px-lg-4 px-md-3">
           <Col xs={12} className="bg-dark p-3 p-xl-5">
             <Row className="p-3 py-lg-4 py-xl-5">
               <Col md={4} className="text-center">
