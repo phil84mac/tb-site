@@ -21,8 +21,8 @@ export default function Footer() {
 
       <Container fluid className="mb-4 mb-xl-5 pt-xl-3 pb-sm-4 pb-xl-0">
         <Row className="mt-5 px-xl-5 px-lg-4 px-md-3 mb-xl-4">
-          <Col md={12} className="mt-5 mt-lg-4 pt-5">
-            <Row className="align-items-center d-flex mb-4 py-md-5 pb-lg-4 pt-lg-5 py-xl-3">
+          <Col md={12} className="mt-5 pt-5">
+            <Row className="align-items-center d-flex mb-4 mb-md-5 mb-lg-4 py-md-5">
               <Col md={6} className="brdr-rght-grey">
                 <h2 className="h1 text-dark">
                 Remake <br />  your future with us
@@ -37,39 +37,37 @@ export default function Footer() {
                  </Button>
                </Col>
             </Row>
-            <hr className="mb-4"/>
+            <hr className="my-4"/>
             <Row className="">
-              <Col xs={12} md={3}>
-                <p className="mono text-dark mb-4">&#169; THINKING BIG 2022</p>
+              <Col xs={12} md={3} className="mb-3">
+                <p className="mono text-dark">&#169; 2022 THINKING BIG<br /></p>
+                <a href="#" className="mono small text-dark">Terms</a>
+                <a href="#" className="mono small text-dark ms-2">Privacy</a>
               </Col>
               <Col xs={12} md={3} className="mb-2 pt-1 px-md-0">
               <p className="small text-grey mono ">OUR SITE</p>
                 <ul className="ps-4">
-                  <li className="mb-2"><a href="#" className="text-dark">Option 1</a></li>
-                  <li className="mb-2"><a href="#" className="text-dark">Option 2</a></li>
-                  <li className="mb-2"><a href="#" className="text-dark">Option 3</a></li>
-                  <li className="mb-2"><a href="#" className="text-dark">Option 4</a></li>
-                  <li className="mb-2"><a href="#" className="text-dark">Option 5</a></li>
+                  <li className="mb-2"><a href="#" className="text-dark">Services</a></li>
+                  <li className="mb-2"><a href="#" className="text-dark">Technology</a></li>
+                  <li className="mb-2"><a href="#" className="text-dark">People</a></li>
+                  <li className="mb-2"><a href="#" className="text-dark">Menu</a></li>
                 </ul>
               </Col>
               <Col xs={12} md={3} className="mb-2 pt-1 px-md-0">
               <p className="small text-grey mono">SOCIAL MEDIA</p>
                 <ul className="ps-4">
-                  <li className="mb-2"><a href="#" className="text-dark">Option 1</a></li>
-                  <li className="mb-2"><a href="#" className="text-dark">Option 2</a></li>
-                  <li className="mb-2"><a href="#" className="text-dark">Option 3</a></li>
-                  <li className="mb-2"><a href="#" className="text-dark">Option 4</a></li>
-                  <li className="mb-2"><a href="#" className="text-dark">Option 5</a></li>
+                  <li className="mb-2"><a href="https://www.facebook.com/thinkingbig.net" className="text-dark">Facebook</a></li>
+                  <li className="mb-2"><a href="https://twitter.com/ThinkingBigInc" className="text-dark">Twitter</a></li>
+                  <li className="mb-2"><a href="https://www.linkedin.com/company/thinking-big-inc/" className="text-dark">LinkedIn</a></li>
+                  <li className="mb-2"><a href="https://www.instagram.com/wearethinkingbig/" className="text-dark">Instagram</a></li>
                 </ul>
               </Col>
               <Col xs={12} md={3} className="mb-2 pt-1 px-md-0">
               <p className="small text-grey mono">CONTACT INFO</p>
               <ul className="ps-4">
-                  <li className="mb-2"><a href="#" className="text-dark">Option 1</a></li>
-                  <li className="mb-2"><a href="#" className="text-dark">Option 2</a></li>
-                  <li className="mb-2"><a href="#" className="text-dark">Option 3</a></li>
-                  <li className="mb-2"><a href="#" className="text-dark">Option 4</a></li>
-                  <li className="mb-2"><a href="#" className="text-dark">Option 5</a></li>
+                  <li className="mb-2 small"><a href="#" className="text-dark">hello@thinkingbig.net</a></li>
+                  <li className="mb-2"><a href="#" className="text-dark">1 (877) 733 3447</a><p>(Toll-free)</p></li>
+                  <li className="mb-2"><a href="#" className="text-dark">1 (902) 367-3447</a></li>
                 </ul>
               </Col>
             </Row>

@@ -231,7 +231,7 @@ export default function Home() {
                     Tools 
                     </h4>
                     <p className="text-grey mt-3">
-                    Whether the solution calls for software, web development, a mobile application or AI automation, our teams have the expertise to tackle your toughest challenges.
+                    It's in the nature of technology to evolve, so our team is always searching for the most effective and innovative tools to best solve your problems.
                     </p>
                     <Button onClick={handleShowModal1} variant="link" className="text-dark bold mono modal-icon p-0" >
                       LEARN MORE
@@ -245,7 +245,7 @@ export default function Home() {
                     Process
                     </h4>
                     <p className="text-grey mt-3">
-                    The business consultants at Thinking Big work with organizations to identify organizational objectives, transform their operations and achieve lasting change.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </p>
                     <Button onClick={handleShowModal2} variant="link" className="text-dark bold mono modal-icon p-0">
                       LEARN MORE
@@ -259,7 +259,7 @@ export default function Home() {
                     Case Study 1
                     </h4>
                     <p className="text-grey mt-3">
-                    Effective Project Management is vital for an organization's success. Trust our people to efficiently guide projects and coach your team with methods tailored to your needs.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </p>
                     <Button onClick={handleShowModal3} variant="link" className="text-dark bold mono modal-icon p-0">
                       LEARN MORE
@@ -273,7 +273,7 @@ export default function Home() {
                     Case Study 2
                     </h4>
                     <p className="text-grey mt-3">
-                    With a thorough knowledge of regulations, policies and IT security practices, our privacy specialists generate and implement risk mitigation strategies to ensure your customers remain protected.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </p>
                     <Button onClick={handleShowModal4} variant="link" className="text-dark bold mono modal-icon p-0">
                         LEARN MORE
@@ -320,7 +320,7 @@ export default function Home() {
                     Leadership 
                     </h4>
                     <p className="text-grey mt-3">
-                    Whether the solution calls for software, web development, a mobile application or AI automation, our teams have the expertise to tackle your toughest challenges.
+                    With our world-class expertise, we not only guide organizations through an evolving technological landscape, we develop and foster lasting internal capabilities.
                     </p>
                     <Button onClick={handleShowModal1} variant="link" className="text-dark bold mono modal-icon p-0" >
                       LEARN MORE
@@ -334,7 +334,10 @@ export default function Home() {
                     Careers
                     </h4>
                     <p className="text-grey mt-3">
-                    The business consultants at Thinking Big work with organizations to identify organizational objectives, transform their operations and achieve lasting change.
+                    Thinking Big looks for outstanding people driven by curiosity to solve demanding problems.
+                    </p>
+                    <p className="text-grey">
+                    If that sounds like you, we have career opportunities for new graduates and experienced professionals.
                     </p>
                     <Button onClick={handleShowModal2} variant="link" className="text-dark bold mono modal-icon p-0">
                       LEARN MORE
@@ -348,7 +351,7 @@ export default function Home() {
                     Benefits
                     </h4>
                     <p className="text-grey mt-3">
-                    Effective Project Management is vital for an organization's success. Trust our people to efficiently guide projects and coach your team with methods tailored to your needs.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </p>
                     <Button onClick={handleShowModal3} variant="link" className="text-dark bold mono modal-icon p-0">
                       LEARN MORE
@@ -378,7 +381,7 @@ export default function Home() {
 
         {/*by the numbers*/}
         <Container fluid>
-        <Row className="px-2 px-md-2 px-lg-4 px-md-3">
+        <Row className="px-xl-5 px-lg-4 px-md-3">
           <Col xs={12} className="bg-dark p-3 p-xl-5">
             <Row className="p-3 py-lg-4 py-xl-5">
               <Col md={4} className="text-center">

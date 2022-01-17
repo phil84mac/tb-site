@@ -125,21 +125,18 @@ export default function Header() {
                   <Col xs={6} sm={6} md={12}>
                   <p className="small mono">OUR SITE</p>
                     <ul className="mb-4 ps-4">
-                      <li className="mb-2"><a href="#" className="text-white">Option 1</a></li>
-                      <li className="mb-2"><a href="#" className="text-white">Option 2</a></li>
-                      <li className="mb-2"><a href="#" className="text-white">Option 3</a></li>
-                      <li className="mb-2"><a href="#" className="text-white">Option 4</a></li>
-                      <li className="mb-2"><a href="#" className="text-white">Option 5</a></li>
+                    <li className="mb-2"><a href="#services" className="text-white">Services</a></li>
+                    <li className="mb-2"><a href="#technology" className="text-white">Technology</a></li>
+                    <li className="mb-2"><a href="#people" className="text-white">People</a></li>
                     </ul>
                   </Col>
                   <Col xs={6} sm={6} md={12}>
                   <p className="small mono">SOCIAL MEDIA</p>
                     <ul className="ps-4">
-                      <li className="mb-2"><a href="#" className="text-white">Option 1</a></li>
-                      <li className="mb-2"><a href="#" className="text-white">Option 2</a></li>
-                      <li className="mb-2"><a href="#" className="text-white">Option 3</a></li>
-                      <li className="mb-2"><a href="#" className="text-white">Option 4</a></li>
-                      <li className="mb-2"><a href="#" className="text-white">Option 5</a></li>
+                    <li className="mb-2"><a href="https://www.facebook.com/thinkingbig.net" className="text-white">Facebook</a></li>
+                    <li className="mb-2"><a href="https://twitter.com/ThinkingBigInc" className="text-white">Twitter</a></li>
+                    <li className="mb-2"><a href="https://www.linkedin.com/company/thinking-big-inc/" className="text-white">LinkedIn</a></li>
+                    <li className="mb-2"><a href="https://www.instagram.com/wearethinkingbig/" className="text-white">Instagram</a></li>
                     </ul>
                   </Col>
                 </Row>
