@@ -388,21 +388,21 @@ export default function Home() {
                 <h2 className="numbers mono text-white heavy">
                 &gt;150
                 </h2>
-                <p className="text-white mb-4 mb-md-0">This many things delivered</p>
+                <p className="text-light-grey mb-4 mb-md-0">This many things delivered</p>
                 <hr className="white d-md-none"/>
               </Col>
               <Col md={4} className="text-center">
                 <h2 className="numbers mono text-white heavy">
                 200%
                 </h2>
-                <p className="text-white mb-4 mb-md-0">Something about growth</p>
+                <p className="text-light-grey mb-4 mb-md-0">Something about growth</p>
                 <hr className="white d-md-none"/>
               </Col>
               <Col md={4} className="text-center">
                 <h2 className="numbers mono text-white heavy">
-                150+
+                100+
                 </h2>
-                <p className="text-white">Developers, Designers, Analysts, etc</p>
+                <p className="text-light-grey">Developers, Designers, Analysts, etc</p>
               </Col>
             </Row> 
           </Col>

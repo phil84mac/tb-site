@@ -145,48 +145,45 @@ export default function Header() {
               <Col md={9} xl={10} className="ps-md-4">
               <div className="d-flex mb-2">
                   <h4 className="mb-2">Latest Articles</h4>
-                  <a className="text-white ms-auto mt-xl-2 text-end d-none d-md-block">View all articles on Medium</a>
+                  <a href="https://medium.com/thinkingbig" className="text-white ms-auto mt-xl-2 text-end d-none d-md-block">View all articles on Medium</a>
                 </div>
-                  <Row className="mb-4 pb-2">
+                  <Row className="mb-4 pb-2 d-flex">
                     <Col xs={12} sm={12} md={4}>
-                      <Card className="hard-edge no-brdr mb-3 mb-md-0">
-                        <Card.Img variant="top" src="./placeholder.svg" className="hard-edge no-brdr"/>
-                        <Card.Body>
-                          <Card.Title className="text-dark">Article Title</Card.Title>
+                      <Card className="hard-edge no-brdr mb-3 mb-md-0 h-full">
+                        <Card.Img variant="top" src="./heuristic.png" className="hard-edge no-brdr"/>
+                        <Card.Body className="d-flex flex-column align-items-start">
+                          <Card.Title className="text-dark">How A Heuristic Evaluation Can Elevate Your Design Process</Card.Title>
                           <Card.Text className="text-grey">
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
+                          Think of it as a rule of thumb rather than specific guidelines.
                           </Card.Text>
-                          <Button variant="secondary">Read article</Button>
+                          <Button className="mt-auto" href="https://medium.com/thinkingbig/how-a-heuristic-evaluation-can-elevate-your-product-design-process-4ba1fdecb7b8" tager="_blank" variant="secondary">Read article on Medium</Button>
                         </Card.Body>
                       </Card>
                     </Col>
                     <Col xs={12} sm={12} md={4}>
-                      <Card className="hard-edge no-brdr mb-3 mb-md-0">
-                        <Card.Img variant="top" src="./placeholder.svg" className="hard-edge no-brdr"/>
-                        <Card.Body>
-                          <Card.Title className="text-dark">Article Title</Card.Title>
+                    <Card className="hard-edge no-brdr mb-3 mb-md-0 h-full">
+                        <Card.Img variant="top" src="./remote.png" className="hard-edge no-brdr"/>
+                        <Card.Body className="d-flex flex-column align-items-start">
+                          <Card.Title className="text-dark">The 5 A's of Remote Work During a Pandemic</Card.Title>
                           <Card.Text className="text-grey">
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
+                          Or, finding zen in chaos: a guide to staying fresh and productive while working from home in times like these.
                           </Card.Text>
-                          <Button variant="secondary">Read article</Button>
+                          <Button className="mt-auto" href="https://medium.com/thinkingbig/the-5-as-of-remote-work-during-a-pandemic-c89115d245b7" target="_blank" variant="secondary">Read article on Medium</Button>
                         </Card.Body>
                       </Card>
                     </Col>
                     <Col xs={12} sm={12} md={4}>
-                      <Card className="hard-edge no-brdr mb-3 mb-md-0">
-                        <Card.Img variant="top" src="./placeholder.svg" className="hard-edge no-brdr"/>
-                        <Card.Body>
-                          <Card.Title className="text-dark">Article Title</Card.Title>
+                      <Card className="hard-edge no-brdr mb-3 mb-md-0 h-full">
+                        <Card.Img variant="top" src="./remotely.png" className="hard-edge no-brdr"/>
+                        <Card.Body className="d-flex flex-column align-items-start">
+                          <Card.Title className="text-dark">3 Great Tools for Working Remotely</Card.Title>
                           <Card.Text className="text-grey">
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
+                          Adopting tools that promote human connection will go a long way in protecting your team's mental health.
                           </Card.Text>
-                          <Button variant="secondary">Read article</Button>
+                          <Button className="mt-auto" href="https://medium.com/thinkingbig/3-great-tools-for-working-remotely-26a096aaab77" target="_blank" variant="secondary">Read article on Medium</Button>
                         </Card.Body>
                       </Card>
-                      <a className="text-white ms-auto mt-xl-2 text-end d-md-none">View all articles on Medium</a>
+                      <a href="https://medium.com/thinkingbig" className="text-white ms-auto mt-xl-2 text-end d-md-none">View all articles on Medium</a>
                     </Col>
                   </Row>
                   <hr className="white d-md-none"/>
@@ -196,41 +193,38 @@ export default function Header() {
                 </div>
                 <Row>
                 <Col xs={12} sm={12} md={4}>
-                  <Card className="hard-edge no-brdr mb-3 mb-md-0">
-                    <Card.Body>
-                      <Card.Title className="text-dark">Career Title</Card.Title>
+                  <Card className="hard-edge no-brdr mb-3 mb-md-0 h-full">
+                    <Card.Body className="d-flex flex-column align-items-start">
+                      <Card.Title className="text-dark">Software Architect</Card.Title>
                       <Card.Text className="text-grey">
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
+                      Want to architect solutions and see them come to life? We have a need for a Senior Software Architect. Experience in API integration would be a major asset. Pitch is on why you'd be a good fit for Thinking Big.
                       </Card.Text>
-                      <Button variant="secondary">Apply for this</Button>
+                      <Button className="mt-auto" variant="secondary">Apply for this on LinkedIn</Button>
                     </Card.Body>
                   </Card>
                   </Col>
                   <Col xs={12} sm={12} md={4}>
-                  <Card className="hard-edge no-brdr mb-3 mb-md-0">
-                    <Card.Body>
-                      <Card.Title className="text-dark">Career Title</Card.Title>
+                  <Card className="hard-edge no-brdr mb-3 mb-md-0 h-full">
+                    <Card.Body className="d-flex flex-column align-items-start">
+                      <Card.Title className="text-dark">Senior Developer</Card.Title>
                       <Card.Text className="text-grey">
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
+                      More than just a lifestyle, programming is a fashionable living that not just anyone can aspire to. It takes critical thinking, and easy-going personality, and attention to detail. When the muck hits the fan, a programmer cracks their knuckles, rolls up their sleeves and dives in!
                       </Card.Text>
-                      <Button variant="secondary">Apply for this</Button>
+                      <Button className="mt-auto" variant="secondary">Apply for this on LinkedIn</Button>
                     </Card.Body>
                   </Card>
                   </Col>
                   <Col xs={12} sm={12} md={4}>
-                  <Card className="hard-edge no-brdr mb-3 mb-md-0">
-                    <Card.Body>
-                      <Card.Title className="text-dark">Career Title</Card.Title>
+                  <Card className="hard-edge no-brdr mb-3 mb-md-0 h-full">
+                    <Card.Body className="d-flex flex-column align-items-start">
+                      <Card.Title className="text-dark">User Experience (UX) Designer</Card.Title>
                       <Card.Text className="text-grey">
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
+                      Inspiration, ideation and implementation! These three pillars of human-centered design are at the core of our design process. From client research and interviews to rapid prototyping and usability testing, being a designer at Thinking Big is more than pretty colours and cool trends.
                       </Card.Text>
-                      <Button variant="secondary">Apply for this</Button>
+                      <Button className="mt-auto" variant="secondary">Apply for this on LinkedIn</Button>
                     </Card.Body>
                   </Card>
-                  <a className="text-white text-right ms-auto mt-xl-2 text-end d-md-none">View all careers on LinkedIn</a>
+                  <a href="" className="text-white text-right ms-auto mt-xl-2 text-end d-md-none">View all careers on LinkedIn</a>
                   </Col>
                 </Row>
               </Col>
