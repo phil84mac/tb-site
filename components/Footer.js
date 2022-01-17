@@ -37,12 +37,12 @@ export default function Footer() {
                  </Button>
                </Col>
             </Row>
-            <hr className="mb-5"/>
+            <hr className="mb-4"/>
             <Row className="">
               <Col xs={12} md={3}>
                 <p className="mono text-dark mb-4">&#169; THINKING BIG 2022</p>
               </Col>
-              <Col xs={12} md={3} className="mb-2 px-md-0">
+              <Col xs={12} md={3} className="mb-2 pt-1 px-md-0">
               <p className="small text-grey mono ">OUR SITE</p>
                 <ul className="ps-4">
                   <li className="mb-2"><a href="#" className="text-dark">Option 1</a></li>
@@ -52,7 +52,7 @@ export default function Footer() {
                   <li className="mb-2"><a href="#" className="text-dark">Option 5</a></li>
                 </ul>
               </Col>
-              <Col xs={12} md={3} className="mb-2 px-md-0">
+              <Col xs={12} md={3} className="mb-2 pt-1 px-md-0">
               <p className="small text-grey mono">SOCIAL MEDIA</p>
                 <ul className="ps-4">
                   <li className="mb-2"><a href="#" className="text-dark">Option 1</a></li>
@@ -62,7 +62,7 @@ export default function Footer() {
                   <li className="mb-2"><a href="#" className="text-dark">Option 5</a></li>
                 </ul>
               </Col>
-              <Col xs={12} md={3} className="mb-2 px-md-0">
+              <Col xs={12} md={3} className="mb-2 pt-1 px-md-0">
               <p className="small text-grey mono">CONTACT INFO</p>
               <ul className="ps-4">
                   <li className="mb-2"><a href="#" className="text-dark">Option 1</a></li>
