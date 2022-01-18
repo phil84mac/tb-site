@@ -46,7 +46,7 @@ export default function Home() {
 
       <main>
         {/*hero area*/}
-        <Container fluid className="mb-4 mb-xl-5 py-xl-3 pb-xl-5">
+        <Container fluid id="home" className="mb-4 mb-xl-5 py-xl-3 pb-xl-5">
         <Row className="mt-5 px-xl-5 px-lg-4 px-md-3 mb-xl-4">
           <Col md={12} className="mt-4 pt-5">
           <p className="h6 text-grey mt-2 mb-xl-0">THINKING BIG</p>

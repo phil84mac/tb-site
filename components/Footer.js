@@ -43,23 +43,22 @@ export default function Footer() {
             </Row>
             <hr className="my-4"/>
             <Row className="">
-              <Col xs={12} md={3} className="mb-3">
+              <Col xs={12} md={3} className="mb-4">
                 <p className="mono text-dark">&#169; 2022 THINKING BIG<br /></p>
                 <a href="#" className="mono small text-dark">TERMS</a>
                 <a href="#" className="mono small text-dark ms-2">PRIVACY</a>
               </Col>
               <Col xs={12} md={3} className="mb-2 pt-1 px-md-0">
               <p className="small text-grey mono ">OUR SITE</p>
-                <ul className="ps-4">
+                <ul className="ps-0">
                   <li className="mb-2"><a href="#services" className="text-dark">Services</a></li>
                   <li className="mb-2"><a href="#technology" className="text-dark">Technology</a></li>
                   <li className="mb-2"><a href="#people" className="text-dark">People</a></li>
-                  <li className="mb-2"><a href="#" className="text-dark">Menu</a></li>
                 </ul>
               </Col>
               <Col xs={12} md={3} className="mb-2 pt-1 px-md-0">
               <p className="small text-grey mono">SOCIAL MEDIA</p>
-                <ul className="ps-4">
+                <ul className="ps-0">
                   <li className="mb-2"><a href="https://www.facebook.com/thinkingbig.net" className="text-dark">Facebook</a></li>
                   <li className="mb-2"><a href="https://twitter.com/ThinkingBigInc" className="text-dark">Twitter</a></li>
                   <li className="mb-2"><a href="https://www.linkedin.com/company/thinking-big-inc/" className="text-dark">LinkedIn</a></li>
@@ -68,8 +67,8 @@ export default function Footer() {
               </Col>
               <Col xs={12} md={3} className="mb-2 pt-1 px-md-0">
               <p className="small text-grey mono">CONTACT INFO</p>
-              <ul className="ps-4">
-                  <li className="mb-2 small"><a href="mailto: hello@thinkingbig.net" className="text-dark">hello@thinkingbig.net</a></li>
+              <ul className="ps-0">
+                  <li className="mb-2"><a href="mailto: hello@thinkingbig.net" className="text-dark">hello@thinkingbig.net</a></li>
                   <li className="mb-2"><a href="tel:1-902-367-3447" className="text-dark">1 (902) 367-3447</a></li>
                   <li className="mb-2"><a href="tel:1-977-733-3447" className="text-dark">1 (877) 733-3447</a><p>(Toll-free)</p></li>
                 </ul>

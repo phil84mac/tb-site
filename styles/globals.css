@@ -32,6 +32,10 @@ hr.white, .hr.white {
   border-right: 1px solid #c4c4c4!important;
 }
 
+ul {
+  list-style-type: none!important;
+}
+
 .no-brdr {
   border: none!important;
 }

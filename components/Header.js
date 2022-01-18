@@ -33,7 +33,7 @@ export default function Header() {
     {/* NavBar */}  
 
     <Navbar className="px-xl-5 px-lg-4 px-md-3" fixed="top">
-      <Navbar.Brand href="#home" className="ps-1 ms-2">
+      <Navbar.Brand href="/#home" className="ps-1 ms-2">
         <img src="/TBlogo.svg" className="logo" alt="Thinking Big Logo"/>
       </Navbar.Brand>
       <Nav className="ms-auto pe-1 me-2">
@@ -124,7 +124,7 @@ export default function Header() {
                 <Row>
                   <Col xs={6} sm={6} md={12}>
                   <p className="small mono">OUR SITE</p>
-                    <ul className="mb-4 ps-4">
+                    <ul className="mb-4 ps-0">
                     <li className="mb-2"><a href="#services" className="text-white">Services</a></li>
                     <li className="mb-2"><a href="#technology" className="text-white">Technology</a></li>
                     <li className="mb-2"><a href="#people" className="text-white">People</a></li>
@@ -132,7 +132,7 @@ export default function Header() {
                   </Col>
                   <Col xs={6} sm={6} md={12}>
                   <p className="small mono">SOCIAL MEDIA</p>
-                    <ul className="ps-4">
+                    <ul className="ps-0">
                     <li className="mb-2"><a href="https://www.facebook.com/thinkingbig.net" className="text-white">Facebook</a></li>
                     <li className="mb-2"><a href="https://twitter.com/ThinkingBigInc" className="text-white">Twitter</a></li>
                     <li className="mb-2"><a href="https://www.linkedin.com/company/thinking-big-inc/" className="text-white">LinkedIn</a></li>
@@ -148,8 +148,8 @@ export default function Header() {
                   <a href="https://medium.com/thinkingbig" className="text-white ms-auto mt-xl-2 text-end d-none d-md-block">View all articles on Medium</a>
                 </div>
                   <Row className="mb-4 pb-2 d-flex">
-                    <Col xs={12} sm={12} md={4}>
-                      <Card className="hard-edge no-brdr mb-3 mb-md-0 h-full">
+                    <Col xs={12} sm={12} lg={4} className="mb-3 mb-lg-0">
+                      <Card className="hard-edge no-brdr h-full">
                         <Card.Img variant="top" src="./heuristic.png" className="hard-edge no-brdr"/>
                         <Card.Body className="d-flex flex-column align-items-start">
                           <Card.Title className="text-dark">How A Heuristic Evaluation Can Elevate Your Design Process</Card.Title>
@@ -160,8 +160,8 @@ export default function Header() {
                         </Card.Body>
                       </Card>
                     </Col>
-                    <Col xs={12} sm={12} md={4}>
-                    <Card className="hard-edge no-brdr mb-3 mb-md-0 h-full">
+                    <Col xs={12} sm={12} lg={4} className="mb-3 mb-lg-0">
+                    <Card className="hard-edge no-brdr h-full">
                         <Card.Img variant="top" src="./remote.png" className="hard-edge no-brdr"/>
                         <Card.Body className="d-flex flex-column align-items-start">
                           <Card.Title className="text-dark">The 5 A's of Remote Work During a Pandemic</Card.Title>
@@ -172,8 +172,8 @@ export default function Header() {
                         </Card.Body>
                       </Card>
                     </Col>
-                    <Col xs={12} sm={12} md={4}>
-                      <Card className="hard-edge no-brdr mb-3 mb-md-0 h-full">
+                    <Col xs={12} sm={12} lg={4} className="mb-3 mb-lg-0">
+                      <Card className="hard-edge no-brdr h-full">
                         <Card.Img variant="top" src="./remotely.png" className="hard-edge no-brdr"/>
                         <Card.Body className="d-flex flex-column align-items-start">
                           <Card.Title className="text-dark">3 Great Tools for Working Remotely</Card.Title>
@@ -183,17 +183,17 @@ export default function Header() {
                           <Button className="mt-auto" href="https://medium.com/thinkingbig/3-great-tools-for-working-remotely-26a096aaab77" target="_blank" variant="secondary">Read article on Medium</Button>
                         </Card.Body>
                       </Card>
-                      <a href="https://medium.com/thinkingbig" className="text-white ms-auto mt-xl-2 text-end d-md-none">View all articles on Medium</a>
                     </Col>
+                    <a href="https://medium.com/thinkingbig" className="text-white ms-auto mt-xl-2 d-md-none">View all articles on Medium</a>
                   </Row>
                   <hr className="white d-md-none"/>
                 <div className="d-flex mb-2">
                   <h4 className="mb-2">Latest Career Opportunities</h4>
-                  <a className="text-white text-right ms-auto mt-xl-2 text-end d-none d-md-block">View all careers on LinkedIn</a>
+                  <a href="" className="text-white text-right ms-auto mt-xl-2 text-end d-none d-md-block">View all careers on LinkedIn</a>
                 </div>
                 <Row>
-                <Col xs={12} sm={12} md={4}>
-                  <Card className="hard-edge no-brdr mb-3 mb-md-0 h-full">
+                <Col xs={12} sm={12} lg={4} className="mb-3 mb-lg-0">
+                  <Card className="hard-edge no-brdr h-full">
                     <Card.Body className="d-flex flex-column align-items-start">
                       <Card.Title className="text-dark">Software Architect</Card.Title>
                       <Card.Text className="text-grey">
@@ -203,8 +203,8 @@ export default function Header() {
                     </Card.Body>
                   </Card>
                   </Col>
-                  <Col xs={12} sm={12} md={4}>
-                  <Card className="hard-edge no-brdr mb-3 mb-md-0 h-full">
+                  <Col xs={12} sm={12} lg={4} className="mb-3 mb-lg-0">
+                  <Card className="hard-edge no-brdr h-full">
                     <Card.Body className="d-flex flex-column align-items-start">
                       <Card.Title className="text-dark">Senior Developer</Card.Title>
                       <Card.Text className="text-grey">
@@ -214,8 +214,8 @@ export default function Header() {
                     </Card.Body>
                   </Card>
                   </Col>
-                  <Col xs={12} sm={12} md={4}>
-                  <Card className="hard-edge no-brdr mb-3 mb-md-0 h-full">
+                  <Col xs={12} sm={12} lg={4} className="mb-3 mb-lg-0">
+                  <Card className="hard-edge no-brdr h-full">
                     <Card.Body className="d-flex flex-column align-items-start">
                       <Card.Title className="text-dark">User Experience (UX) Designer</Card.Title>
                       <Card.Text className="text-grey">
@@ -224,8 +224,8 @@ export default function Header() {
                       <Button className="mt-auto" variant="secondary">Apply for this on LinkedIn</Button>
                     </Card.Body>
                   </Card>
-                  <a href="" className="text-white text-right ms-auto mt-xl-2 text-end d-md-none">View all careers on LinkedIn</a>
                   </Col>
+                  <a href="" className="text-white text-right mt-xl-2 d-md-none">View all careers on LinkedIn</a>
                 </Row>
               </Col>
             </Row>
