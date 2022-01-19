@@ -105,7 +105,7 @@ export default function Header() {
       <Offcanvas show={showMenu} onHide={handleCloseMenu} placement='top' className="w-full h-full bg-menu">
         <Offcanvas.Header className="pt-3 px-xl-5 px-lg-4 px-md-3 me-sm-3" closeButton>
           <div className="ms-sm-2 ps-sm-1 d-flex">
-            <img src="/TBlogo-white.svg" className="logo-menu" alt="Thinking Big Logo White" onClick={handleCloseMenu}/>  
+            <a onClick={handleCloseMenu}><img src="/TBlogo-white.svg" className="logo-menu" alt="Thinking Big Logo White"/></a>
              
           </div>  
           <div className=" ms-auto">

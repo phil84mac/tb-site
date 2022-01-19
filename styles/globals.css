@@ -315,6 +315,7 @@ h6, .h6 {
 
 .logo-menu {
   opacity: .35;
+  cursor: pointer!important;
 }
 
 .brdr-rght {
