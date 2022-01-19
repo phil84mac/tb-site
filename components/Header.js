@@ -34,7 +34,7 @@ export default function Header() {
 
     <Navbar className="px-xl-5 px-lg-4 px-md-3" fixed="top">
       <Navbar.Brand href="/#home" className="ps-1 ms-2">
-        <img src="/TBlogo.svg" className="logo" alt="Thinking Big Logo"/>
+        <img src="/TBlogo2.svg" className="logo" alt="Thinking Big Logo"/>
       </Navbar.Brand>
       <Nav className="ms-auto pe-1 me-2">
         <Nav.Link className="me-0 pe-1">
