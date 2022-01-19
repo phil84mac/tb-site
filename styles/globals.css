@@ -115,7 +115,7 @@ h6, .h6 {
 /* Colors */
 
 .text-grey {
-  color: #828282;
+  color: #969696;
 }
 
 .text-light-grey {
@@ -310,12 +310,11 @@ h6, .h6 {
 }
 
 .logo {
-  opacity: .5;
-  color: #fff!important;
+  opacity: .8;
 }
 
-.logo-alt {
-  opacity: .6!important;
+.logo-menu {
+  opacity: .35;
 }
 
 .brdr-rght {
