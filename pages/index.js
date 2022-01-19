@@ -292,7 +292,7 @@ export default function Home() {
         <Row>
           <Col xs={12} className="px-0 px-md-3 px-lg-4">
             <video className='w-full' autoPlay loop muted>
-              <source src="./turbines.mp4" type='video/mp4' />
+              <source src="./typing.mp4" type='video/mp4' />
             </video>
           </Col>
         </Row>
