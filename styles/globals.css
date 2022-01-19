@@ -24,30 +24,6 @@ hr.white, .hr.white {
   border-bottom: 1px solid #c4c4c4!important;
 }
 
-.brdr-rght {
-  border-right: 1px solid #383838!important;
-}
-
-.brdr-rght-grey {
-  border-right: 1px solid #c4c4c4!important;
-}
-
-ul {
-  list-style-type: none!important;
-}
-
-.no-brdr {
-  border: none!important;
-}
-
-.bg-trans {
-  background-color: rgba(0, 0, 0, 0)!important;
-}
-
-.bottom {
-  bottom: 0px!important;
-}
-
 /* Typography */
 
 p {
@@ -338,6 +314,22 @@ h6, .h6 {
 
 .logo-alt {
   opacity: .6!important;
+}
+
+.brdr-rght {
+  border-right: 1px solid #383838!important;
+}
+
+.brdr-rght-grey {
+  border-right: 1px solid #c4c4c4!important;
+}
+
+ul {
+  list-style-type: none!important;
+}
+
+.no-brdr {
+  border: none!important;
 }
 
 
