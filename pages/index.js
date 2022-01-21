@@ -215,8 +215,8 @@ export default function Home() {
           <Col md={12} className="mt-5 pt-5">
             <p className="h6 mt-4 text-grey">THINKING BIG &gt; TECHNOLOGY</p>
             <Row className="pb-3 mb-3 pb-lg-5 mb-lg-5">
-              <Col lg={11} xl={8}>
-                <h2 className="text-dark mb-md-4 mb-xl-5 ">
+              <Col lg={10} xl={8}>
+                <h2 className="text-dark mb-md-4 mb-xl-5 pe-md-5">
                   We work with cutting edge tools to make sustainable technology
                 </h2>
               </Col>
@@ -228,7 +228,7 @@ export default function Home() {
                     <p className="text-grey mono">A.</p>
                     <hr className="d-none d-md-block"/>
                     <h4 className="text-dark">
-                    Tools 
+                    Case Study 1
                     </h4>
                     <p className="text-grey mt-3">
                     It's in the nature of technology to evolve, so our team is always searching for the most effective and innovative tools to best solve your problems.
@@ -242,7 +242,7 @@ export default function Home() {
                     <p className="text-grey mono">B.</p>
                     <hr className="d-none d-md-block"/>
                     <h4 className="text-dark">
-                    Process
+                    Case Study 2
                     </h4>
                     <p className="text-grey mt-3">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -256,7 +256,7 @@ export default function Home() {
                     <p className="text-grey mono">C.</p>
                     <hr className="d-none d-md-block"/>
                     <h4 className="text-dark">
-                    Case Study 1
+                    Case Study 3
                     </h4>
                     <p className="text-grey mt-3">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -266,7 +266,7 @@ export default function Home() {
                     </Button>
                     <hr className="d-md-none"/>
                   </Col>
-                  <Col md={3} className="mb-4 mb-0">
+                  <Col md={3} className="mb-4 mb-0 d-none">
                     <p className="text-grey mono">D.</p>
                     <hr className="d-none d-md-block"/>
                     <h4 className="text-dark">
@@ -430,7 +430,7 @@ export default function Home() {
             Concept Development
             </h5>
             <p className="text-grey mt-2">
-            We work with you to look at your organization from a digital perspective within the scope of technology, trends, and process. Then, we help you integrate all these components to form your digital strategy
+            We work with you to look at your organization from a digital perspective within the scope of technology, trends, and process. Then, we help you integrate all these components to form your digital strategy.
             </p>
             <hr className="d-md-none"/>
           </Col>
