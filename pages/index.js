@@ -32,6 +32,38 @@ export default function Home() {
   const handleCloseModal4 = () => setShowModal4(false);
   const handleShowModal4 = () => setShowModal4(true);
 
+  const [showModal5, setShowModal5] = useState(false);
+  const handleCloseModal5 = () => setShowModal5(false);
+  const handleShowModal5 = () => setShowModal5(true);
+
+  const [showModal6, setShowModal6] = useState(false);
+  const handleCloseModal6 = () => setShowModal6(false);
+  const handleShowModal6 = () => setShowModal6(true);
+
+  const [showModal7, setShowModal7] = useState(false);
+  const handleCloseModal7 = () => setShowModal7(false);
+  const handleShowModal7 = () => setShowModal7(true);
+
+  const [showModal8, setShowModal8] = useState(false);
+  const handleCloseModal8 = () => setShowModal8(false);
+  const handleShowModal8 = () => setShowModal8(true);
+
+  const [showModal9, setShowModal9] = useState(false);
+  const handleCloseModal9 = () => setShowModal9(false);
+  const handleShowModal9 = () => setShowModal9(true);
+
+  const [showModal10, setShowModal10] = useState(false);
+  const handleCloseModal10 = () => setShowModal10(false);
+  const handleShowModal10 = () => setShowModal10(true);
+
+  const [showModal11, setShowModal11] = useState(false);
+  const handleCloseModal11 = () => setShowModal11(false);
+  const handleShowModal11 = () => setShowModal11(true);
+
+  const [showModal12, setShowModal12] = useState(false);
+  const handleCloseModal12 = () => setShowModal12(false);
+  const handleShowModal12 = () => setShowModal12(true);
+
 
   return (
 
@@ -233,7 +265,7 @@ export default function Home() {
                     <p className="text-grey mt-3">
                     It's in the nature of technology to evolve, so our team is always searching for the most effective and innovative tools to best solve your problems.
                     </p>
-                    <Button onClick={handleShowModal1} variant="link" className="text-dark bold mono modal-icon p-0" >
+                    <Button onClick={handleShowModal5} variant="link" className="text-dark bold mono modal-icon p-0" >
                       LEARN MORE
                     </Button>
                     <hr className="d-md-none"/>
@@ -247,7 +279,7 @@ export default function Home() {
                     <p className="text-grey mt-3">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </p>
-                    <Button onClick={handleShowModal2} variant="link" className="text-dark bold mono modal-icon p-0">
+                    <Button onClick={handleShowModal6} variant="link" className="text-dark bold mono modal-icon p-0">
                       LEARN MORE
                     </Button>
                     <hr className="d-md-none"/>
@@ -261,7 +293,7 @@ export default function Home() {
                     <p className="text-grey mt-3">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </p>
-                    <Button onClick={handleShowModal3} variant="link" className="text-dark bold mono modal-icon p-0">
+                    <Button onClick={handleShowModal7} variant="link" className="text-dark bold mono modal-icon p-0">
                       LEARN MORE
                     </Button>
                     <hr className="d-md-none"/>
@@ -275,7 +307,7 @@ export default function Home() {
                     <p className="text-grey mt-3">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </p>
-                    <Button onClick={handleShowModal4} variant="link" className="text-dark bold mono modal-icon p-0">
+                    <Button onClick={handleShowModal8} variant="link" className="text-dark bold mono modal-icon p-0">
                         LEARN MORE
                     </Button>
                     <hr className="d-md-none"/>
@@ -322,7 +354,7 @@ export default function Home() {
                     <p className="text-grey mt-3">
                     With our world-class expertise, we not only guide organizations through an evolving technological landscape, we develop and foster lasting internal capabilities.
                     </p>
-                    <Button onClick={handleShowModal1} variant="link" className="text-dark bold mono modal-icon p-0" >
+                    <Button onClick={handleShowModal9} variant="link" className="text-dark bold mono modal-icon p-0" >
                       LEARN MORE
                     </Button>
                     <hr className="d-md-none"/>
@@ -339,7 +371,7 @@ export default function Home() {
                     <p className="text-grey">
                     If that sounds like you, we have career opportunities for new graduates and experienced professionals.
                     </p>
-                    <Button onClick={handleShowModal2} variant="link" className="text-dark bold mono modal-icon p-0">
+                    <Button onClick={handleShowModal10} variant="link" className="text-dark bold mono modal-icon p-0">
                       LEARN MORE
                     </Button>
                     <hr className="d-md-none"/>
@@ -353,7 +385,7 @@ export default function Home() {
                     <p className="text-grey mt-3">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </p>
-                    <Button onClick={handleShowModal3} variant="link" className="text-dark bold mono modal-icon p-0">
+                    <Button onClick={handleShowModal11} variant="link" className="text-dark bold mono modal-icon p-0">
                       LEARN MORE
                     </Button>
                     <hr className="d-md-none"/>
@@ -367,7 +399,7 @@ export default function Home() {
                     <p className="text-grey mt-3">
                     With a thorough knowledge of regulations, policies and IT security practices, our privacy specialists generate and implement risk mitigation strategies to ensure your customers remain protected.
                     </p>
-                    <Button onClick={handleShowModal4} variant="link" className="text-dark bold mono modal-icon p-0">
+                    <Button onClick={handleShowModal12} variant="link" className="text-dark bold mono modal-icon p-0">
                         LEARN MORE
                     </Button>
                     <hr className="d-md-none"/>
@@ -636,6 +668,143 @@ export default function Home() {
         <Button onClick={handleCloseModal4}>Close</Button>
       </Modal.Footer>
     </Modal>
+
+    {/*modal 5*/}
+    <Modal centered size="lg" show={showModal5} onHide={handleCloseModal5}>
+      <Modal.Header closeButton className="p-md-4 bg-dark text-white p mono hard-edge">
+        THINKING BIG &gt; -
+      </Modal.Header>
+      <Modal.Body className="hard-edge p-3 p-md-4">
+        <Row>
+          <Col>
+
+          </Col>
+        </Row>
+      </Modal.Body>
+      <Modal.Footer className="d-md-none no-brdr pt-0">
+        <Button onClick={handleCloseModal5}>Close</Button>
+      </Modal.Footer>
+    </Modal>
+
+    {/*modal 6*/}
+    <Modal centered size="lg" show={showModal6} onHide={handleCloseModal6}>
+      <Modal.Header closeButton className="p-md-4 bg-dark text-white p mono hard-edge">
+        THINKING BIG &gt; -
+      </Modal.Header>
+      <Modal.Body className="hard-edge p-3 p-md-4">
+        <Row>
+          <Col>
+
+          </Col>
+        </Row>
+      </Modal.Body>
+      <Modal.Footer className="d-md-none no-brdr pt-0">
+        <Button onClick={handleCloseModal6}>Close</Button>
+      </Modal.Footer>
+    </Modal>
+
+    {/*modal 7*/}
+    <Modal centered size="lg" show={showModal7} onHide={handleCloseModal7}>
+      <Modal.Header closeButton className="p-md-4 bg-dark text-white p mono hard-edge">
+        THINKING BIG &gt; -
+      </Modal.Header>
+      <Modal.Body className="hard-edge p-3 p-md-4">
+        <Row>
+          <Col>
+
+          </Col>
+        </Row>
+      </Modal.Body>
+      <Modal.Footer className="d-md-none no-brdr pt-0">
+        <Button onClick={handleCloseModal7}>Close</Button>
+      </Modal.Footer>
+    </Modal>
+
+    {/*modal 8*/}
+    <Modal centered size="lg" show={showModal8} onHide={handleCloseModal8}>
+      <Modal.Header closeButton className="p-md-4 bg-dark text-white p mono hard-edge">
+        THINKING BIG &gt; -
+      </Modal.Header>
+      <Modal.Body className="hard-edge p-3 p-md-4">
+        <Row>
+          <Col>
+
+          </Col>
+        </Row>
+      </Modal.Body>
+      <Modal.Footer className="d-md-none no-brdr pt-0">
+        <Button onClick={handleCloseModal8}>Close</Button>
+      </Modal.Footer>
+    </Modal>
+
+    {/*modal 9*/}
+    <Modal centered size="lg" show={showModal9} onHide={handleCloseModal9}>
+      <Modal.Header closeButton className="p-md-4 bg-dark text-white p mono hard-edge">
+        THINKING BIG &gt; -
+      </Modal.Header>
+      <Modal.Body className="hard-edge p-3 p-md-4">
+        <Row>
+          <Col>
+
+          </Col>
+        </Row>
+      </Modal.Body>
+      <Modal.Footer className="d-md-none no-brdr pt-0">
+        <Button onClick={handleCloseModal9}>Close</Button>
+      </Modal.Footer>
+    </Modal>
+
+    {/*modal 10*/}
+    <Modal centered size="lg" show={showModal10} onHide={handleCloseModal10}>
+      <Modal.Header closeButton className="p-md-4 bg-dark text-white p mono hard-edge">
+        THINKING BIG &gt; -
+      </Modal.Header>
+      <Modal.Body className="hard-edge p-3 p-md-4">
+        <Row>
+          <Col>
+
+          </Col>
+        </Row>
+      </Modal.Body>
+      <Modal.Footer className="d-md-none no-brdr pt-0">
+        <Button onClick={handleCloseModal10}>Close</Button>
+      </Modal.Footer>
+    </Modal>
+
+    {/*modal 11*/}
+    <Modal centered size="lg" show={showModal11} onHide={handleCloseModal11}>
+      <Modal.Header closeButton className="p-md-4 bg-dark text-white p mono hard-edge">
+        THINKING BIG &gt; -
+      </Modal.Header>
+      <Modal.Body className="hard-edge p-3 p-md-4">
+        <Row>
+          <Col>
+
+          </Col>
+        </Row>
+      </Modal.Body>
+      <Modal.Footer className="d-md-none no-brdr pt-0">
+        <Button onClick={handleCloseModal11}>Close</Button>
+      </Modal.Footer>
+    </Modal>
+
+    {/*modal 12*/}
+    <Modal centered size="lg" show={showModal12} onHide={handleCloseModal12}>
+      <Modal.Header closeButton className="p-md-4 bg-dark text-white p mono hard-edge">
+        THINKING BIG &gt; -
+      </Modal.Header>
+      <Modal.Body className="hard-edge p-3 p-md-4">
+        <Row>
+          <Col>
+
+          </Col>
+        </Row>
+      </Modal.Body>
+      <Modal.Footer className="d-md-none no-brdr pt-0">
+        <Button onClick={handleCloseModal12}>Close</Button>
+      </Modal.Footer>
+    </Modal>
+
     </>
   )
 }

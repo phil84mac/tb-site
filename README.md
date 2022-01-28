@@ -8,11 +8,6 @@
 
 ## Key documentation
 
-[https://reactjs.org/] (https://reactjs.org/)
-[https://react-bootstrap.github.io/] (https://react-bootstrap.github.io/)
-[https://getbootstrap.com/docs/5.0/getting-started/introduction/] (https://getbootstrap.com/docs/5.0/getting-started/introduction/)
-
-
-
-
-
+1. [ReactJS](https://reactjs.org/)
+2. [React-bootstrap](https://react-bootstrap.github.io/)
+3. [Bootstrap re: spacing](https://getbootstrap.com/docs/5.0/getting-started/introduction/)

@@ -10,7 +10,8 @@ import { useRouter } from 'next/router';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import Placeholder from 'react-bootstrap/Placeholder';
-import Offcanvas from 'react-bootstrap/Offcanvas'
+import Offcanvas from 'react-bootstrap/Offcanvas';
+import ContactForm from '@components/ContactForm';
 
 
 export default function Footer() {
@@ -86,47 +87,8 @@ export default function Footer() {
           <p className="small mono text-dark bold">GET STARTED - CONTACT US</p>
           </Offcanvas.Title>
         </Offcanvas.Header>
-        <Offcanvas.Body className="">
-          <h3 className="mb-5">
-          Interested in solving your problem with Thinking Big?
-          </h3>  
-          <Form className="">
-          <Form.Group className="mb-4" controlId="firstLastName">
-            <Form.Label className="mb-0"><p className="small mb-0 mono text-grey bold">FIRST AND LAST NAME</p></Form.Label>
-            <Form.Control type="email" placeholder="" className="hard-edge"/>
-          </Form.Group>
-          <Form.Group className="mb-4" controlId="orgName">
-          <Form.Label className="mb-0"><p className="small mb-0 mono text-grey bold">ORGANIZATION NAME</p></Form.Label>
-            <Form.Control type="email" placeholder="" className="hard-edge"/>
-          </Form.Group>
-          <Form.Group className="mb-4" controlId="email">
-          <Form.Label className="mb-0"><p className="small mb-0 mono text-grey bold">EMAIL ADDRESS</p></Form.Label>
-            <Form.Control type="email" placeholder="" className="hard-edge"/>
-          </Form.Group>
-          <Form.Group className="mb-4" controlId="location">
-          <Form.Label className="mb-0"><p className="small mb-0 mono text-grey bold">PHONE NUMBER</p></Form.Label>
-            <Form.Control type="email" placeholder="" className="hard-edge"/>
-          </Form.Group>
-          <Form.Group className="mb-4" controlId="formGridState">
-          <Form.Label className="mb-0"><p className="small mb-0 mono text-grey bold">HOW DID YOU HEAR ABOUT US?</p></Form.Label>
-            <Form.Select defaultValue="Please select..." className="hard-edge mb-3 mb-md-0">
-              <option>Please select...</option>
-              <option>Less than 1000</option>
-              <option>1000-5000</option>
-              <option>5000-10,000</option>
-              <option>10,000-20,000</option>
-              <option>20,000 +</option>
-            </Form.Select> 
-          </Form.Group>
-          <Form.Group className="mb-2" controlId="location">
-          <Form.Label className="mb-0"><p className="small mb-0 mono text-grey bold">PLEASE GIVE US A BRIEF OF THE PROBLEM YOU'D LIKE US TO SOLVE. CONTEXT WILL ALLOW US TO CONNECT YOU TO THE RIGHT TEAM RIGHT AWAY.</p></Form.Label>
-            <Form.Control type="email" placeholder="" as="textarea" rows={4} className="hard-edge"/>
-          </Form.Group>
-          <p className="small mb-4">Please see our <a href="/" className="text-dark">Privacy Policy</a> regarding what we do with this information.</p>
-          <Button className="btn btn-dark w-full" type="submit">
-            SUBMIT
-          </Button>
-          </Form>
+        <Offcanvas.Body>
+          <ContactForm></ContactForm>
         </Offcanvas.Body>
       </Offcanvas>
 
