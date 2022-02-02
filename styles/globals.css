@@ -92,8 +92,8 @@ h3, .h3{
 h4, .h4 {
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 500!important;
-  font-size: calc(.6rem + 1.5vw)!important;
-  line-height: calc(.75rem + 1.5vw)!important;
+  font-size: calc(.5rem + 1.5vw)!important;
+  line-height: calc(.65rem + 1.5vw)!important;
   letter-spacing: -0.015em!important;
 }
 
@@ -101,6 +101,7 @@ h5, .h5 {
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 500!important;
   font-size: 22px!important;
+  line-height: 25px!important;
   letter-spacing: -0.02em!important;
 }
 

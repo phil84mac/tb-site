@@ -151,78 +151,100 @@ export default function Home() {
         <Row className="px-xl-5 px-lg-4 px-md-3">
           <Col md={12} className="mt-5 pt-5">
             <p className="h6 mt-4 text-grey">THINKING BIG &gt; SERVICES</p>
-            <Row className="pb-3 mb-3 pb-lg-5 mb-lg-5">
+            <Row className="pb-3 mb-3 pb-lg-4 mb-lg-4 pb-xl-5 mb-xl-4">
               <Col lg={11} xl={8}>
-                <h2 className="text-dark mb-md-4 mb-xl-5">
+                <h2 className="text-dark mb-md-3">
                   Our refined processes are the solution to your software problems
                 </h2>
               </Col>
             </Row>
             <Row className="mb-xl-4">       
-              <Col xl={10} >
+              <Col >
                 <Row>
-                  <Col md={3} className="mb-4 mb-0">
+                  <Col md={4} lg={2} className="mb-4 mb-0">
                     <p className="text-grey mono">A.</p>
                     <hr className="d-none d-md-block"/>
                     <h4 className="text-dark">
-                    Application Services
+                    Business Services
                     </h4>
                     <p className="text-grey mt-3">
-                    Whether the solution calls for software, web development, a mobile application or AI automation, our teams have the expertise to tackle your toughest challenges.
+                    Thinking Big's business services will help you modernize and reimagine your operations with speed and agility, to tackle your industry's toughest challenges.
                     </p>
                     <Button onClick={handleShowModal1} variant="link" className="text-dark bold mono modal-icon p-0" >
                       LEARN MORE
                     </Button>
                     <hr className="d-md-none"/>
                   </Col>
-                  <Col md={3} className="mb-4 mb-0">
+                  <Col md={4} lg={2} className="mb-4 mb-0">
                     <p className="text-grey mono">B.</p>
                     <hr className="d-none d-md-block"/>
-                    <h4 className="text-dark d-none d-md-block">
-                    Business <br /> Services
-                    </h4>
-                    <h4 className="text-dark d-md-none">
-                    Business Services
+                    <h4 className="text-dark">
+                    Software Engineering
                     </h4>
                     <p className="text-grey mt-3">
-                    The business consultants at Thinking Big work with organizations to identify organizational objectives, transform their operations and achieve lasting change.
+                    Companies must adapt and innovate to meet those expectations. At Thinking Big we deliver applications that are intuitive, useful and future-proof.
                     </p>
                     <Button onClick={handleShowModal2} variant="link" className="text-dark bold mono modal-icon p-0">
                       LEARN MORE
                     </Button>
                     <hr className="d-md-none"/>
                   </Col>
-                  <Col md={3} className="mb-4 mb-0">
+                  <Col md={4} lg={2} className="mb-4 mb-0">
                     <p className="text-grey mono">C.</p>
                     <hr className="d-none d-md-block"/>
                     <h4 className="text-dark">
-                    Project Management
+                    Human-centered Design
                     </h4>
                     <p className="text-grey mt-3">
-                    Effective Project Management is vital for an organization's success. Trust our people to efficiently guide projects and coach your team with methods tailored to your needs.
+                    Our Human-centered Design allows our team, with you, to reimagine the user experience and, in the process, create products and services that people actually use.
                     </p>
                     <Button onClick={handleShowModal3} variant="link" className="text-dark bold mono modal-icon p-0">
                       LEARN MORE
                     </Button>
                     <hr className="d-md-none"/>
                   </Col>
-                  <Col md={3} className="mb-4 mb-0">
+                  <Col md={4} lg={2} className="mb-4 mb-0">
                     <p className="text-grey mono">D.</p>
                     <hr className="d-none d-md-block"/>
-                    <h4 className="text-dark d-none d-md-block">
-                    Cyber <br /> Protection
-                    </h4>
-                    <h4 className="text-dark d-md-none">
-                    Cyber Protection
+                    <h4 className="text-dark ">
+                    Artificial Intelligence
                     </h4>
                     <p className="text-grey mt-3">
-                    With a thorough knowledge of regulations, policies and IT security practices, our privacy specialists generate and implement risk mitigation strategies to ensure your customers remain protected.
+                    At Thinking Big, we can help you capitalize on the power of AI automation, while saving you time, energy and precious resources.
                     </p>
                     <Button onClick={handleShowModal4} variant="link" className="text-dark bold mono modal-icon p-0">
                         LEARN MORE
                     </Button>
                     <hr className="d-md-none"/>
                   </Col>
+                  <Col md={4} lg={2} className="mb-4 mb-0">
+                    <p className="text-grey mono">E.</p>
+                    <hr className="d-none d-md-block"/>
+                    <h4 className="text-dark ">
+                    Data Gathering + Management
+                    </h4>
+                    <p className="text-grey mt-3">
+                    If you'd like to quickly and easily modernize your business, we can design a solution using Cloud Services that scales to meet your unique needs.
+                    </p>
+                    <Button onClick={handleShowModal5} variant="link" className="text-dark bold mono modal-icon p-0">
+                        LEARN MORE
+                    </Button>
+                    <hr className="d-md-none"/>
+                  </Col>
+                  <Col md={4} lg={2} className="mb-4 mb-0">
+                    <p className="text-grey mono">F.</p>
+                    <hr className="d-none d-md-block"/>
+                    <h4 className="text-dark ">
+                    Cloud Services
+                    </h4>
+                    <p className="text-grey mt-3">
+                    Businesses of all sizes use data gathered from the web to study markets, generate leads, compare prices, detect trends or even to analyze social media posts.
+                    </p>
+                    <Button onClick={handleShowModal6} variant="link" className="text-dark bold mono modal-icon p-0">
+                        LEARN MORE
+                    </Button>
+                    <hr className="d-md-none"/>
+                  </Col>       
                 </Row> 
               </Col>
             </Row>
@@ -451,36 +473,86 @@ export default function Home() {
     {/*application services modal*/}
     <Modal centered size="lg" show={showModal1} onHide={handleCloseModal1}>
       <Modal.Header closeButton className="p-md-4 bg-dark text-white p mono hard-edge">
-        THINKING BIG &gt; APPLICATION SERVICES
+        THINKING BIG &gt; SERVICES &gt; A.
       </Modal.Header>
       <Modal.Body className="hard-edge p-3 p-md-4">
         <Row>
-          <Col md={6} className="mb-3">
-            <p className="text-grey mono mb-1">A.1</p>
-            <hr className="mt-0 mb-2 d-none d-md-block"/>
-            <h5 className="text-dark">
-            Concept Development
-            </h5>
-            <p className="text-grey mt-2">
-            We work with you to look at your organization from a digital perspective within the scope of technology, trends, and process. Then, we help you integrate all these components to form your digital strategy.
+        <h3 className="text-dark">Business Services</h3>
+          <Col lg={8} className="mb-3">
+            <p className="text-grey">
+            Success starts with effective Project Management. Trust our people to efficiently guide projects and coach your team with methods tailored to your needs. We manage projects at all stages to ensure the best use of your time, talent, and budget. From Business Process Engineering to application development to artificial intelligence, organizations across multiple industries trust us to help them embrace a new future with confidence.Success starts with effective Project Management. Trust our people to efficiently guide projects and coach your team with methods tailored to your needs. We manage projects at all stages to ensure the best use of your time, talent, and budget. From Business Process Engineering to application development to artificial intelligence, organizations across multiple industries trust us to help them embrace a new future with confidence.
             </p>
-            <hr className="d-md-none"/>
+            <p className="text-grey">
+            As business becomes more competitive, successful companies put people first. With insights gained from a human-centered perspective, our Service Designers guide transformation for everyone, from users to customers to your own employees. We analyze issues holistically and create solutions with you, to effect change that has a lasting impact.   
+            </p>
+            <p className="text-grey">
+            We also introduce Lean and Agile principles and practices to transform how your enterprise works, and to empower your people to sustain those skills.
+            </p>
+            <p className="text-grey">
+            We also introduce Lean and Agile principles and practices to transform how your enterprise works, and to empower your people to sustain those skills.
+            </p>
           </Col>
-          <Col md={6} className="mb-3">
-          <p className="text-grey mono mb-1">A.2</p>
-          <hr className="mt-0 mb-2 d-none d-md-block"/>
-            <h5 className="text-dark">
-            Prototyping
-            </h5>
-            <p className="text-grey mt-2">
-            Ready to take the next step? Thinking Big will help you take your digital concept to the prototype stage and develop the KPI's to measure it's success. We will also help you establish governance to maintain momentum and remain flexible to change.
-            </p>
-            <hr className="d-md-none"/>
+          <Col lg={4} className="mb-3">
+          <hr className="mt-1"/>
+           <h5 className="text-dark mb-3">
+            Sub-services
+           </h5>
+           <p className="text-grey small">
+           Digital transformation and modernization
+           </p>
+           <p className="text-grey small">
+           Project management, planning and reporting
+           </p>
+           <p className="text-grey small">
+           Business process re-engineering (BPR)
+           </p>
+           <p className="text-grey small ">
+           Service Design, facilitation, blueprinting and journey mapping
+           </p>
+           <p className="text-grey small">
+           Business analysis
+           </p>
+          <hr />
+           <h5 className="text-dark mb-3">
+            Technology and processes
+           </h5>
+           <Row className="mb-2">
+             <Col xs={1}>
+             <img src="/scrum.svg" className="align-top"></img>
+             </Col>
+             <Col xs={10}>
+             <p className="text-grey small ps-lg-1">
+             Scrum to build organizational capacity
+             </p>
+             </Col>
+           </Row>
+           
+           <Row className="mb-2">
+             <Col xs={1}>
+             <img src="/agile.svg" className="align-top"></img>
+             </Col>
+             <Col xs={10}>
+             <p className="text-grey small ps-lg-1">
+             Lean + Agile processes
+             </p>
+             </Col>
+           </Row>
+           
+           <Row>
+             <Col xs={1} className="justify-center">
+             <img src="/Gitlab.svg" className="align-top"></img>
+             </Col>
+             <Col xs={10}>
+             <p className="text-grey small ps-lg-1">
+             Gitlab for planning and issue tracking
+             </p>
+             </Col>
+           </Row>
           </Col>
         </Row>
       </Modal.Body>
       <Modal.Footer className="d-md-none no-brdr pt-0">
-        <Button onClick={handleCloseModal1}>Close</Button>
+        <Button onClick={handleCloseModal4}>Close</Button>
       </Modal.Footer>
     </Modal>
     
@@ -607,60 +679,11 @@ export default function Home() {
       </Modal.Header>
       <Modal.Body className="hard-edge p-3 p-md-4">
         <Row>
-          <Col md={6} className="mb-3">
-            <p className="text-grey mono mb-1">D.1</p>
-            <hr className="mt-0 mb-2 d-none d-md-block"/>
-            <h5 className="text-dark">
-            Technology Enhanced Legal Services
-            </h5>
-            <p className="text-grey mt-2">
-            Thinking Big Legal is working with US law firms to help develop technology platforms for the delivery of legal services. As firms reduce operating expenses, staff are having to do more and more with fewer resources. We create tools that firms can offer their clients to automate the elements of legal services that are redundant, and to enable the lawyer to offer the higher value advice and services that are made more efficient with these tools.
-            </p>
-            <hr className="d-md-none"/>
+          <Col md={8} className="mb-3">
+            
           </Col>
-          <Col md={6} className="mb-3">
-          <p className="text-grey mono mb-1">D.2</p>
-          <hr className="mt-0 mb-2 d-none d-md-block"/>
-            <h5 className="text-dark">
-            Artificial Intelligence and Predictive Analysis
-            </h5>
-            <p className="text-grey mt-2">
-            Thinking Big Legal can work with your firm to identify tasks, systems, and processes that can be enhanced and drastically more efficient with the help of AI and Predictive Analytics. We will work closely with you to identify the business requirements to develop custom solutions that can revolutionize the way you offer legal services to clients, freeing up time for associates to do higher value work.
-            </p>
-            <hr className="d-md-none"/>
-          </Col>
-          <Col md={6} className="mb-3">
-          <p className="text-grey mono mb-1">D.3</p>
-          <hr className="mt-0 mb-2 d-none d-md-block"/>
-            <h5 className="text-dark">
-            Market Mapping and Data Visualization
-            </h5>
-            <p className="text-grey mt-2">
-            Law firms rely on data: for business development; for market research, for business intelligence, for thought leadership, and for the legal services they provide to their clients. The data is usually harnessed in large data bases, or, if someone has done a lot of work, in large research reports. Digesting the information is difficult. Thinking Big Legal can help you with platforms that present the information through market mapping and data visualization, making the information easier to access, digest, evaluate and use.
-            </p>
-            <hr className="d-md-none"/>
-          </Col>
-          <Col md={6} className="mb-3 ">
-          <p className="text-grey mono mb-1">D.4</p>
-          <hr className="mt-0 mb-2 d-none d-md-block"/>
-            <h5 className="text-dark">
-            Gamification
-            </h5>
-            <p className="text-grey mt-2">
-            Thinking Big can work with your firm to identify processes and tools the firm uses internally that can be better utilized, contain better content and data, and be more relevant with the use of gamification elements. Having trouble capturing information for your CRM? Lawyers finding it cumbersome to document experience for valuable listings? Tough getting up-to-date bios? Need to enable behaviour change to get accurate time keeping? Struggling for fresh thought leadership content? Thinking Big Legal can help.
-            </p>
-            <hr className="d-md-none"/>
-          </Col>
-          <Col md={6} className="mb-3">
-          <p className="text-grey mono mb-1">D.5</p>
-          <hr className="mt-0 mb-2 d-none d-md-block"/>
-            <h5 className="text-dark">
-            Knowledge Management
-            </h5>
-            <p className="text-grey mt-2">
-            Thinking Big Legal is working with US law firms to help develop technology platforms for the delivery of legal services. As firms reduce operating expenses, staff are having to do more and more with fewer resources. We create tools that firms can offer their clients to automate the elements of legal services that are redundant, and to enable the lawyer to offer the higher value advice and services that are made more efficient with these tools.
-            </p>
-            <hr className="d-md-none"/>
+          <Col md={4} className="mb-3">
+          
           </Col>
         </Row>
       </Modal.Body>
