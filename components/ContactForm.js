@@ -20,9 +20,24 @@ export default function ContactForm() {
     const [state, handleSubmit] = useForm("mayvqrbr");
     if (state.succeeded) {
         return (
-        <p>
-        ........
-        </p>
+
+            <Row className="">
+                <Col xs={12} md={9}>
+                <hr className="mb-4"/>
+                <Image fluid src="/success.svg" alt="Success graphic"></Image>
+                <hr className="my-4"/>
+                <h3 className="mb-3">
+                Your message has been sent
+                </h3>
+                <p className="text-grey">
+                Thank you for your interest in working with Thinking Big.
+                </p>
+                <p className="text-grey">
+                We will be in touch with you soon.
+                </p>
+                </Col>
+            </Row>
+
             );
     }
     return (
