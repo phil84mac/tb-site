@@ -518,7 +518,7 @@ export default function Home() {
            </h5>
            <Row className="mb-2">
              <Col xs={1}>
-             <img src="/scrum.svg" className="align-top"></img>
+             <img src="/scrum.svg" className="align-top icon"></img>
              </Col>
              <Col xs={10}>
              <p className="text-grey small ps-lg-1">
@@ -529,7 +529,7 @@ export default function Home() {
            
            <Row className="mb-2">
              <Col xs={1}>
-             <img src="/agile.svg" className="align-top"></img>
+             <img src="/agile.svg" className="align-top icon"></img>
              </Col>
              <Col xs={10}>
              <p className="text-grey small ps-lg-1">
@@ -540,7 +540,7 @@ export default function Home() {
            
            <Row>
              <Col xs={1} className="justify-center">
-             <img src="/Gitlab.svg" className="align-top"></img>
+             <img src="/Gitlab.svg" className="align-top icon"></img>
              </Col>
              <Col xs={10}>
              <p className="text-grey small ps-lg-1">
@@ -556,56 +556,15 @@ export default function Home() {
       </Modal.Footer>
     </Modal>
     
-    {/*business services modal*/}
+    {/*modal 2*/}
     <Modal centered size="lg" show={showModal2} onHide={handleCloseModal2}>
       <Modal.Header closeButton className="p-md-4 bg-dark text-white p mono hard-edge">
-        THINKING BIG &gt; BUSINESS SERVICES
+        THINKING BIG &gt; -
       </Modal.Header>
       <Modal.Body className="hard-edge p-3 p-md-4">
         <Row>
-          <Col md={6} className="mb-3">
-            <p className="text-grey mono mb-1">B.1</p>
-            <hr className="mt-0 mb-2 d-none d-md-block"/>
-            <h5 className="text-dark">
-            User Experience (UX) Design
-            </h5>
-            <p className="text-grey mt-2">
-            This is ultimately what it is all about. If your users do not have a positive experience on your site, they go elsewhere. Our user-centric design model puts the user at the heart of everything we do. Who are they? Are they young or old? Are they affluent or starving students? Are you speaking the right language to them? These are questions that we consider when approaching your solution. We help you find those answers and leverage that knowledge to provide a better user experience.
-            </p>
-            <hr className="d-md-none"/>
-          </Col>
-          <Col md={6} className="mb-3">
-          <p className="text-grey mono mb-1">B.2</p>
-          <hr className="mt-0 mb-2 d-none d-md-block"/>
-            <h5 className="text-dark">
-            Automation of Services
-            </h5>
-            <p className="text-grey mt-2">
-            Self-service is a given for any organization with a digital presence. Automating services allows you to set a standard of service that will enhance both quality and experience for your users, while increasing employee productivity and decreasing costs for your organization. Our experience with analyzing and automating services using the latest technology ensures your users will benefit from exceptional service.
-            </p>
-            <hr className="d-md-none"/>
-          </Col>
-          <Col md={6} className="mb-3">
-          <p className="text-grey mono mb-1">B.3</p>
-          <hr className="mt-0 mb-2 d-none d-md-block"/>
-            <h5 className="text-dark">
-            Asset Management
-            </h5>
-            <p className="text-grey mt-2">
-            The ability to organize, track and reuse digital assets allows you to maximize the use of the assets you've spent time on perfecting. This is a typical step in our renewal and reorganization model to enhance the architecture and get the most out of your creativity.
-            </p>
-            <hr className="d-md-none"/>
-          </Col>
-          <Col md={6} className="mb-3">
-          <p className="text-grey mono mb-1">B.4</p>
-          <hr className="mt-0 mb-2 d-none d-md-block"/>
-            <h5 className="text-dark">
-            Analytics &amp; Optimization
-            </h5>
-            <p className="text-grey mt-2">
-            The ability to collect and analyze data on current activity or decisions enables you to take your vision to the next level. We know how to take this data and optimize your ability to better achieve better online results. Our experience with web analytics will improve your decision making and provide quick analysis on results.
-            </p>
-            <hr className="d-md-none"/>
+          <Col>
+
           </Col>
         </Row>
       </Modal.Body>
@@ -614,56 +573,15 @@ export default function Home() {
       </Modal.Footer>
     </Modal>
 
-    {/*project management modal*/}
+    {/*modal 3*/}
     <Modal centered size="lg" show={showModal3} onHide={handleCloseModal3}>
       <Modal.Header closeButton className="p-md-4 bg-dark text-white p mono hard-edge">
-        THINKING BIG &gt; PROJECT MANAGEMENT
+        THINKING BIG &gt; -
       </Modal.Header>
       <Modal.Body className="hard-edge p-3 p-md-4">
         <Row>
-          <Col md={6} className="mb-3">
-            <p className="text-grey mono mb-1">C.1</p>
-            <hr className="mt-0 mb-2 d-none d-md-block"/>
-            <h5 className="text-dark">
-            Business Process Re-engineering (BPR)
-            </h5>
-            <p className="text-grey mt-2">
-            Deciding to change from the “way it's always been done” can be both intimidating and exhilarating. Our BPR team can help you thoroughly review and/or restructure your processes to effect change in your organization.
-            </p>
-            <hr className="d-md-none"/>
-          </Col>
-          <Col md={6} className="mb-3">
-          <p className="text-grey mono mb-1">C.2</p>
-          <hr className="mt-0 mb-2 d-none d-md-block"/>
-            <h5 className="text-dark">
-            Customer Relationship Management (CRM)
-            </h5>
-            <p className="text-grey mt-2">
-            There may be no better way to know and serve your clients and contacts than through a CRM methodology. Exceptional customer service is achieved by having a 360-degree view of a client's needs by providing interaction through both traditional and social channels to keep them coming back. Our certified Microsoft Dynamics consultants will match your strategy to the technology and provide a solution that will improve customer experience, communication, automation, and provide the analytics to make the right decisions.
-            </p>
-            <hr className="d-md-none"/>
-          </Col>
-          <Col md={6} className="mb-3">
-          <p className="text-grey mono mb-1">C.3</p>
-          <hr className="mt-0 mb-2 d-none d-md-block"/>
-            <h5 className="text-dark">
-            Enterprise Resource Planning (ERP)
-            </h5>
-            <p className="text-grey mt-2">
-            ERP systems are often the main line of business and financial operations. As ERP's have become more scalable, companies of all sizes are taking advantage of their capabilities. The move towards cloud computing supports the scalability with cost benefits. TB has built our own ERP product called Awesomeware, so we understand your process flows and have a support model in place to support day-to-day ERP needs.
-            </p>
-            <hr className="d-md-none"/>
-          </Col>
-          <Col md={6} className="mb-3">
-          <p className="text-grey mono mb-1">C.4</p>
-          <hr className="mt-0 mb-2 d-none d-md-block"/>
-            <h5 className="text-dark">
-            Analytics &amp; Optimization
-            </h5>
-            <p className="text-grey mt-2">
-            The ability to collect and analyze data on current activity or decisions enables you to take your vision to the next level. We know how to take this data and optimize your ability to better achieve better online results. Our experience with web analytics will improve your decision making and provide quick analysis on results.
-            </p>
-            <hr className="d-md-none"/>
+          <Col>
+
           </Col>
         </Row>
       </Modal.Body>
@@ -672,7 +590,7 @@ export default function Home() {
       </Modal.Footer>
     </Modal>
 
-    {/*cyber protection modal*/}
+    {/*modal 4*/}
     <Modal centered size="lg" show={showModal4} onHide={handleCloseModal4}>
       <Modal.Header closeButton className="p-md-4 bg-dark text-white p mono hard-edge">
         THINKING BIG &gt; CYBER PROTECTION

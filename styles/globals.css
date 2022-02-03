@@ -261,6 +261,11 @@ h6, .h6 {
   color: #212529;
 }
 
+.icon {
+  height: 1.2em!important;
+  width: 1.2em!important;
+}
+
 .offcanvas-header .btn-close {
   padding: 0.5rem 0.5rem;
   margin-top: -0.5rem;
