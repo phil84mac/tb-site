@@ -159,9 +159,9 @@ export default function Home() {
               </Col>
             </Row>
             <Row className="mb-xl-4">       
-              <Col >
+              <Col xl={10}>
                 <Row>
-                  <Col md={4} lg={2} className="mb-4 mb-0">
+                  <Col md={4} className="mb-4 mb-0">
                     <p className="text-grey mono">A.</p>
                     <hr className="d-none d-md-block"/>
                     <h4 className="text-dark">
@@ -175,7 +175,7 @@ export default function Home() {
                     </Button>
                     <hr className="d-md-none"/>
                   </Col>
-                  <Col md={4} lg={2} className="mb-4 mb-0">
+                  <Col md={4}  className="mb-4 mb-0">
                     <p className="text-grey mono">B.</p>
                     <hr className="d-none d-md-block"/>
                     <h4 className="text-dark">
@@ -189,7 +189,7 @@ export default function Home() {
                     </Button>
                     <hr className="d-md-none"/>
                   </Col>
-                  <Col md={4} lg={2} className="mb-4 mb-0">
+                  <Col md={4} className="mb-4 mb-0">
                     <p className="text-grey mono">C.</p>
                     <hr className="d-none d-md-block"/>
                     <h4 className="text-dark">
@@ -203,7 +203,7 @@ export default function Home() {
                     </Button>
                     <hr className="d-md-none"/>
                   </Col>
-                  <Col md={4} lg={2} className="mb-4 mb-0">
+                  <Col md={4} className="mb-4 mb-0">
                     <p className="text-grey mono">D.</p>
                     <hr className="d-none d-md-block"/>
                     <h4 className="text-dark ">
@@ -217,7 +217,7 @@ export default function Home() {
                     </Button>
                     <hr className="d-md-none"/>
                   </Col>
-                  <Col md={4} lg={2} className="mb-4 mb-0">
+                  <Col md={4} className="mb-4 mb-0">
                     <p className="text-grey mono">E.</p>
                     <hr className="d-none d-md-block"/>
                     <h4 className="text-dark ">
@@ -231,7 +231,7 @@ export default function Home() {
                     </Button>
                     <hr className="d-md-none"/>
                   </Col>
-                  <Col md={4} lg={2} className="mb-4 mb-0">
+                  <Col md={4} className="mb-4 mb-0">
                     <p className="text-grey mono">F.</p>
                     <hr className="d-none d-md-block"/>
                     <h4 className="text-dark ">
