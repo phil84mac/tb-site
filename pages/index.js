@@ -161,9 +161,9 @@ export default function Home() {
             <Row className="mb-xl-4">       
               <Col xl={10}>
                 <Row>
-                  <Col md={4} className="mb-4 mb-0">
+                  <Col md={4} className="mb-4 mb-xl-5">
                     <p className="text-grey mono">A.</p>
-                    <hr className="d-none d-md-block"/>
+                    <hr className="d-none d-md-block mt-0"/>
                     <h4 className="text-dark">
                     Business Services
                     </h4>
@@ -175,9 +175,9 @@ export default function Home() {
                     </Button>
                     <hr className="d-md-none"/>
                   </Col>
-                  <Col md={4}  className="mb-4 mb-0">
+                  <Col md={4}  className="mb-4 mb-md-5">
                     <p className="text-grey mono">B.</p>
-                    <hr className="d-none d-md-block"/>
+                    <hr className="d-none d-md-block mt-0"/>
                     <h4 className="text-dark">
                     Software Engineering
                     </h4>
@@ -189,9 +189,9 @@ export default function Home() {
                     </Button>
                     <hr className="d-md-none"/>
                   </Col>
-                  <Col md={4} className="mb-4 mb-0">
+                  <Col md={4} className="mb-4 mb-md-5">
                     <p className="text-grey mono">C.</p>
-                    <hr className="d-none d-md-block"/>
+                    <hr className="d-none d-md-block mt-0"/>
                     <h4 className="text-dark">
                     Human-centered Design
                     </h4>
@@ -203,9 +203,9 @@ export default function Home() {
                     </Button>
                     <hr className="d-md-none"/>
                   </Col>
-                  <Col md={4} className="mb-4 mb-0">
+                  <Col md={4} className="mb-4 mb-md-5">
                     <p className="text-grey mono">D.</p>
-                    <hr className="d-none d-md-block"/>
+                    <hr className="d-none d-md-block mt-0"/>
                     <h4 className="text-dark ">
                     Artificial Intelligence
                     </h4>
@@ -217,10 +217,10 @@ export default function Home() {
                     </Button>
                     <hr className="d-md-none"/>
                   </Col>
-                  <Col md={4} className="mb-4 mb-0">
+                  <Col md={4} className="mb-4 mb-md-5">
                     <p className="text-grey mono">E.</p>
-                    <hr className="d-none d-md-block"/>
-                    <h4 className="text-dark ">
+                    <hr className="d-none d-md-block mt-0"/>
+                    <h4 className="text-dark">
                     Data Gathering + Management
                     </h4>
                     <p className="text-grey mt-3">
@@ -231,9 +231,9 @@ export default function Home() {
                     </Button>
                     <hr className="d-md-none"/>
                   </Col>
-                  <Col md={4} className="mb-4 mb-0">
+                  <Col md={4} className="mb-4 mb-md-5">
                     <p className="text-grey mono">F.</p>
-                    <hr className="d-none d-md-block"/>
+                    <hr className="d-none d-md-block mt-0"/>
                     <h4 className="text-dark ">
                     Cloud Services
                     </h4>
