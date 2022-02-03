@@ -28,16 +28,16 @@ hr.white, .hr.white {
 
 p {
   font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 15px!important;
+  font-size: .95rem!important;
   letter-spacing: .01rem;
   font-weight: 300!important;
-  line-height: 21px!important;
+  line-height: 1.3rem!important;
   margin-bottom: 10px!important;
 }
 
 p.small {
-  font-size: 13px!important;
-  line-height: 16px!important;
+  font-size: .8rem!important;
+  line-height: 1rem!important;
   font-weight: 400!important;
 }
 
@@ -100,8 +100,8 @@ h4, .h4 {
 h5, .h5 {
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 500!important;
-  font-size: 22px!important;
-  line-height: 25px!important;
+  font-size: 1.3rem!important;
+  line-height: 1.5rem!important;
   letter-spacing: -0.02em!important;
 }
 
@@ -109,7 +109,7 @@ h6, .h6 {
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 400!important;
   text-transform: uppercase;
-  font-size: 18px!important;
+  font-size: 1.1rem!important;
 }
 
 
@@ -262,8 +262,22 @@ h6, .h6 {
 }
 
 .icon {
-  height: 1.2em!important;
-  width: 1.2em!important;
+  height: 1.1em!important;
+  width: 1.1em!important;
+}
+
+.icon-gitlab {
+  height: .95em!important;
+  margin-top: 0px!important;
+}
+
+.icon-scrum {
+  margin-top: 0px!important;
+  margin-left: 2px!important;
+}
+
+.icon-agile {
+  margin-top: -1px!important;
 }
 
 .offcanvas-header .btn-close {
@@ -423,8 +437,8 @@ ul {
   }
 
   p.lead {
-    font-size: 17px!important;
-    line-height: 23px!important;
+    font-size: 1.1rem!important;
+    line-height: 1.4!important;
     font-weight: 300!important;
   }
 

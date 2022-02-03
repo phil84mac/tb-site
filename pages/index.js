@@ -82,13 +82,13 @@ export default function Home() {
         <Row className="mt-5 px-xl-5 px-lg-4 px-md-3 mb-xl-4">
           <Col md={12} className="mt-4 pt-5">
           <p className="h6 text-grey mt-2 mb-xl-0">THINKING BIG</p>
-            <Row className="align-items-center d-flex">
+            <Row className="align-items-top d-flex pt-2">
               <Col xl={6}>
-                <h1 className="text-dark">
-                World-class software + consulting solutions
+                <h1 className="text-dark pe-5">
+                Reimagine what is possible with us
                 </h1>
               </Col>
-              <Col xl={6} className="mrt-xl-3">
+              <Col xl={6} className="">
               <hr className="mb-4"/>
                 <Row>
                   <Col md={3} lg={2} xl={4} className="mb-3">
@@ -518,7 +518,7 @@ export default function Home() {
            </h5>
            <Row className="mb-2">
              <Col xs={1}>
-             <img src="/scrum.svg" className="align-top icon"></img>
+             <img src="/scrum.svg" className="align-top icon icon-scrum"></img>
              </Col>
              <Col xs={10}>
              <p className="text-grey small ps-lg-1">
@@ -529,7 +529,7 @@ export default function Home() {
            
            <Row className="mb-2">
              <Col xs={1}>
-             <img src="/agile.svg" className="align-top icon"></img>
+             <img src="/agile.svg" className="align-top icon icon-agile"></img>
              </Col>
              <Col xs={10}>
              <p className="text-grey small ps-lg-1">
@@ -540,7 +540,7 @@ export default function Home() {
            
            <Row>
              <Col xs={1} className="justify-center">
-             <img src="/Gitlab.svg" className="align-top icon"></img>
+             <img src="/Gitlab.svg" className="align-top icon icon-gitlab"></img>
              </Col>
              <Col xs={10}>
              <p className="text-grey small ps-lg-1">
