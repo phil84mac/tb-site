@@ -85,7 +85,7 @@ export default function Home() {
             <Row className="align-items-top d-flex pt-2">
               <Col xl={6}>
                 <h1 className="text-dark pe-5">
-                Reimagine what is possible with us
+                Reimagine what's possible with us
                 </h1>
               </Col>
               <Col xl={6} className="">
