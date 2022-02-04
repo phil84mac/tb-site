@@ -79,17 +79,17 @@ export default function Home() {
       <main>
         {/*hero area*/}
         <Container fluid id="home" className="mb-4 mb-xl-5 py-xl-3 pb-xl-5">
-        <Row className="mt-5 px-xl-5 px-lg-4 px-md-3 mb-xl-4">
+        <Row className="mt-5 px-xl-5 px-lg-4 px-md-3">
           <Col md={12} className="mt-4 pt-5">
           <p className="h6 text-grey mt-2 mb-xl-0">THINKING BIG</p>
-            <Row className="align-items-top d-flex pt-2">
-              <Col xl={6}>
-                <h1 className="text-dark pe-5">
-                Reimagine what's possible with us
+            <Row className="align-items-top d-flex">
+              <Col xl={7}>
+                <h1 className="text-dark mb-4">
+                Reimagine what's possible
                 </h1>
               </Col>
-              <Col xl={6} className="">
-              <hr className="mb-4"/>
+              <Col xl={5} className="">
+              <hr className="mb-4 mt-1"/>
                 <Row>
                   <Col md={3} lg={2} xl={4} className="mb-3">
                     <Link href="/#services">
@@ -111,7 +111,7 @@ export default function Home() {
                   </Col>
                   <Col md={9} lg={9} xl={8}>
                     <p className="text-grey mb-xl-3">
-                    Technology only works when it's the right choice for the right reasons. We're committed to innovation, matching the technology to the problem, and ultimately creating solutions that last.
+                    Technology only works when it's the right choice for the right reasons. We're committed to innovation, matching the technology to the problem, and creating solutions that last.
                     </p>
                   </Col>
                 </Row>
@@ -152,9 +152,9 @@ export default function Home() {
           <Col md={12} className="mt-5 pt-5">
             <p className="h6 mt-4 text-grey">THINKING BIG &gt; SERVICES</p>
             <Row className="pb-3 mb-3 pb-lg-4 mb-lg-4 pb-xl-5 mb-xl-4">
-              <Col lg={11} xl={8}>
+              <Col lg={11} xl={7}>
                 <h2 className="text-dark mb-md-3">
-                  Our refined processes are the solution to your software problems
+                Modernizing your enterprise with time tested methods
                 </h2>
               </Col>
             </Row>
@@ -165,7 +165,7 @@ export default function Home() {
                     <p className="text-grey mono">A.</p>
                     <hr className="d-none d-md-block mt-0"/>
                     <h4 className="text-dark">
-                    Business Services
+                    Enterprise Modernization
                     </h4>
                     <p className="text-grey mt-3">
                     Thinking Big's business services will help you modernize and reimagine your operations with speed and agility, to tackle your industry's toughest challenges.
@@ -257,7 +257,7 @@ export default function Home() {
         <Row>
           <Col xs={12} className="px-0 px-md-3 px-lg-4">
             <video className='w-full' autoPlay loop muted>
-              <source src="./overpass.mp4" type='video/mp4' />
+              <source src="./server.mp4" type='video/mp4' />
             </video>
           </Col>
         </Row>
@@ -346,7 +346,7 @@ export default function Home() {
         <Row>
           <Col xs={12} className="px-0 px-md-3 px-lg-4">
             <video className='w-full' autoPlay loop muted>
-              <source src="./typing.mp4" type='video/mp4' />
+              <source src="./overpass.mp4" type='video/mp4' />
             </video>
           </Col>
         </Row>
@@ -476,11 +476,11 @@ export default function Home() {
         THINKING BIG &gt; SERVICES &gt; A.
       </Modal.Header>
       <Modal.Body className="hard-edge p-3 p-md-4">
-        <Row>
-        <h3 className="text-dark">Business Services</h3>
+        <Row>  
           <Col lg={8} className="mb-3">
+          <h3 className="text-dark mb-3">Enterprise Modernization</h3>
             <p className="text-grey">
-            Success starts with effective Project Management. Trust our people to efficiently guide projects and coach your team with methods tailored to your needs. We manage projects at all stages to ensure the best use of your time, talent, and budget. From Business Process Engineering to application development to artificial intelligence, organizations across multiple industries trust us to help them embrace a new future with confidence.Success starts with effective Project Management. Trust our people to efficiently guide projects and coach your team with methods tailored to your needs. We manage projects at all stages to ensure the best use of your time, talent, and budget. From Business Process Engineering to application development to artificial intelligence, organizations across multiple industries trust us to help them embrace a new future with confidence.
+            Success starts with effective Project Management. Trust our people to efficiently guide projects and coach your team with methods tailored to your needs. We manage projects at all stages to ensure the best use of your time, talent, and budget. From Business Process Engineering to application development to artificial intelligence, organizations across multiple industries trust us to help them embrace a new future with confidence.
             </p>
             <p className="text-grey">
             As business becomes more competitive, successful companies put people first. With insights gained from a human-centered perspective, our Service Designers guide transformation for everyone, from users to customers to your own employees. We analyze issues holistically and create solutions with you, to effect change that has a lasting impact.   
