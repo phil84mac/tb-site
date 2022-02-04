@@ -165,7 +165,7 @@ export default function Home() {
                     <p className="text-grey mono">A.</p>
                     <hr className="d-none d-md-block mt-0"/>
                     <h4 className="text-dark">
-                    Enterprise Modernization
+                    Business Services
                     </h4>
                     <p className="text-grey mt-3">
                     Thinking Big's business services will help you modernize and reimagine your operations with speed and agility, to tackle your industry's toughest challenges.
@@ -478,7 +478,7 @@ export default function Home() {
       <Modal.Body className="hard-edge p-3 p-md-4">
         <Row>  
           <Col lg={8} className="mb-3">
-          <h3 className="text-dark mb-3">Enterprise Modernization</h3>
+          <h3 className="text-dark mb-3">Business Services</h3>
             <p className="text-grey">
             Success starts with effective Project Management. Trust our people to efficiently guide projects and coach your team with methods tailored to your needs. We manage projects at all stages to ensure the best use of your time, talent, and budget. From Business Process Engineering to application development to artificial intelligence, organizations across multiple industries trust us to help them embrace a new future with confidence.
             </p>
