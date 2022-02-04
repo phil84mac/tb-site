@@ -152,9 +152,9 @@ export default function Home() {
           <Col md={12} className="mt-5 pt-5">
             <p className="h6 mt-4 text-grey">THINKING BIG &gt; SERVICES</p>
             <Row className="pb-3 mb-3 pb-lg-4 mb-lg-4 pb-xl-5 mb-xl-4">
-              <Col lg={11} xl={7}>
+              <Col  xl={10}>
                 <h2 className="text-dark mb-md-3">
-                Modernizing your enterprise with time tested methods
+                Digital solutions to transform your operations and modernize your business
                 </h2>
               </Col>
             </Row>
@@ -196,7 +196,7 @@ export default function Home() {
                     Human-centered Design
                     </h4>
                     <p className="text-grey mt-3">
-                    Our Human-centered Design allows our team, with you, to reimagine the user experience and, in the process, create products and services that people actually use.
+                    Human-centered Design allows our team, with you, to reimagine the user experience and, in the process, create products and services that people actually use.
                     </p>
                     <Button onClick={handleShowModal3} variant="link" className="text-dark bold mono modal-icon p-0">
                       LEARN MORE
@@ -477,7 +477,7 @@ export default function Home() {
       </Modal.Header>
       <Modal.Body className="hard-edge p-3 p-md-4">
         <Row>  
-          <Col lg={8} className="mb-3">
+          <Col lg={8} className="mb-2">
           <h3 className="text-dark mb-3">Business Services</h3>
             <p className="text-grey">
             Success starts with effective Project Management. Trust our people to efficiently guide projects and coach your team with methods tailored to your needs. We manage projects at all stages to ensure the best use of your time, talent, and budget. From Business Process Engineering to application development to artificial intelligence, organizations across multiple industries trust us to help them embrace a new future with confidence.
@@ -489,7 +489,7 @@ export default function Home() {
             We also introduce Lean and Agile principles and practices to transform how your enterprise works, and to empower your people to sustain those skills.
             </p>
             <p className="text-grey">
-            We also introduce Lean and Agile principles and practices to transform how your enterprise works, and to empower your people to sustain those skills.
+            We're ready to help you to revitalize your business.
             </p>
           </Col>
           <Col lg={4} className="mb-3">
@@ -516,7 +516,7 @@ export default function Home() {
            <h5 className="text-dark mb-3">
             Technology and processes
            </h5>
-           <Row className="mb-2">
+           <Row className="">
              <Col xs={1}>
              <img src="/scrum.svg" className="align-top icon icon-scrum"></img>
              </Col>
@@ -527,7 +527,7 @@ export default function Home() {
              </Col>
            </Row>
            
-           <Row className="mb-2">
+           <Row className="">
              <Col xs={1}>
              <img src="/agile.svg" className="align-top icon icon-agile"></img>
              </Col>
@@ -558,50 +558,352 @@ export default function Home() {
     
     {/*modal 2*/}
     <Modal centered size="lg" show={showModal2} onHide={handleCloseModal2}>
-      <Modal.Header closeButton className="p-md-4 bg-dark text-white p mono hard-edge">
-        THINKING BIG &gt; -
+    <Modal.Header closeButton className="p-md-4 bg-dark text-white p mono hard-edge">
+        THINKING BIG &gt; SERVICES &gt; B.
       </Modal.Header>
       <Modal.Body className="hard-edge p-3 p-md-4">
-        <Row>
-          <Col>
+        <Row>  
+          <Col lg={8} className="mb-2">
+          <h3 className="text-dark mb-3">Software Engineering</h3>
+            <p className="text-grey">
+            We structure applications using Microservice architecture, in other words, as collections of maintainable and testable services that are independently deployable. We make systems flexible using Event-driven architecture which allows pieces of the application puzzle to speak to each other in real time. And we use a rapid, iterative approach for development and deployment by embracing the agile methodology company-wide.
+             </p>
+            <p className="text-grey">
+            Whether the solution calls for software, web development or a mobile application, our engineers, architects, designers, analysts and testing professionals will develop the most effective and innovative tools to best solve your problems.
+            </p>
+            <p className="text-grey">
+            If you're looking to transform your digital operations, we have the world-class expertise to tackle your toughest challenges and make your organization ready for whatever the future brings.
+            </p>
+            <p className="text-grey">
+            We make it our business to make your business more efficient.
+            </p>
+          </Col>
+          <Col lg={4} className="mb-3">
+          <hr className="mt-1"/>
+           <h5 className="text-dark mb-3">
+            Sub-services
+           </h5>
+           <p className="text-grey small">
+           Web and mobile application design and development
+           </p>
+           <p className="text-grey small">
+           Microservice architecture
+           </p>
+           <p className="text-grey small">
+           Event-driven architecture
+           </p>
+           <p className="text-grey small ">
+           Project Management
+           </p>
+           <p className="text-grey small">
+           Testing and Quality Assurance
+           </p>
+           <p className="text-grey small">
+           Automation
+           </p>
+          <hr />
+           <h5 className="text-dark mb-3">
+            Technology and processes
+           </h5>
+           <Row className="">
+             <Col xs={1}>
+             <img src="/scrum.svg" className="align-top icon icon-scrum"></img>
+             </Col>
+             <Col xs={10}>
+             <p className="text-grey small ps-lg-1">
+             Microsoft Dynamics CRM
+             </p>
+             </Col>
+           </Row>
+           
+           <Row className="">
+             <Col xs={1}>
+             <img src="/agile.svg" className="align-top icon icon-agile"></img>
+             </Col>
+             <Col xs={10}>
+             <p className="text-grey small ps-lg-1">
+             React
+             </p>
+             </Col>
+           </Row>
+           
+           <Row>
+             <Col xs={1} className="justify-center">
+             <img src="/Gitlab.svg" className="align-top icon icon-gitlab"></img>
+             </Col>
+             <Col xs={10}>
+             <p className="text-grey small ps-lg-1">
+             Angular
+             </p>
+             </Col>
+           </Row>
+
+           <Row className="">
+             <Col xs={1}>
+             <img src="/scrum.svg" className="align-top icon icon-scrum"></img>
+             </Col>
+             <Col xs={10}>
+             <p className="text-grey small ps-lg-1">
+             Gherkin
+             </p>
+             </Col>
+           </Row>
+           
+           <Row className="">
+             <Col xs={1}>
+             <img src="/agile.svg" className="align-top icon icon-agile"></img>
+             </Col>
+             <Col xs={10}>
+             <p className="text-grey small ps-lg-1">
+             Behavior-Driven Development (BDD)
+             </p>
+             </Col>
+           </Row>
+           
+           <Row>
+             <Col xs={1} className="justify-center">
+             <img src="/Gitlab.svg" className="align-top icon icon-gitlab"></img>
+             </Col>
+             <Col xs={10}>
+             <p className="text-grey small ps-lg-1">
+             Selenium
+             </p>
+             </Col>
+           </Row>
+
+           <Row>
+             <Col xs={1} className="justify-center">
+             <img src="/Gitlab.svg" className="align-top icon icon-gitlab"></img>
+             </Col>
+             <Col xs={10}>
+             <p className="text-grey small ps-lg-1">
+             Git
+             </p>
+             </Col>
+           </Row>
 
           </Col>
         </Row>
       </Modal.Body>
       <Modal.Footer className="d-md-none no-brdr pt-0">
-        <Button onClick={handleCloseModal2}>Close</Button>
+        <Button onClick={handleCloseModal4}>Close</Button>
       </Modal.Footer>
     </Modal>
 
     {/*modal 3*/}
     <Modal centered size="lg" show={showModal3} onHide={handleCloseModal3}>
-      <Modal.Header closeButton className="p-md-4 bg-dark text-white p mono hard-edge">
-        THINKING BIG &gt; -
+    <Modal.Header closeButton className="p-md-4 bg-dark text-white p mono hard-edge">
+        THINKING BIG &gt; SERVICES &gt; C.
       </Modal.Header>
       <Modal.Body className="hard-edge p-3 p-md-4">
-        <Row>
-          <Col>
+        <Row>  
+          <Col lg={8} className="mb-2">
+          <h3 className="text-dark mb-3">Human-centered Design</h3>
+            <p className="text-grey">
+            Human-Centered Design means solving problems with the people who will use the feature, tool, product or service instead of for them. And it's a significant distinction. It means making a deliberate effort to understand the point of view of the person experiencing the issue to be solved, whether that person is a customer or an employee, then working with them, designing, testing and iterating, to get the solution right.
+            </p>
+            <p className="text-grey">
+            HCD shapes our work in Customer Experience (CX), web design and application usability and allows our solutions to feel truly inclusive and useful to the people who matter, those who use them. And what better way to have people adopt the tools and services you create than to include them in the creation process?
+            </p>
+            <p className="text-grey">
+            Using proven and repeatable methodologies, our Service Design experts guide the journey from understanding the user to creating the solution. Teaming with our graphic designers and software engineers, we use everything from low tech paper representations to technology like Figma, a user interface design tool, to quickly and easily communicate, test and refine concepts.
+            </p>
+            <p className="text-grey">
+            Our Human-centered Design ethos sets us apart. It allows our team, with you, to reimagine the user experience and, in the process, create products and services that people actually use.
+            </p>
+          </Col>
+          <Col lg={4} className="mb-3">
+          <hr className="mt-1"/>
+           <h5 className="text-dark mb-3">
+            Sub-services
+           </h5>
+           <p className="text-grey small">
+           Web design, visual design and branding
+           </p>
+           <p className="text-grey small">
+           Customer experience (CX) and application usability
+           </p>
+           <p className="text-grey small">
+           Service Design, facilitation, blueprinting and journey mapping
+           </p>
+          <hr />
+           <h5 className="text-dark mb-3">
+            Technology and processes
+           </h5>
+           <Row className="">
+             <Col xs={1}>
+             <img src="/scrum.svg" className="align-top icon icon-scrum"></img>
+             </Col>
+             <Col xs={10}>
+             <p className="text-grey small ps-lg-1">
+             Adobe Creative Suite
+             </p>
+             </Col>
+           </Row>
+           
+           <Row className="">
+             <Col xs={1}>
+             <img src="/agile.svg" className="align-top icon icon-agile"></img>
+             </Col>
+             <Col xs={10}>
+             <p className="text-grey small ps-lg-1">
+             VS Code
+             </p>
+             </Col>
+           </Row>
+           
+           <Row>
+             <Col xs={1} className="justify-center">
+             <img src="/Gitlab.svg" className="align-top icon icon-gitlab"></img>
+             </Col>
+             <Col xs={10}>
+             <p className="text-grey small ps-lg-1">
+             Figma
+             </p>
+             </Col>
+           </Row>
+
+           <Row className="">
+             <Col xs={1}>
+             <img src="/scrum.svg" className="align-top icon icon-scrum"></img>
+             </Col>
+             <Col xs={10}>
+             <p className="text-grey small ps-lg-1">
+             Blender
+             </p>
+             </Col>
+           </Row>
+           
+           <Row>
+             <Col xs={1} className="justify-center">
+             <img src="/Gitlab.svg" className="align-top icon icon-gitlab"></img>
+             </Col>
+             <Col xs={10}>
+             <p className="text-grey small ps-lg-1">
+             Object-oriented UX (OOUX)
+             </p>
+             </Col>
+           </Row>
+
+           <Row>
+             <Col xs={1} className="justify-center">
+             <img src="/Gitlab.svg" className="align-top icon icon-gitlab"></img>
+             </Col>
+             <Col xs={10}>
+             <p className="text-grey small ps-lg-1">
+             Design Thinking
+             </p>
+             </Col>
+           </Row>
 
           </Col>
         </Row>
       </Modal.Body>
       <Modal.Footer className="d-md-none no-brdr pt-0">
-        <Button onClick={handleCloseModal3}>Close</Button>
+        <Button onClick={handleCloseModal4}>Close</Button>
       </Modal.Footer>
     </Modal>
 
     {/*modal 4*/}
     <Modal centered size="lg" show={showModal4} onHide={handleCloseModal4}>
-      <Modal.Header closeButton className="p-md-4 bg-dark text-white p mono hard-edge">
-        THINKING BIG &gt; CYBER PROTECTION
+    <Modal.Header closeButton className="p-md-4 bg-dark text-white p mono hard-edge">
+        THINKING BIG &gt; SERVICES &gt; D.
       </Modal.Header>
       <Modal.Body className="hard-edge p-3 p-md-4">
-        <Row>
-          <Col md={8} className="mb-3">
-            
+        <Row>  
+          <Col lg={8} className="mb-2">
+          <h3 className="text-dark mb-3">Artificial Intelligence</h3>
+            <p className="text-grey">
+            Artificial intelligence (AI) is quickly becoming an essential tool for organizations to stay competitive. Whether it's to personalize customer experiences (Conversational AI like chatbots and virtual agents), to read and analyze vast quantities of data (Data Analysis) or to identify the why behind decision-making (machine learning and causal AI) our AI professionals are helping organizations change how they do business.
+            </p>
+            <p className="text-grey">
+            Deep Learning, a subfield of machine learning, feeds computers large amounts of data (images, text or sound) so that it can learn to recognize and distinguish new data at extremely high levels. These types of machine learning models are useful for establishing the correlation between an event and an outcome. Or for strategizing and predicting trends. How does that help businesses? Forecasting trends can give your organization valuable insights into a shifting market, and give you the edge on competitors. 
+            </p>
+            <p className="text-grey">
+            Taken further, Causal AI can help identify the relationship between cause and effect. So, not only predicting a person’s behaviour (anticipating a purchase or a mouse-click) but understanding the root causes of the behaviour. Causal AI makes it possible to intervene and change those outcomes.
+            </p>
+            <p className="text-grey">
+            Our Human-centered Design ethos sets us apart. It allows our team, with you, to reimagine the user experience and, in the process, create products and services that people actually use.
+            </p>
           </Col>
-          <Col md={4} className="mb-3">
-          
+          <Col lg={4} className="mb-3">
+          <hr className="mt-1"/>
+           <h5 className="text-dark mb-3">
+            Sub-services
+           </h5>
+           <p className="text-grey small bold mb-1">
+           Research
+           </p>
+            <ul className="text-grey square small ps-3">
+              <li>Natural Language Processing</li>
+              <li>Data analysis</li>
+              <li>Trend analysis</li>
+              <li>Conversational AI</li>
+            </ul>
+
+           <p className="text-grey small bold mb-1">
+           Machine Learning
+           </p>
+           <ul className="text-grey square small ps-3">
+              <li>Deep Learning</li>
+              <li>Predictive (decision-making)</li>
+              <li>Causal AI</li>
+              <li>Modelling</li>
+            </ul>
+           
+          <hr />
+           <h5 className="text-dark mb-3">
+            Technology and processes
+           </h5>
+           <Row className="">
+             <Col xs={1}>
+             <img src="/scrum.svg" className="align-top icon icon-scrum"></img>
+             </Col>
+             <Col xs={10}>
+             <p className="text-grey small ps-lg-1 bold mb-1">
+             Python
+             </p>
+             <ul className="text-grey square small ps-3">
+              <li>In-house built Python libraries (e.g., for image recognition, data processing)</li>
+              <li>Pytorch  for research</li>
+              <li>TensorFlow - deep learning library</li>
+            </ul>
+             </Col>
+           </Row>
+           
+           <Row className="">
+             <Col xs={1}>
+             <img src="/agile.svg" className="align-top icon icon-agile"></img>
+             </Col>
+             <Col xs={10}>
+             <p className="text-grey small ps-lg-1">
+             Microsoft .NET Framework
+             </p>
+             </Col>
+           </Row>
+           
+           <Row>
+             <Col xs={1} className="justify-center">
+             <img src="/Gitlab.svg" className="align-top icon icon-gitlab"></img>
+             </Col>
+             <Col xs={10}>
+             <p className="text-grey small ps-lg-1">
+             Angular
+             </p>
+             </Col>
+           </Row>
+
+           <Row className="">
+             <Col xs={1}>
+             <img src="/scrum.svg" className="align-top icon icon-scrum"></img>
+             </Col>
+             <Col xs={10}>
+             <p className="text-grey small ps-lg-1">
+             .NET Core API
+             </p>
+             </Col>
+           </Row>
+
           </Col>
         </Row>
       </Modal.Body>
@@ -612,35 +914,185 @@ export default function Home() {
 
     {/*modal 5*/}
     <Modal centered size="lg" show={showModal5} onHide={handleCloseModal5}>
-      <Modal.Header closeButton className="p-md-4 bg-dark text-white p mono hard-edge">
-        THINKING BIG &gt; -
+    <Modal.Header closeButton className="p-md-4 bg-dark text-white p mono hard-edge">
+        THINKING BIG &gt; SERVICES &gt; E.
       </Modal.Header>
       <Modal.Body className="hard-edge p-3 p-md-4">
-        <Row>
-          <Col>
+        <Row>  
+          <Col lg={8} className="mb-2">
+          <h3 className="text-dark mb-3">Data Gathering and Management</h3>
+            <p className="text-grey">
+            One of the most efficient ways to get information from the internet is through data gathering, also known as data or web scraping. It is the process of importing information into a database where it can be cleaned up and analyzed. Commonly used for research, web scraping tools such as Selenium can browse through hundreds, or even thousands, of webpages to extract information that can then be processed.
+            </p>
+            <p className="text-grey">
+            What kind of information? Businesses of all sizes use data gathered from the web to study markets, generate leads, compare prices, detect trends or even to analyze social media posts.
+            </p>
+            <p className="text-grey">
+            Data Gathering and Management can give your business access to data from any website on the internet delivered exactly as you need it. It's an incredibly powerful tool you can use right now. At Thinking Big, we specialize in delivering custom data designed for your needs, quickly and reliably.  Come talk to us. 
+            </p>
+          </Col>
+          <Col lg={4} className="mb-3">
+          <hr className="mt-1"/>
+           <h5 className="text-dark mb-3">
+            Sub-services
+           </h5>
+           <p className="text-grey small">
+           Data sourcing and gathering
+           </p>
+           <p className="text-grey small">
+           Data analysis
+           </p>
+           <p className="text-grey small">
+           Data delivery
+           </p>
+          <hr />
+           <h5 className="text-dark mb-3">
+            Technology and processes
+           </h5>
+           <Row className="">
+             <Col xs={1}>
+             <img src="/scrum.svg" className="align-top icon icon-scrum"></img>
+             </Col>
+             <Col xs={10}>
+             <p className="text-grey small ps-lg-1">
+             Python for AI
+             </p>
+             </Col>
+           </Row>
+           
+           <Row className="">
+             <Col xs={1}>
+             <img src="/agile.svg" className="align-top icon icon-agile"></img>
+             </Col>
+             <Col xs={10}>
+             <p className="text-grey small ps-lg-1">
+             C Sharp (C#)
+             </p>
+             </Col>
+           </Row>
+           
+           <Row>
+             <Col xs={1} className="justify-center">
+             <img src="/Gitlab.svg" className="align-top icon icon-gitlab"></img>
+             </Col>
+             <Col xs={10}>
+             <p className="text-grey small ps-lg-1">
+             Selenium for data scraping
+             </p>
+             </Col>
+           </Row>
 
           </Col>
         </Row>
       </Modal.Body>
       <Modal.Footer className="d-md-none no-brdr pt-0">
-        <Button onClick={handleCloseModal5}>Close</Button>
+        <Button onClick={handleCloseModal4}>Close</Button>
       </Modal.Footer>
     </Modal>
 
     {/*modal 6*/}
     <Modal centered size="lg" show={showModal6} onHide={handleCloseModal6}>
-      <Modal.Header closeButton className="p-md-4 bg-dark text-white p mono hard-edge">
-        THINKING BIG &gt; -
+    <Modal.Header closeButton className="p-md-4 bg-dark text-white p mono hard-edge">
+        THINKING BIG &gt; SERVICES &gt; F.
       </Modal.Header>
       <Modal.Body className="hard-edge p-3 p-md-4">
-        <Row>
-          <Col>
+        <Row>  
+          <Col lg={8} className="mb-2">
+          <h3 className="text-dark mb-3">Cloud Services</h3>
+            <p className="text-grey">
+            Everyone talks about the “cloud” but what is it and how can Cloud Services help your business? Cloud Services refers to IT platforms, infrastructure and software that are hosted by third-party providers and made available to users through the internet. Businesses can access Cloud Services, such as dedicated servers and other hardware, as well as software and databases, to get up and running with nothing more than a computer and a network connection.
+            </p>
+            <p className="text-grey">
+            Using Cloud Services provides a number of advantages over buying and maintaining your own infrastructure and software. Your business can rely on updated hardware, with dedicated servers, giving you the speed and processing power you need, when you need it. Cloud Services easily scale up or down based on usage requirements in real time. They can be set up quickly, and with lower start-up costs.
+            </p>
+            <p className="text-grey">
+            Services such as Microsoft Dynamics use pre-built business applications that are secure and ready to roll out when you need them. Container Managed Services, such as Docker, allow developers to bundle, configure and deploy applications hosted in lightweight virtual environments. Managed Platform Services makes your IT costs more predictable and reliable, while reducing risk. 
+            </p>
+            <p className="text-grey">
+            By helping businesses quickly and easily adapt and modernize, at a lower cost with increased flexibility, Cloud Services are transforming how businesses operate.
+            </p>
+          </Col>
+          <Col lg={4} className="mb-3">
+          <hr className="mt-1"/>
+           <h5 className="text-dark mb-3">
+            Sub-services
+           </h5>
+           <p className="text-grey small">
+           Hosting applications and databases
+           </p>
+           <p className="text-grey small">
+           Managing backups
+           </p>
+           <p className="text-grey small">
+           Managed Platform Services
+           </p>
+           <p className="text-grey small">
+           Container Managed Services
+           </p>
+          <hr />
+           <h5 className="text-dark mb-3">
+            Technology and processes
+           </h5>
+           <Row className="">
+             <Col xs={1}>
+             <img src="/scrum.svg" className="align-top icon icon-scrum"></img>
+             </Col>
+             <Col xs={10}>
+             <p className="text-grey small ps-lg-1">
+             Amazon Web Services (AWS)
+             </p>
+             </Col>
+           </Row>
+           
+           <Row className="">
+             <Col xs={1}>
+             <img src="/agile.svg" className="align-top icon icon-agile"></img>
+             </Col>
+             <Col xs={10}>
+             <p className="text-grey small ps-lg-1">
+             Google Cloud (GCP)
+             </p>
+             </Col>
+           </Row>
+           
+           <Row>
+             <Col xs={1} className="justify-center">
+             <img src="/Gitlab.svg" className="align-top icon icon-gitlab"></img>
+             </Col>
+             <Col xs={10}>
+             <p className="text-grey small ps-lg-1">
+             Azure (database functions)
+             </p>
+             </Col>
+           </Row>
+
+           <Row className="">
+             <Col xs={1}>
+             <img src="/agile.svg" className="align-top icon icon-agile"></img>
+             </Col>
+             <Col xs={10}>
+             <p className="text-grey small ps-lg-1">
+             Enabling technologies like Microsoft Dynamics
+             </p>
+             </Col>
+           </Row>
+           
+           <Row>
+             <Col xs={1} className="justify-center">
+             <img src="/Gitlab.svg" className="align-top icon icon-gitlab"></img>
+             </Col>
+             <Col xs={10}>
+             <p className="text-grey small ps-lg-1">
+             Docker
+             </p>
+             </Col>
+           </Row>
 
           </Col>
         </Row>
       </Modal.Body>
       <Modal.Footer className="d-md-none no-brdr pt-0">
-        <Button onClick={handleCloseModal6}>Close</Button>
+        <Button onClick={handleCloseModal4}>Close</Button>
       </Modal.Footer>
     </Modal>
 

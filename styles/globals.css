@@ -35,9 +35,9 @@ p {
   margin-bottom: 10px!important;
 }
 
-p.small {
+.small {
   font-size: .8rem!important;
-  line-height: 1rem!important;
+  line-height: 1.05rem!important;
   font-weight: 400!important;
 }
 
@@ -68,7 +68,7 @@ p.lead {
 h1, .h1 {
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 700!important;
-  font-size: calc(6rem + 1.5vw)!important;
+  font-size: calc(6.6rem + 1.5vw)!important;
   line-height: calc(6rem + 1.5vw)!important;
   letter-spacing: -0.045em!important;
 }
@@ -323,6 +323,32 @@ h6, .h6 {
   outline: 0;
 }
 
+/* lists */
+
+ul {
+  list-style-type: none!important;
+}
+
+ul.circle {
+  list-style-type: circle!important;
+}
+
+ul.disc {
+  list-style-type: disc!important;
+}
+
+ul.square {
+  list-style-type: square!important;
+}
+
+ul.numbers {
+  list-style-type: decimal!important;
+}
+
+ul.letters {
+  list-style-type: upper-alpha!important;
+}
+
 /* Details */
 
 .hard-edge {
@@ -346,14 +372,9 @@ h6, .h6 {
   border-right: 1px solid #c4c4c4!important;
 }
 
-ul {
-  list-style-type: none!important;
-}
-
 .no-brdr {
   border: none!important;
 }
-
 
 /* laptop */
 
@@ -362,8 +383,8 @@ ul {
   h1, .h1 {
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 700!important;
-    font-size: calc(4rem + 1.5vw)!important;
-    line-height: calc(4rem + 1.5vw)!important;
+    font-size: calc(3.5rem + 1.5vw)!important;
+    line-height: calc(3.5rem + 1.5vw)!important;
     letter-spacing: -0.045em!important;
   }
 
@@ -389,8 +410,8 @@ ul {
   h1, .h1 {
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 700!important;
-    font-size: calc(3.5rem + 1.5vw)!important;
-    line-height: calc(3.5rem + 1.5vw)!important;
+    font-size: calc(2.75rem + 1.5vw)!important;
+    line-height: calc(2.75rem + 1.5vw)!important;
     letter-spacing: -0.045em!important;
   }
 
@@ -416,7 +437,7 @@ ul {
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 700!important;
     font-size: calc(3.7rem + 1.5vw)!important;
-    line-height: calc(3.7rem + 1.5vw)!important;
+    line-height: calc(3.5rem + 1.5vw)!important;
     letter-spacing: -0.045em!important;
   }
 
