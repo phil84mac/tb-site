@@ -68,7 +68,7 @@ p.lead {
 h1, .h1 {
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 700!important;
-  font-size: calc(6.6rem + 1.5vw)!important;
+  font-size: calc(6.5rem + 1.5vw)!important;
   line-height: calc(6rem + 1.5vw)!important;
   letter-spacing: -0.045em!important;
 }
