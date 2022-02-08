@@ -367,6 +367,20 @@ h6, .h6 {
   margin-top: 1px!important;
 }
 
+.icon-google {
+  margin-top: 1px!important;
+}
+
+.icon-azure {
+  height: .9em!important;
+  margin-top: 3px!important;
+}
+
+.icon-docker {
+  width: 1.2em!important;
+  margin-left: 1px!important;
+}
+
 
 
 /* Modals */

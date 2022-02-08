@@ -1035,7 +1035,7 @@ export default function Home() {
            </h5>
            <Row className="">
              <Col xs={1}>
-             <img src="/scrum.svg" className="align-top icon icon-scrum"></img>
+             <img src="/aws.svg" className="align-top icon icon-aws"></img>
              </Col>
              <Col xs={10}>
              <p className="text-grey small ps-lg-1">
@@ -1046,7 +1046,7 @@ export default function Home() {
            
            <Row className="">
              <Col xs={1}>
-             <img src="/agile.svg" className="align-top icon icon-agile"></img>
+             <img src="/google.svg" className="align-top icon icon-google"></img>
              </Col>
              <Col xs={10}>
              <p className="text-grey small ps-lg-1">
@@ -1057,7 +1057,7 @@ export default function Home() {
            
            <Row>
              <Col xs={1} className="justify-center">
-             <img src="/Gitlab.svg" className="align-top icon icon-gitlab"></img>
+             <img src="/azure.svg" className="align-top icon icon-azure"></img>
              </Col>
              <Col xs={10}>
              <p className="text-grey small ps-lg-1">
@@ -1068,7 +1068,7 @@ export default function Home() {
 
            <Row className="">
              <Col xs={1}>
-             <img src="/agile.svg" className="align-top icon icon-agile"></img>
+             <img src="/windows.svg" className="align-top icon icon-windows"></img>
              </Col>
              <Col xs={10}>
              <p className="text-grey small ps-lg-1">
@@ -1079,7 +1079,7 @@ export default function Home() {
            
            <Row>
              <Col xs={1} className="justify-center">
-             <img src="/Gitlab.svg" className="align-top icon icon-gitlab"></img>
+             <img src="/docker.svg" className="align-top icon icon-docker"></img>
              </Col>
              <Col xs={10}>
              <p className="text-grey small ps-lg-1">
