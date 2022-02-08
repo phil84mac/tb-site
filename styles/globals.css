@@ -36,8 +36,8 @@ p {
 }
 
 .small {
-  font-size: .8rem!important;
-  line-height: 1.05rem!important;
+  font-size: .85rem!important;
+  line-height: 1.2rem!important;
   font-weight: 400!important;
 }
 
@@ -47,6 +47,10 @@ p.lead {
 }
 
 .bold {
+  font-weight: 500!important;
+}
+
+.black {
   font-weight: 600!important;
 }
 
@@ -68,8 +72,8 @@ p.lead {
 h1, .h1 {
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 700!important;
-  font-size: calc(6.5rem + 1.5vw)!important;
-  line-height: calc(6rem + 1.5vw)!important;
+  font-size: calc(6rem + 1.5vw)!important;
+  line-height: calc(5.5rem + 1.5vw)!important;
   letter-spacing: -0.045em!important;
 }
 
@@ -116,7 +120,7 @@ h6, .h6 {
 /* Colors */
 
 .text-grey {
-  color: #969696;
+  color: #A0A0A0;
 }
 
 .text-light-grey {
@@ -261,25 +265,6 @@ h6, .h6 {
   color: #212529;
 }
 
-.icon {
-  height: 1.1em!important;
-  width: 1.1em!important;
-}
-
-.icon-gitlab {
-  height: .95em!important;
-  margin-top: 0px!important;
-}
-
-.icon-scrum {
-  margin-top: 0px!important;
-  margin-left: 2px!important;
-}
-
-.icon-agile {
-  margin-top: -1px!important;
-}
-
 .offcanvas-header .btn-close {
   padding: 0.5rem 0.5rem;
   margin-top: -0.5rem;
@@ -300,6 +285,89 @@ h6, .h6 {
   border-radius: 0px!important;
   opacity: 1!important;
 }
+
+/* Icons */
+
+.icon {
+  height: 1.1em!important;
+  width: 1.1em!important;
+  margin-top: 2px!important;
+}
+
+.icon-github {
+  height: .975em!important;
+}
+
+.icon-gitlab {
+  height: .95em!important;
+}
+
+.icon-scrum {
+  margin-left: 1px!important;
+}
+
+.icon-agile {
+  margin-top: 1px!important;
+}
+
+.icon-windows {
+  height: .9em!important;
+  margin-top: 3px!important;
+}
+
+.icon-react {
+  margin-top: 1px!important;
+}
+
+.icon-angular {
+  height: .975em!important;
+
+}
+
+.icon-selenium {
+  height: .85em!important;
+  margin-top: 3px!important;
+  margin-left: 1px!important;
+}
+
+.icon-adobe {
+  margin-left: 1px!important;
+}
+
+.icon-vscode {
+  width: .975em!important;
+  margin-left: 1.5px!important;
+  margin-top: 1px!important;
+}
+
+.icon-figma {
+  height: .975em!important;
+}
+
+.icon-ooux {
+  width: .95em!important;
+  margin-left: 1.5px!important;
+}
+
+.icon-thinking {
+  width: .95em!important;
+  margin-left: 2px!important;
+  margin-top: 1px!important;
+}
+
+.icon-python {
+  width: .95em!important;
+  margin-left: 2px!important;
+  margin-top: 1px!important;
+}
+
+.icon-csharp {
+  width: .95em!important;
+  margin-left: 2px!important;
+  margin-top: 1px!important;
+}
+
+
 
 /* Modals */
 

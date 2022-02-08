@@ -78,7 +78,7 @@ export default function Home() {
 
       <main>
         {/*hero area*/}
-        <Container fluid id="home" className="mb-4 mb-xl-5 py-xl-3 pb-xl-5">
+        <Container fluid id="home" className="mb-4 mb-xl-5 py-xl-3 pb-xl-4">
         <Row className="mt-5 px-xl-5 px-lg-4 px-md-3">
           <Col md={12} className="mt-4 pt-5">
             <Row className="align-items-top d-flex">
@@ -89,7 +89,7 @@ export default function Home() {
                 </h1>
               </Col>
               <Col xl={5} className="">
-              <hr className="mb-4"/>
+              <hr className="mb-4 mt-xl-2"/>
                 <Row>
                   <Col md={3} lg={2} xl={4} className="mb-3">
                     <Link href="/#services">
@@ -607,7 +607,7 @@ export default function Home() {
            </h5>
            <Row className="">
              <Col xs={1}>
-             <img src="/scrum.svg" className="align-top icon icon-scrum"></img>
+             <img src="/windows.svg" className="align-top icon icon-windows"></img>
              </Col>
              <Col xs={10}>
              <p className="text-grey small ps-lg-1">
@@ -618,7 +618,7 @@ export default function Home() {
            
            <Row className="">
              <Col xs={1}>
-             <img src="/agile.svg" className="align-top icon icon-agile"></img>
+             <img src="/react.svg" className="align-top icon icon-react"></img>
              </Col>
              <Col xs={10}>
              <p className="text-grey small ps-lg-1">
@@ -629,7 +629,7 @@ export default function Home() {
            
            <Row>
              <Col xs={1} className="justify-center">
-             <img src="/Gitlab.svg" className="align-top icon icon-gitlab"></img>
+             <img src="/angular.svg" className="align-top icon icon-angular"></img>
              </Col>
              <Col xs={10}>
              <p className="text-grey small ps-lg-1">
@@ -640,7 +640,7 @@ export default function Home() {
 
            <Row className="">
              <Col xs={1}>
-             <img src="/scrum.svg" className="align-top icon icon-scrum"></img>
+             <img src="/gherkin.svg" className="align-top icon icon-gherkin"></img>
              </Col>
              <Col xs={10}>
              <p className="text-grey small ps-lg-1">
@@ -651,7 +651,7 @@ export default function Home() {
            
            <Row className="">
              <Col xs={1}>
-             <img src="/agile.svg" className="align-top icon icon-agile"></img>
+             <img src="/gherkin.svg" className="align-top icon icon-gherkin"></img>
              </Col>
              <Col xs={10}>
              <p className="text-grey small ps-lg-1">
@@ -662,7 +662,7 @@ export default function Home() {
            
            <Row>
              <Col xs={1} className="justify-center">
-             <img src="/Gitlab.svg" className="align-top icon icon-gitlab"></img>
+             <img src="/selenium.svg" className="align-top icon icon-selenium"></img>
              </Col>
              <Col xs={10}>
              <p className="text-grey small ps-lg-1">
@@ -677,7 +677,18 @@ export default function Home() {
              </Col>
              <Col xs={10}>
              <p className="text-grey small ps-lg-1">
-             Git
+             GitLab
+             </p>
+             </Col>
+           </Row>
+
+           <Row>
+             <Col xs={1} className="justify-center">
+             <img src="/Github.svg" className="align-top icon icon-github"></img>
+             </Col>
+             <Col xs={10}>
+             <p className="text-grey small ps-lg-1">
+             GitHub
              </p>
              </Col>
            </Row>
@@ -732,18 +743,18 @@ export default function Home() {
            </h5>
            <Row className="">
              <Col xs={1}>
-             <img src="/scrum.svg" className="align-top icon icon-scrum"></img>
+             <img src="/adobe.svg" className="align-top icon icon-adobe"></img>
              </Col>
              <Col xs={10}>
              <p className="text-grey small ps-lg-1">
-             Adobe Creative Suite
+             Adobe Creative Cloud
              </p>
              </Col>
            </Row>
            
            <Row className="">
              <Col xs={1}>
-             <img src="/agile.svg" className="align-top icon icon-agile"></img>
+             <img src="/vscode.svg" className="align-top icon icon-vscode"></img>
              </Col>
              <Col xs={10}>
              <p className="text-grey small ps-lg-1">
@@ -753,8 +764,8 @@ export default function Home() {
            </Row>
            
            <Row>
-             <Col xs={1} className="justify-center">
-             <img src="/Gitlab.svg" className="align-top icon icon-gitlab"></img>
+             <Col xs={1} className="">
+             <img src="/figma.svg" className="align-top icon icon-figma"></img>
              </Col>
              <Col xs={10}>
              <p className="text-grey small ps-lg-1">
@@ -762,21 +773,10 @@ export default function Home() {
              </p>
              </Col>
            </Row>
-
-           <Row className="">
-             <Col xs={1}>
-             <img src="/scrum.svg" className="align-top icon icon-scrum"></img>
-             </Col>
-             <Col xs={10}>
-             <p className="text-grey small ps-lg-1">
-             Blender
-             </p>
-             </Col>
-           </Row>
            
            <Row>
-             <Col xs={1} className="justify-center">
-             <img src="/Gitlab.svg" className="align-top icon icon-gitlab"></img>
+             <Col xs={1} className="">
+             <img src="/OOUX.svg" className="align-top icon icon-ooux"></img>
              </Col>
              <Col xs={10}>
              <p className="text-grey small ps-lg-1">
@@ -786,8 +786,8 @@ export default function Home() {
            </Row>
 
            <Row>
-             <Col xs={1} className="justify-center">
-             <img src="/Gitlab.svg" className="align-top icon icon-gitlab"></img>
+             <Col xs={1} className="">
+             <img src="/thinking.svg" className="align-top icon icon-thinking"></img>
              </Col>
              <Col xs={10}>
              <p className="text-grey small ps-lg-1">
@@ -857,7 +857,7 @@ export default function Home() {
            </h5>
            <Row className="">
              <Col xs={1}>
-             <img src="/scrum.svg" className="align-top icon icon-scrum"></img>
+             <img src="/python.svg" className="align-top icon icon-python"></img>
              </Col>
              <Col xs={10}>
              <p className="text-grey small ps-lg-1 bold mb-1">
@@ -873,7 +873,7 @@ export default function Home() {
            
            <Row className="">
              <Col xs={1}>
-             <img src="/agile.svg" className="align-top icon icon-agile"></img>
+             <img src="/windows.svg" className="align-top icon icon-windows"></img>
              </Col>
              <Col xs={10}>
              <p className="text-grey small ps-lg-1">
@@ -881,25 +881,25 @@ export default function Home() {
              </p>
              </Col>
            </Row>
-           
-           <Row>
-             <Col xs={1} className="justify-center">
-             <img src="/Gitlab.svg" className="align-top icon icon-gitlab"></img>
-             </Col>
-             <Col xs={10}>
-             <p className="text-grey small ps-lg-1">
-             Angular
-             </p>
-             </Col>
-           </Row>
 
            <Row className="">
              <Col xs={1}>
-             <img src="/scrum.svg" className="align-top icon icon-scrum"></img>
+             <img src="/windows.svg" className="align-top icon icon-windows"></img>
              </Col>
              <Col xs={10}>
              <p className="text-grey small ps-lg-1">
              .NET Core API
+             </p>
+             </Col>
+           </Row>
+           
+           <Row>
+             <Col xs={1} className="justify-center">
+             <img src="/angular.svg" className="align-top icon icon-angular"></img>
+             </Col>
+             <Col xs={10}>
+             <p className="text-grey small ps-lg-1">
+             Angular
              </p>
              </Col>
            </Row>
@@ -951,7 +951,7 @@ export default function Home() {
            </h5>
            <Row className="">
              <Col xs={1}>
-             <img src="/scrum.svg" className="align-top icon icon-scrum"></img>
+             <img src="/python.svg" className="align-top icon icon-python"></img>
              </Col>
              <Col xs={10}>
              <p className="text-grey small ps-lg-1">
@@ -962,7 +962,7 @@ export default function Home() {
            
            <Row className="">
              <Col xs={1}>
-             <img src="/agile.svg" className="align-top icon icon-agile"></img>
+             <img src="/csharp.svg" className="align-top icon icon-csharp"></img>
              </Col>
              <Col xs={10}>
              <p className="text-grey small ps-lg-1">
@@ -973,7 +973,7 @@ export default function Home() {
            
            <Row>
              <Col xs={1} className="justify-center">
-             <img src="/Gitlab.svg" className="align-top icon icon-gitlab"></img>
+             <img src="/selenium.svg" className="align-top icon icon-selenium"></img>
              </Col>
              <Col xs={10}>
              <p className="text-grey small ps-lg-1">

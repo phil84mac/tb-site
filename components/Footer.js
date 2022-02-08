@@ -24,10 +24,10 @@ export default function Footer() {
     <>
       <footer className="no-brdr">
 
-      <Container fluid className="mb-4 mb-xl-5 pt-xl-3 pb-sm-4 pb-xl-0">
+      <Container fluid className="mb-4 pt-xl-3 pb-sm-4 pb-xl-0">
         <Row className="mt-5 px-xl-5 px-lg-4 px-md-3 mb-xl-4">
           <Col md={12} className="mt-5 pt-5">
-            <Row className="align-items-center d-flex mb-4 mb-md-5 mb-lg-4 py-md-5">
+            <Row className="align-items-center d-flex mb-4 mb-md-5 mb-lg-4 py-md-4">
               <Col md={6} className="brdr-rght-grey">
                 <h2 className="h1 text-dark">
                 Remake <br />  your future with us

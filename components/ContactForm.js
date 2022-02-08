@@ -51,7 +51,7 @@ export default function ContactForm() {
           <Form name="contact" onSubmit={handleSubmit}>
 
           <Form.Group className="mb-4" controlId="firstlastname">
-            <Form.Label for="full-name" className="mb-0"><p className="small mb-0 mono text-grey bold">FIRST AND LAST NAME</p></Form.Label>
+            <Form.Label for="full-name" className="mb-0"><p className="small mb-0 mono text-grey">FIRST AND LAST NAME</p></Form.Label>
             <Form.Control name="name" type="text" id="firstlastname" placeholder="" className="hard-edge"/>
             <ValidationError 
               prefix="FirstLastName" 
@@ -61,7 +61,7 @@ export default function ContactForm() {
           </Form.Group>
 
           <Form.Group className="mb-4" controlId="organization">
-          <Form.Label for="organization" className="mb-0"><p className="small mb-0 mono text-grey bold">ORGANIZATION NAME</p></Form.Label>
+          <Form.Label for="organization" className="mb-0"><p className="small mb-0 mono text-grey">ORGANIZATION NAME</p></Form.Label>
             <Form.Control name="organization" type="text" id="organization" placeholder="" className="hard-edge"/>
             <ValidationError 
               prefix="Organization" 
@@ -71,7 +71,7 @@ export default function ContactForm() {
           </Form.Group>
 
           <Form.Group className="mb-4" controlId="email">
-          <Form.Label for="email" className="mb-0"><p className="small mb-0 mono text-grey bold">EMAIL ADDRESS</p></Form.Label>
+          <Form.Label for="email" className="mb-0"><p className="small mb-0 mono text-grey ">EMAIL ADDRESS</p></Form.Label>
             <Form.Control type="email" name="email" id="email" placeholder="" className="hard-edge"/>
             <ValidationError 
                 prefix="Email" 
@@ -81,7 +81,7 @@ export default function ContactForm() {
           </Form.Group>
 
           <Form.Group className="mb-4" controlId="number">
-            <Form.Label htmlFor="number" className="mb-0"><p className="small mb-0 mono text-grey bold">PHONE NUMBER</p></Form.Label>
+            <Form.Label htmlFor="number" className="mb-0"><p className="small mb-0 mono text-grey">PHONE NUMBER</p></Form.Label>
             <Form.Control name="number" type="number" placeholder="" className="hard-edge"/>
             <ValidationError 
               prefix="Number" 
@@ -91,7 +91,7 @@ export default function ContactForm() {
           </Form.Group>
 
           <Form.Group className="mb-4" controlId="select">
-          <Form.Label for="select" className="mb-0"><p className="small mb-0 mono text-grey bold">HOW DID YOU HEAR ABOUT US?</p></Form.Label>
+          <Form.Label for="select" className="mb-0"><p className="small mb-0 mono text-grey">HOW DID YOU HEAR ABOUT US?</p></Form.Label>
             <Form.Select defaultValue="Please select..." name="select" type="select" className="hard-edge mb-3 mb-md-0">
               <option>Please select...</option>
               <option>From a fiend or co-worker</option>
@@ -106,7 +106,7 @@ export default function ContactForm() {
           </Form.Group>
 
           <Form.Group className="mb-2" controlId="message">
-            <Form.Label for="message" className="mb-0"><p className="small mb-0 mono text-grey bold">PLEASE GIVE US A BRIEF OF THE PROBLEM YOU'D LIKE US TO SOLVE. CONTEXT WILL ALLOW US TO CONNECT YOU TO THE RIGHT TEAM RIGHT AWAY.</p></Form.Label>
+            <Form.Label for="message" className="mb-0"><p className="small mb-0 mono text-grey">PLEASE GIVE US A BRIEF OF THE PROBLEM YOU'D LIKE US TO SOLVE. CONTEXT WILL ALLOW US TO CONNECT YOU TO THE RIGHT TEAM RIGHT AWAY.</p></Form.Label>
             <Form.Control as="textarea" rows={4} type="message" id="message" placeholder="" className="hard-edge"/>
                 <ValidationError 
                 prefix="Message" 
